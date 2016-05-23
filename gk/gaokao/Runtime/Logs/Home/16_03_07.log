@@ -1,0 +1,2431 @@
+[ 2016-03-07T18:18:12+08:00 ] 127.0.0.1 /gaokao/index.php/Home/Inqure
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000991s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001020s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001087s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000091s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000153s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011722s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011787s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000603s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000655s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001091s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001169s ]
+
+[ 2016-03-07T18:18:14+08:00 ] 127.0.0.1 /gaokao/index.php/Home/Login/quit
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000245s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000323s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000346s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000023s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000057s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006860s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006923s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000110s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000129s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000318s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000338s ]
+
+[ 2016-03-07T18:18:15+08:00 ] 127.0.0.1 /gaokao/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000324s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000303s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000333s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000030s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000060s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003950s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003987s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000096s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000116s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000268s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000287s ]
+
+[ 2016-03-07T18:18:17+08:00 ] 127.0.0.1 /gaokao/index.php/Home/Login/Login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000162s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000206s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000226s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000035s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000069s ]
+NOTIC: [8] Undefined variable: status /Users/mrzxc/Sites/gaokao/gaokao/Runtime/Cache/Home/8e9fdfc499ae1c3035b5290c341207df.php 第 114 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003907s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003936s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000102s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000120s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000330s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000352s ]
+
+[ 2016-03-07T18:18:18+08:00 ] 127.0.0.1 /gaokao/index.php/Home/Login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000314s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000433s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000482s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0066s ]
+SQL: SELECT * FROM `user` WHERE ( AccountID='zxc' ) LIMIT 1   [ RunTime:0.0013s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000018s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000041s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003138s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003162s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000092s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000106s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000377s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000397s ]
+
+[ 2016-03-07T18:18:19+08:00 ] 127.0.0.1 /gaokao/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000516s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000337s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000372s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000025s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000048s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002876s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002909s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000175s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000194s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000284s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000302s ]
+
+[ 2016-03-07T20:38:27+08:00 ] 127.0.0.1 /gaokao/index.php/Home/Login/quit
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000162s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000210s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000230s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000016s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000039s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.265225s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.265275s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000198s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000229s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000642s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000683s ]
+
+[ 2016-03-07T20:38:28+08:00 ] 127.0.0.1 /gaokao/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000251s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000230s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000253s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000027s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000056s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003767s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003789s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000115s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000139s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000247s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000263s ]
+
+[ 2016-03-07T20:38:29+08:00 ] 127.0.0.1 /gaokao/index.php/Home/Login/Login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000160s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000209s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000229s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000031s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000065s ]
+NOTIC: [8] Undefined variable: status /Users/mrzxc/Sites/gaokao/gaokao/Runtime/Cache/Home/8e9fdfc499ae1c3035b5290c341207df.php 第 114 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003979s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004012s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000110s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000127s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000260s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000276s ]
+
+[ 2016-03-07T20:38:31+08:00 ] 127.0.0.1 /gaokao/index.php/Home/Login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000158s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000205s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000226s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `user` WHERE ( AccountID='zxc' ) LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000020s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000052s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003414s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003438s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000108s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000129s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000269s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000287s ]
+
+[ 2016-03-07T20:38:32+08:00 ] 127.0.0.1 /gaokao/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000215s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000275s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000301s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000025s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000049s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002565s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002587s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000101s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000115s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000238s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000254s ]
+
+[ 2016-03-07T20:38:37+08:00 ] 127.0.0.1 /gaokao/index.php/Home/Inqure
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000169s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000212s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000234s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000070s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000110s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004853s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004887s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000108s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000126s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000319s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000342s ]
+
+[ 2016-03-07T20:38:39+08:00 ] 127.0.0.1 /gaokao/index.php/Home/Inqure/requst
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000295s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000257s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000282s ]
+SQL: SHOW COLUMNS FROM `batch_controlline` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `batch_controlline` WHERE ( Type='art' and Year=2012 and ProvinceId='10000' and Batch='本科一批' ) LIMIT 1   [ RunTime:0.0017s ]
+SQL: SELECT * FROM `batch_controlline` WHERE ( Type='art' and Year=2013 and ProvinceId='10000' and Batch='本科一批' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `batch_controlline` WHERE ( Type='art' and Year=2014 and ProvinceId='10000' and Batch='本科一批' ) LIMIT 1   [ RunTime:0.0021s ]
+SQL: SHOW COLUMNS FROM `provinceline_art` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `provinceline_art` WHERE ( `Average` >= 438 AND `Average` <= 438  ) AND `Year` = 2012 AND `ProvinceId` = 10000 AND `Batch` = '本科一批'  [ RunTime:0.0027s ]
+SQL: SELECT * FROM `provinceline_art` WHERE ( `Average` >= 448 AND `Average` <= 448  ) AND `Year` = 2013 AND `ProvinceId` = 10000 AND `Batch` = '本科一批'  [ RunTime:0.0014s ]
+SQL: SELECT * FROM `provinceline_art` WHERE ( `Average` >= 0 AND `Average` <= 0  ) AND `Year` = 2014 AND `ProvinceId` = 10000 AND `Batch` = '本科一批'  [ RunTime:0.0014s ]
+SQL: SELECT * FROM `provinceline_art` WHERE `Year` = 2012 AND `Batch` = '本科一批' AND `ProvinceId` = 10000 AND `SchoolId` = 62 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `provinceline_art` WHERE `Year` = 2013 AND `Batch` = '本科一批' AND `ProvinceId` = 10000 AND `SchoolId` = 62 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `provinceline_art` WHERE `Year` = 2014 AND `Batch` = '本科一批' AND `ProvinceId` = 10000 AND `SchoolId` = 62 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `provinceline_art` WHERE `Year` = 2012 AND `Batch` = '本科一批' AND `ProvinceId` = 10000 AND `SchoolId` = 120 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `provinceline_art` WHERE `Year` = 2013 AND `Batch` = '本科一批' AND `ProvinceId` = 10000 AND `SchoolId` = 120 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `provinceline_art` WHERE `Year` = 2014 AND `Batch` = '本科一批' AND `ProvinceId` = 10000 AND `SchoolId` = 120 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `provinceline_art` WHERE `Year` = 2012 AND `Batch` = '本科一批' AND `ProvinceId` = 10000 AND `SchoolId` = 1216 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `provinceline_art` WHERE `Year` = 2013 AND `Batch` = '本科一批' AND `ProvinceId` = 10000 AND `SchoolId` = 1216 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `provinceline_art` WHERE `Year` = 2014 AND `Batch` = '本科一批' AND `ProvinceId` = 10000 AND `SchoolId` = 1216 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `school` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `school` WHERE ( SchoolId='62' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `school` WHERE ( SchoolId='120' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `school` WHERE ( SchoolId='1216' ) LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2016-03-07T20:39:28+08:00 ] 127.0.0.1 /gaokao/index.php/Home/Inqure
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000325s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000422s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000462s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000067s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000100s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005093s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005130s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000111s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000129s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000329s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000351s ]
+
+[ 2016-03-07T20:39:29+08:00 ] 127.0.0.1 /gaokao/index.php/Home/Inqure/requst
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000179s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000223s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000243s ]
+SQL: SHOW COLUMNS FROM `batch_controlline` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `batch_controlline` WHERE ( Type='art' and Year=2012 and ProvinceId='10000' and Batch='本科一批' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `batch_controlline` WHERE ( Type='art' and Year=2013 and ProvinceId='10000' and Batch='本科一批' ) LIMIT 1   [ RunTime:0.0011s ]
+SQL: SELECT * FROM `batch_controlline` WHERE ( Type='art' and Year=2014 and ProvinceId='10000' and Batch='本科一批' ) LIMIT 1   [ RunTime:0.0016s ]
+SQL: SHOW COLUMNS FROM `provinceline_art` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `provinceline_art` WHERE ( `Average` >= 438 AND `Average` <= 438  ) AND `Year` = 2012 AND `ProvinceId` = 10000 AND `Batch` = '本科一批'  [ RunTime:0.0014s ]
+SQL: SELECT * FROM `provinceline_art` WHERE ( `Average` >= 448 AND `Average` <= 448  ) AND `Year` = 2013 AND `ProvinceId` = 10000 AND `Batch` = '本科一批'  [ RunTime:0.0014s ]
+SQL: SELECT * FROM `provinceline_art` WHERE ( `Average` >= 0 AND `Average` <= 0  ) AND `Year` = 2014 AND `ProvinceId` = 10000 AND `Batch` = '本科一批'  [ RunTime:0.0015s ]
+SQL: SELECT * FROM `provinceline_art` WHERE `Year` = 2012 AND `Batch` = '本科一批' AND `ProvinceId` = 10000 AND `SchoolId` = 62 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `provinceline_art` WHERE `Year` = 2013 AND `Batch` = '本科一批' AND `ProvinceId` = 10000 AND `SchoolId` = 62 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `provinceline_art` WHERE `Year` = 2014 AND `Batch` = '本科一批' AND `ProvinceId` = 10000 AND `SchoolId` = 62 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `provinceline_art` WHERE `Year` = 2012 AND `Batch` = '本科一批' AND `ProvinceId` = 10000 AND `SchoolId` = 120 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `provinceline_art` WHERE `Year` = 2013 AND `Batch` = '本科一批' AND `ProvinceId` = 10000 AND `SchoolId` = 120 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `provinceline_art` WHERE `Year` = 2014 AND `Batch` = '本科一批' AND `ProvinceId` = 10000 AND `SchoolId` = 120 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `provinceline_art` WHERE `Year` = 2012 AND `Batch` = '本科一批' AND `ProvinceId` = 10000 AND `SchoolId` = 1216 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `provinceline_art` WHERE `Year` = 2013 AND `Batch` = '本科一批' AND `ProvinceId` = 10000 AND `SchoolId` = 1216 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `provinceline_art` WHERE `Year` = 2014 AND `Batch` = '本科一批' AND `ProvinceId` = 10000 AND `SchoolId` = 1216 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `school` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `school` WHERE ( SchoolId='62' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `school` WHERE ( SchoolId='120' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `school` WHERE ( SchoolId='1216' ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2016-03-07T20:39:47+08:00 ] 127.0.0.1 /gaokao/index.php/Home/Inqure
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000207s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000282s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000308s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000040s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000062s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002875s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002952s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000212s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000234s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000393s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000422s ]
+
+[ 2016-03-07T20:39:48+08:00 ] 127.0.0.1 /gaokao/index.php/Home/Inqure/requst
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000237s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000216s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000236s ]
+SQL: SHOW COLUMNS FROM `batch_controlline` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `batch_controlline` WHERE ( Type='art' and Year=2012 and ProvinceId='10000' and Batch='本科一批' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `batch_controlline` WHERE ( Type='art' and Year=2013 and ProvinceId='10000' and Batch='本科一批' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `batch_controlline` WHERE ( Type='art' and Year=2014 and ProvinceId='10000' and Batch='本科一批' ) LIMIT 1   [ RunTime:0.0018s ]
+SQL: SHOW COLUMNS FROM `provinceline_art` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `provinceline_art` WHERE ( `Average` >= 438 AND `Average` <= 438  ) AND `Year` = 2012 AND `ProvinceId` = 10000 AND `Batch` = '本科一批'  [ RunTime:0.0019s ]
+SQL: SELECT * FROM `provinceline_art` WHERE ( `Average` >= 448 AND `Average` <= 448  ) AND `Year` = 2013 AND `ProvinceId` = 10000 AND `Batch` = '本科一批'  [ RunTime:0.0018s ]
+SQL: SELECT * FROM `provinceline_art` WHERE ( `Average` >= 0 AND `Average` <= 0  ) AND `Year` = 2014 AND `ProvinceId` = 10000 AND `Batch` = '本科一批'  [ RunTime:0.0020s ]
+SQL: SELECT * FROM `provinceline_art` WHERE `Year` = 2012 AND `Batch` = '本科一批' AND `ProvinceId` = 10000 AND `SchoolId` = 62 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `provinceline_art` WHERE `Year` = 2013 AND `Batch` = '本科一批' AND `ProvinceId` = 10000 AND `SchoolId` = 62 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `provinceline_art` WHERE `Year` = 2014 AND `Batch` = '本科一批' AND `ProvinceId` = 10000 AND `SchoolId` = 62 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `provinceline_art` WHERE `Year` = 2012 AND `Batch` = '本科一批' AND `ProvinceId` = 10000 AND `SchoolId` = 120 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `provinceline_art` WHERE `Year` = 2013 AND `Batch` = '本科一批' AND `ProvinceId` = 10000 AND `SchoolId` = 120 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `provinceline_art` WHERE `Year` = 2014 AND `Batch` = '本科一批' AND `ProvinceId` = 10000 AND `SchoolId` = 120 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `provinceline_art` WHERE `Year` = 2012 AND `Batch` = '本科一批' AND `ProvinceId` = 10000 AND `SchoolId` = 1216 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `provinceline_art` WHERE `Year` = 2013 AND `Batch` = '本科一批' AND `ProvinceId` = 10000 AND `SchoolId` = 1216 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `provinceline_art` WHERE `Year` = 2014 AND `Batch` = '本科一批' AND `ProvinceId` = 10000 AND `SchoolId` = 1216 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `school` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `school` WHERE ( SchoolId='62' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `school` WHERE ( SchoolId='120' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `school` WHERE ( SchoolId='1216' ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2016-03-07T20:40:38+08:00 ] 127.0.0.1 /gaokao/index.php/Home/Inqure
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000226s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000282s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000346s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000041s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000066s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002971s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002997s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000102s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000116s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000243s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000259s ]
+
+[ 2016-03-07T20:40:39+08:00 ] 127.0.0.1 /gaokao/index.php/Home/Inqure/requst
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000184s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000261s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000283s ]
+SQL: SHOW COLUMNS FROM `batch_controlline` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `batch_controlline` WHERE ( Type='art' and Year=2012 and ProvinceId='10000' and Batch='本科一批' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `batch_controlline` WHERE ( Type='art' and Year=2013 and ProvinceId='10000' and Batch='本科一批' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `batch_controlline` WHERE ( Type='art' and Year=2014 and ProvinceId='10000' and Batch='本科一批' ) LIMIT 1   [ RunTime:0.0015s ]
+SQL: SHOW COLUMNS FROM `provinceline_art` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `provinceline_art` WHERE ( `Average` >= 438 AND `Average` <= 438  ) AND `Year` = 2012 AND `ProvinceId` = 10000 AND `Batch` = '本科一批'  [ RunTime:0.0014s ]
+SQL: SELECT * FROM `provinceline_art` WHERE ( `Average` >= 448 AND `Average` <= 448  ) AND `Year` = 2013 AND `ProvinceId` = 10000 AND `Batch` = '本科一批'  [ RunTime:0.0014s ]
+SQL: SELECT * FROM `provinceline_art` WHERE ( `Average` >= 0 AND `Average` <= 0  ) AND `Year` = 2014 AND `ProvinceId` = 10000 AND `Batch` = '本科一批'  [ RunTime:0.0014s ]
+SQL: SELECT * FROM `provinceline_art` WHERE `Year` = 2012 AND `Batch` = '本科一批' AND `ProvinceId` = 10000 AND `SchoolId` = 62 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `provinceline_art` WHERE `Year` = 2013 AND `Batch` = '本科一批' AND `ProvinceId` = 10000 AND `SchoolId` = 62 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `provinceline_art` WHERE `Year` = 2014 AND `Batch` = '本科一批' AND `ProvinceId` = 10000 AND `SchoolId` = 62 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `provinceline_art` WHERE `Year` = 2012 AND `Batch` = '本科一批' AND `ProvinceId` = 10000 AND `SchoolId` = 120 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `provinceline_art` WHERE `Year` = 2013 AND `Batch` = '本科一批' AND `ProvinceId` = 10000 AND `SchoolId` = 120 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `provinceline_art` WHERE `Year` = 2014 AND `Batch` = '本科一批' AND `ProvinceId` = 10000 AND `SchoolId` = 120 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `provinceline_art` WHERE `Year` = 2012 AND `Batch` = '本科一批' AND `ProvinceId` = 10000 AND `SchoolId` = 1216 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `provinceline_art` WHERE `Year` = 2013 AND `Batch` = '本科一批' AND `ProvinceId` = 10000 AND `SchoolId` = 1216 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `provinceline_art` WHERE `Year` = 2014 AND `Batch` = '本科一批' AND `ProvinceId` = 10000 AND `SchoolId` = 1216 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `school` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `school` WHERE ( SchoolId='62' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `school` WHERE ( SchoolId='120' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `school` WHERE ( SchoolId='1216' ) LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2016-03-07T20:40:41+08:00 ] 127.0.0.1 /gaokao/index.php/Home/Inqure/requst
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000483s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000262s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000286s ]
+SQL: SHOW COLUMNS FROM `batch_controlline` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `batch_controlline` WHERE ( Type='art' and Year=2012 and ProvinceId='10000' and Batch='本科一批' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `batch_controlline` WHERE ( Type='art' and Year=2013 and ProvinceId='10000' and Batch='本科一批' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `batch_controlline` WHERE ( Type='art' and Year=2014 and ProvinceId='10000' and Batch='本科一批' ) LIMIT 1   [ RunTime:0.0016s ]
+SQL: SHOW COLUMNS FROM `special_line_art` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `special_line_art` WHERE ( `Avg` >= 438 AND `Avg` <= 438  ) AND `Year` = '2012' AND `ProvinceId` = 10000 AND `SpecialName` = '' AND `Batch` = '本科一批'  [ RunTime:0.0080s ]
+SQL: SELECT * FROM `special_line_art` WHERE ( `Avg` >= 448 AND `Avg` <= 448  ) AND `Year` = '2013' AND `ProvinceId` = 10000 AND `SpecialName` = '' AND `Batch` = '本科一批'  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `special_line_art` WHERE ( `Avg` >= 0 AND `Avg` <= 0  ) AND `Year` = '2014' AND `ProvinceId` = 10000 AND `SpecialName` = '' AND `Batch` = '本科一批'  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `school` [ RunTime:0.0009s ]
+NOTIC: [8] Undefined variable: info /Users/mrzxc/Sites/gaokao/gaokao/Home/Controller/InqureController.class.php 第 347 行.
+
+[ 2016-03-07T20:41:03+08:00 ] 127.0.0.1 /gaokao/index.php/Home/Inqure
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000270s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000350s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000382s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000047s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000078s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003897s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003931s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000150s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000175s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000446s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000471s ]
+
+[ 2016-03-07T20:41:28+08:00 ] 127.0.0.1 /gaokao/index.php/Home/Inqure/requst
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000227s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000215s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000236s ]
+SQL: SHOW COLUMNS FROM `batch_controlline` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `batch_controlline` WHERE ( Type='science' and Year=2012 and ProvinceId='10000' and Batch='本科二批' ) LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `batch_controlline` WHERE ( Type='science' and Year=2013 and ProvinceId='10000' and Batch='本科二批' ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `batch_controlline` WHERE ( Type='science' and Year=2014 and ProvinceId='10000' and Batch='本科二批' ) LIMIT 1   [ RunTime:0.0038s ]
+SQL: SHOW COLUMNS FROM `special_line_science` [ RunTime:0.0014s ]
+SQL: SELECT * FROM `special_line_science` WHERE ( `Avg` >= 342 AND `Avg` <= 342  ) AND `Year` = '2012' AND `ProvinceId` = 10000 AND `SpecialName` = '计算机科学与技术' AND `Batch` = '本科二批'  [ RunTime:0.0125s ]
+SQL: SELECT * FROM `special_line_science` WHERE ( `Avg` >= 331 AND `Avg` <= 331  ) AND `Year` = '2013' AND `ProvinceId` = 10000 AND `SpecialName` = '计算机科学与技术' AND `Batch` = '本科二批'  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `special_line_science` WHERE ( `Avg` >= 0 AND `Avg` <= 0  ) AND `Year` = '2014' AND `ProvinceId` = 10000 AND `SpecialName` = '计算机科学与技术' AND `Batch` = '本科二批'  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `special_line_science` WHERE `Year` = 2012 AND `Batch` = '本科二批' AND `ProvinceId` = 10000 AND `SchoolId` = 277 LIMIT 1   [ RunTime:0.9994s ]
+SQL: SELECT * FROM `special_line_science` WHERE `Year` = 2013 AND `Batch` = '本科二批' AND `ProvinceId` = 10000 AND `SchoolId` = 277 LIMIT 1   [ RunTime:1.2389s ]
+SQL: SELECT * FROM `special_line_science` WHERE `Year` = 2014 AND `Batch` = '本科二批' AND `ProvinceId` = 10000 AND `SchoolId` = 277 LIMIT 1   [ RunTime:0.2483s ]
+SQL: SELECT * FROM `special_line_science` WHERE `Year` = 2012 AND `Batch` = '本科二批' AND `ProvinceId` = 10000 AND `SchoolId` = 2302 LIMIT 1   [ RunTime:1.2102s ]
+SQL: SELECT * FROM `special_line_science` WHERE `Year` = 2013 AND `Batch` = '本科二批' AND `ProvinceId` = 10000 AND `SchoolId` = 2302 LIMIT 1   [ RunTime:2.1319s ]
+SQL: SELECT * FROM `special_line_science` WHERE `Year` = 2014 AND `Batch` = '本科二批' AND `ProvinceId` = 10000 AND `SchoolId` = 2302 LIMIT 1   [ RunTime:0.9551s ]
+SQL: SELECT * FROM `special_line_science` WHERE `Year` = 2012 AND `Batch` = '本科二批' AND `ProvinceId` = 10000 AND `SchoolId` = 2437 LIMIT 1   [ RunTime:2.1913s ]
+SQL: SELECT * FROM `special_line_science` WHERE `Year` = 2013 AND `Batch` = '本科二批' AND `ProvinceId` = 10000 AND `SchoolId` = 2437 LIMIT 1   [ RunTime:2.9046s ]
+SQL: SELECT * FROM `special_line_science` WHERE `Year` = 2014 AND `Batch` = '本科二批' AND `ProvinceId` = 10000 AND `SchoolId` = 2437 LIMIT 1   [ RunTime:1.4471s ]
+SQL: SHOW COLUMNS FROM `school` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `school` WHERE ( SchoolId='277' ) LIMIT 1   [ RunTime:0.0014s ]
+SQL: SELECT * FROM `school` WHERE ( SchoolId='2302' ) LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT * FROM `school` WHERE ( SchoolId='2437' ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2016-03-07T20:42:43+08:00 ] 127.0.0.1 /gaokao/index.php/Home/Inqure
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000779s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000710s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000755s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000057s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000094s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005784s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005823s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000372s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000401s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000708s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000746s ]
+
+[ 2016-03-07T20:42:44+08:00 ] 127.0.0.1 /gaokao/index.php/Home/Inqure/requst
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000242s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000406s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000443s ]
+SQL: SHOW COLUMNS FROM `batch_controlline` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `batch_controlline` WHERE ( Type='art' and Year=2012 and ProvinceId='10000' and Batch='本科一批' ) LIMIT 1   [ RunTime:0.0012s ]
+SQL: SELECT * FROM `batch_controlline` WHERE ( Type='art' and Year=2013 and ProvinceId='10000' and Batch='本科一批' ) LIMIT 1   [ RunTime:0.0011s ]
+SQL: SELECT * FROM `batch_controlline` WHERE ( Type='art' and Year=2014 and ProvinceId='10000' and Batch='本科一批' ) LIMIT 1   [ RunTime:0.0088s ]
+SQL: SHOW COLUMNS FROM `special_line_art` [ RunTime:0.0016s ]
+SQL: SELECT * FROM `special_line_art` WHERE ( `Avg` >= 438 AND `Avg` <= 438  ) AND `Year` = '2012' AND `ProvinceId` = 10000 AND `SpecialName` = '' AND `Batch` = '本科一批'  [ RunTime:0.0016s ]
+SQL: SELECT * FROM `special_line_art` WHERE ( `Avg` >= 448 AND `Avg` <= 448  ) AND `Year` = '2013' AND `ProvinceId` = 10000 AND `SpecialName` = '' AND `Batch` = '本科一批'  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `special_line_art` WHERE ( `Avg` >= 0 AND `Avg` <= 0  ) AND `Year` = '2014' AND `ProvinceId` = 10000 AND `SpecialName` = '' AND `Batch` = '本科一批'  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `school` [ RunTime:0.0009s ]
+NOTIC: [8] Undefined variable: info /Users/mrzxc/Sites/gaokao/gaokao/Home/Controller/InqureController.class.php 第 347 行.
+
+[ 2016-03-07T20:42:49+08:00 ] 127.0.0.1 /gaokao/index.php/Home/Inqure/requst
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000272s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000408s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000456s ]
+SQL: SHOW COLUMNS FROM `batch_controlline` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `batch_controlline` WHERE ( Type='art' and Year=2012 and ProvinceId='10000' and Batch='本科一批' ) LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `batch_controlline` WHERE ( Type='art' and Year=2013 and ProvinceId='10000' and Batch='本科一批' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `batch_controlline` WHERE ( Type='art' and Year=2014 and ProvinceId='10000' and Batch='本科一批' ) LIMIT 1   [ RunTime:0.0016s ]
+SQL: SHOW COLUMNS FROM `special_line_art` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `special_line_art` WHERE ( `Avg` >= 438 AND `Avg` <= 438  ) AND `Year` = '2012' AND `ProvinceId` = 10000 AND `SpecialName` = '' AND `Batch` = '本科一批'  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `special_line_art` WHERE ( `Avg` >= 448 AND `Avg` <= 448  ) AND `Year` = '2013' AND `ProvinceId` = 10000 AND `SpecialName` = '' AND `Batch` = '本科一批'  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `special_line_art` WHERE ( `Avg` >= 0 AND `Avg` <= 0  ) AND `Year` = '2014' AND `ProvinceId` = 10000 AND `SpecialName` = '' AND `Batch` = '本科一批'  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `school` [ RunTime:0.0008s ]
+NOTIC: [8] Undefined variable: info /Users/mrzxc/Sites/gaokao/gaokao/Home/Controller/InqureController.class.php 第 347 行.
+
+[ 2016-03-07T20:44:18+08:00 ] 127.0.0.1 /gaokao/index.php/Home/Inqure
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000218s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000215s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000237s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000040s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000060s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002815s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002836s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000103s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000116s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000252s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000267s ]
+
+[ 2016-03-07T20:44:26+08:00 ] 127.0.0.1 /gaokao/index.php/Home/Inqure
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000318s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000416s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000458s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000053s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000081s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004385s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004417s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000130s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000150s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000311s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000333s ]
+
+[ 2016-03-07T20:45:26+08:00 ] 127.0.0.1 /gaokao/index.php/Home/Inqure
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000323s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000419s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000459s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000054s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000081s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004568s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004600s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000103s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000130s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000312s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000333s ]
+
+[ 2016-03-07T20:45:34+08:00 ] 127.0.0.1 /gaokao/index.php/Home/Inqure
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000164s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000209s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000229s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000041s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000061s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002943s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002965s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000103s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000117s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000250s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000266s ]
+
+[ 2016-03-07T20:45:44+08:00 ] 127.0.0.1 /gaokao/index.php/Home/Inqure
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000161s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000205s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000224s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000040s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000061s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002892s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002943s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000150s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000175s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000338s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000399s ]
+
+[ 2016-03-07T20:46:53+08:00 ] 127.0.0.1 /gaokao/index.php/Home/Inqure
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000175s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000226s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000249s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000055s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000105s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004353s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004406s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000153s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000177s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000334s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000359s ]
+
+[ 2016-03-07T20:48:28+08:00 ] 127.0.0.1 /gaokao/index.php/Home/Inqure
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000630s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000636s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000674s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000056s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000092s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005672s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005701s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000393s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000428s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000751s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000790s ]
+
+[ 2016-03-07T20:48:32+08:00 ] 127.0.0.1 /gaokao/index.php/Home/Inqure
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000157s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000203s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000223s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000041s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000065s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002914s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002935s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000113s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000125s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000251s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000266s ]
+
+[ 2016-03-07T20:48:36+08:00 ] 127.0.0.1 /gaokao/index.php/Home/Inqure
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000338s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000431s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000470s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000067s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000104s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005341s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005379s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000142s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000164s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000394s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000416s ]
+
+[ 2016-03-07T20:49:18+08:00 ] 127.0.0.1 /gaokao/index.php/Home/Inqure
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000537s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000674s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000722s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000043s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000072s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003154s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003182s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000104s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000119s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000256s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000272s ]
+
+[ 2016-03-07T20:50:32+08:00 ] 127.0.0.1 /gaokao/index.php/Home/Inqure
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000215s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000260s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000292s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000055s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000092s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003590s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003624s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000126s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000142s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000469s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000502s ]
+
+[ 2016-03-07T20:50:48+08:00 ] 127.0.0.1 /gaokao/index.php/Home/Inqure/requst
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000346s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000254s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000278s ]
+SQL: SHOW COLUMNS FROM `batch_controlline` [ RunTime:0.0021s ]
+SQL: SELECT * FROM `batch_controlline` WHERE ( Type='art' and Year=2012 and ProvinceId='10000' and Batch='本科一批' ) LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `batch_controlline` WHERE ( Type='art' and Year=2013 and ProvinceId='10000' and Batch='本科一批' ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `batch_controlline` WHERE ( Type='art' and Year=2014 and ProvinceId='10000' and Batch='本科一批' ) LIMIT 1   [ RunTime:0.0024s ]
+SQL: SHOW COLUMNS FROM `special_line_art` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `special_line_art` WHERE ( `Avg` >= 438 AND `Avg` <= 438  ) AND `Year` = '2012' AND `ProvinceId` = 10000 AND `SpecialName` = '计算机科学与技术' AND `Batch` = '本科一批'  [ RunTime:0.0027s ]
+SQL: SELECT * FROM `special_line_art` WHERE ( `Avg` >= 448 AND `Avg` <= 448  ) AND `Year` = '2013' AND `ProvinceId` = 10000 AND `SpecialName` = '计算机科学与技术' AND `Batch` = '本科一批'  [ RunTime:0.0007s ]
+SQL: SELECT * FROM `special_line_art` WHERE ( `Avg` >= 0 AND `Avg` <= 0  ) AND `Year` = '2014' AND `ProvinceId` = 10000 AND `SpecialName` = '计算机科学与技术' AND `Batch` = '本科一批'  [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `school` [ RunTime:0.0009s ]
+NOTIC: [8] Undefined variable: info /Users/mrzxc/Sites/gaokao/gaokao/Home/Controller/InqureController.class.php 第 347 行.
+
+[ 2016-03-07T20:50:58+08:00 ] 127.0.0.1 /gaokao/index.php/Home/Inqure/requst
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000273s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000528s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000574s ]
+SQL: SHOW COLUMNS FROM `batch_controlline` [ RunTime:0.0168s ]
+SQL: SELECT * FROM `batch_controlline` WHERE ( Type='art' and Year=2012 and ProvinceId='10000' and Batch='本科一批' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `batch_controlline` WHERE ( Type='art' and Year=2013 and ProvinceId='10000' and Batch='本科一批' ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `batch_controlline` WHERE ( Type='art' and Year=2014 and ProvinceId='10000' and Batch='本科一批' ) LIMIT 1   [ RunTime:0.0031s ]
+SQL: SHOW COLUMNS FROM `special_line_art` [ RunTime:0.0741s ]
+SQL: SELECT * FROM `special_line_art` WHERE ( `Avg` >= 438 AND `Avg` <= 438  ) AND `Year` = '2012' AND `ProvinceId` = 10000 AND `SpecialName` = '计算机科学与技术' AND `Batch` = '本科一批'  [ RunTime:0.0379s ]
+SQL: SELECT * FROM `special_line_art` WHERE ( `Avg` >= 448 AND `Avg` <= 448  ) AND `Year` = '2013' AND `ProvinceId` = 10000 AND `SpecialName` = '计算机科学与技术' AND `Batch` = '本科一批'  [ RunTime:0.0013s ]
+SQL: SELECT * FROM `special_line_art` WHERE ( `Avg` >= 0 AND `Avg` <= 0  ) AND `Year` = '2014' AND `ProvinceId` = 10000 AND `SpecialName` = '计算机科学与技术' AND `Batch` = '本科一批'  [ RunTime:0.0011s ]
+SQL: SHOW COLUMNS FROM `school` [ RunTime:0.0348s ]
+NOTIC: [8] Undefined variable: info /Users/mrzxc/Sites/gaokao/gaokao/Home/Controller/InqureController.class.php 第 347 行.
+
+[ 2016-03-07T20:52:03+08:00 ] 127.0.0.1 /gaokao/index.php/Home/Inqure
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000224s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000287s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000315s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000041s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000062s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003061s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003083s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000101s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000115s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000240s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000255s ]
+
+[ 2016-03-07T20:52:06+08:00 ] 127.0.0.1 /gaokao/index.php/Home/Inqure
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000414s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000424s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000464s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000068s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000104s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004956s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005024s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000103s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000121s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000317s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000340s ]
+
+[ 2016-03-07T20:52:08+08:00 ] 127.0.0.1 /gaokao/index.php/Home/Inqure/requst
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000165s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000355s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000384s ]
+SQL: SHOW COLUMNS FROM `batch_controlline` [ RunTime:0.0019s ]
+SQL: SELECT * FROM `batch_controlline` WHERE ( Type='art' and Year=2012 and ProvinceId='10000' and Batch='本科一批' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `batch_controlline` WHERE ( Type='art' and Year=2013 and ProvinceId='10000' and Batch='本科一批' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `batch_controlline` WHERE ( Type='art' and Year=2014 and ProvinceId='10000' and Batch='本科一批' ) LIMIT 1   [ RunTime:0.0016s ]
+SQL: SHOW COLUMNS FROM `provinceline_art` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `provinceline_art` WHERE ( `Average` >= 438 AND `Average` <= 438  ) AND `Year` = 2012 AND `ProvinceId` = 10000 AND `Batch` = '本科一批'  [ RunTime:0.0065s ]
+SQL: SELECT * FROM `provinceline_art` WHERE ( `Average` >= 448 AND `Average` <= 448  ) AND `Year` = 2013 AND `ProvinceId` = 10000 AND `Batch` = '本科一批'  [ RunTime:0.0014s ]
+SQL: SELECT * FROM `provinceline_art` WHERE ( `Average` >= 0 AND `Average` <= 0  ) AND `Year` = 2014 AND `ProvinceId` = 10000 AND `Batch` = '本科一批'  [ RunTime:0.0014s ]
+SQL: SELECT * FROM `provinceline_art` WHERE `Year` = 2012 AND `Batch` = '本科一批' AND `ProvinceId` = 10000 AND `SchoolId` = 62 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `provinceline_art` WHERE `Year` = 2013 AND `Batch` = '本科一批' AND `ProvinceId` = 10000 AND `SchoolId` = 62 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `provinceline_art` WHERE `Year` = 2014 AND `Batch` = '本科一批' AND `ProvinceId` = 10000 AND `SchoolId` = 62 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `provinceline_art` WHERE `Year` = 2012 AND `Batch` = '本科一批' AND `ProvinceId` = 10000 AND `SchoolId` = 120 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `provinceline_art` WHERE `Year` = 2013 AND `Batch` = '本科一批' AND `ProvinceId` = 10000 AND `SchoolId` = 120 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `provinceline_art` WHERE `Year` = 2014 AND `Batch` = '本科一批' AND `ProvinceId` = 10000 AND `SchoolId` = 120 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `provinceline_art` WHERE `Year` = 2012 AND `Batch` = '本科一批' AND `ProvinceId` = 10000 AND `SchoolId` = 1216 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `provinceline_art` WHERE `Year` = 2013 AND `Batch` = '本科一批' AND `ProvinceId` = 10000 AND `SchoolId` = 1216 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `provinceline_art` WHERE `Year` = 2014 AND `Batch` = '本科一批' AND `ProvinceId` = 10000 AND `SchoolId` = 1216 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `school` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `school` WHERE ( SchoolId='62' ) LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT * FROM `school` WHERE ( SchoolId='120' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `school` WHERE ( SchoolId='1216' ) LIMIT 1   [ RunTime:0.0008s ]
+
+[ 2016-03-07T20:52:35+08:00 ] 127.0.0.1 /gaokao/index.php/Home/Inqure/requst
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000169s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000218s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000238s ]
+SQL: SHOW COLUMNS FROM `batch_controlline` [ RunTime:0.0022s ]
+SQL: SELECT * FROM `batch_controlline` WHERE ( Type='art' and Year=2012 and ProvinceId='10000' and Batch='本科一批' ) LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `batch_controlline` WHERE ( Type='art' and Year=2013 and ProvinceId='10000' and Batch='本科一批' ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `batch_controlline` WHERE ( Type='art' and Year=2014 and ProvinceId='10000' and Batch='本科一批' ) LIMIT 1   [ RunTime:0.0018s ]
+SQL: SHOW COLUMNS FROM `special_line_art` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `special_line_art` WHERE ( `Avg` >= 438 AND `Avg` <= 438  ) AND `Year` = '2012' AND `ProvinceId` = 10000 AND `SpecialName` = '计算机科学与技术' AND `Batch` = '本科一批'  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `special_line_art` WHERE ( `Avg` >= 448 AND `Avg` <= 448  ) AND `Year` = '2013' AND `ProvinceId` = 10000 AND `SpecialName` = '计算机科学与技术' AND `Batch` = '本科一批'  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `special_line_art` WHERE ( `Avg` >= 0 AND `Avg` <= 0  ) AND `Year` = '2014' AND `ProvinceId` = 10000 AND `SpecialName` = '计算机科学与技术' AND `Batch` = '本科一批'  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `school` [ RunTime:0.0020s ]
+NOTIC: [8] Undefined variable: info /Users/mrzxc/Sites/gaokao/gaokao/Home/Controller/InqureController.class.php 第 347 行.
+
+[ 2016-03-07T20:53:01+08:00 ] 127.0.0.1 /gaokao/index.php/Home/Inqure/requst
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000247s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000863s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001332s ]
+SQL: SHOW COLUMNS FROM `batch_controlline` [ RunTime:0.0013s ]
+SQL: SELECT * FROM `batch_controlline` WHERE ( Type='art' and Year=2012 and ProvinceId='10000' and Batch='本科一批' ) LIMIT 1   [ RunTime:0.0011s ]
+SQL: SELECT * FROM `batch_controlline` WHERE ( Type='art' and Year=2013 and ProvinceId='10000' and Batch='本科一批' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `batch_controlline` WHERE ( Type='art' and Year=2014 and ProvinceId='10000' and Batch='本科一批' ) LIMIT 1   [ RunTime:0.0016s ]
+SQL: SHOW COLUMNS FROM `special_line_art` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `special_line_art` WHERE ( `Avg` >= 438 AND `Avg` <= 438  ) AND `Year` = '2012' AND `ProvinceId` = 10000 AND `SpecialName` = '计算机科学与技术' AND `Batch` = '本科一批'  [ RunTime:0.0007s ]
+SQL: SELECT * FROM `special_line_art` WHERE ( `Avg` >= 448 AND `Avg` <= 448  ) AND `Year` = '2013' AND `ProvinceId` = 10000 AND `SpecialName` = '计算机科学与技术' AND `Batch` = '本科一批'  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `special_line_art` WHERE ( `Avg` >= 0 AND `Avg` <= 0  ) AND `Year` = '2014' AND `ProvinceId` = 10000 AND `SpecialName` = '计算机科学与技术' AND `Batch` = '本科一批'  [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `school` [ RunTime:0.0009s ]
+NOTIC: [8] Undefined variable: info /Users/mrzxc/Sites/gaokao/gaokao/Home/Controller/InqureController.class.php 第 347 行.
+
+[ 2016-03-07T20:55:06+08:00 ] 127.0.0.1 /gaokao/index.php/Home/Inqure
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000160s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000208s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000229s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000040s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000061s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002827s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002847s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000110s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000124s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000238s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000254s ]
+
+[ 2016-03-07T20:55:24+08:00 ] 127.0.0.1 /gaokao/index.php/Home/Inqure/requst
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000201s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000228s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000250s ]
+SQL: SHOW COLUMNS FROM `batch_controlline` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `batch_controlline` WHERE ( Type='art' and Year=2012 and ProvinceId='10000' and Batch='本科一批' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `batch_controlline` WHERE ( Type='art' and Year=2013 and ProvinceId='10000' and Batch='本科一批' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `batch_controlline` WHERE ( Type='art' and Year=2014 and ProvinceId='10000' and Batch='本科一批' ) LIMIT 1   [ RunTime:0.0015s ]
+SQL: SHOW COLUMNS FROM `special_line_art` [ RunTime:0.0021s ]
+SQL: SELECT * FROM `special_line_art` WHERE ( `Avg` >= 438 AND `Avg` <= 438  ) AND `Year` = '2012' AND `ProvinceId` = 10000 AND `SpecialName` = '计算机科学与技术' AND `Batch` = '本科一批'  [ RunTime:0.0014s ]
+SQL: SELECT * FROM `special_line_art` WHERE ( `Avg` >= 448 AND `Avg` <= 448  ) AND `Year` = '2013' AND `ProvinceId` = 10000 AND `SpecialName` = '计算机科学与技术' AND `Batch` = '本科一批'  [ RunTime:0.0011s ]
+SQL: SELECT * FROM `special_line_art` WHERE ( `Avg` >= 0 AND `Avg` <= 0  ) AND `Year` = '2014' AND `ProvinceId` = 10000 AND `SpecialName` = '计算机科学与技术' AND `Batch` = '本科一批'  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `school` [ RunTime:0.0012s ]
+NOTIC: [8] Undefined variable: info /Users/mrzxc/Sites/gaokao/gaokao/Home/Controller/InqureController.class.php 第 347 行.
+
+[ 2016-03-07T20:55:54+08:00 ] 127.0.0.1 /gaokao/index.php/Home/Inqure
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000160s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000206s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000226s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000040s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000061s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002790s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002809s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000110s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000123s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000233s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000249s ]
+
+[ 2016-03-07T20:56:03+08:00 ] 127.0.0.1 /gaokao/index.php/Home/Inqure/requst
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000167s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000240s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000261s ]
+SQL: SHOW COLUMNS FROM `batch_controlline` [ RunTime:0.0016s ]
+SQL: SELECT * FROM `batch_controlline` WHERE ( Type='art' and Year=2012 and ProvinceId='10000' and Batch='本科一批' ) LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `batch_controlline` WHERE ( Type='art' and Year=2013 and ProvinceId='10000' and Batch='本科一批' ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `batch_controlline` WHERE ( Type='art' and Year=2014 and ProvinceId='10000' and Batch='本科一批' ) LIMIT 1   [ RunTime:0.0038s ]
+SQL: SHOW COLUMNS FROM `special_line_art` [ RunTime:0.0015s ]
+SQL: SELECT * FROM `special_line_art` WHERE ( `Avg` >= 438 AND `Avg` <= 438  ) AND `Year` = '2012' AND `ProvinceId` = 10000 AND `SpecialName` = 'dsada' AND `Batch` = '本科一批'  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `special_line_art` WHERE ( `Avg` >= 448 AND `Avg` <= 448  ) AND `Year` = '2013' AND `ProvinceId` = 10000 AND `SpecialName` = 'dsada' AND `Batch` = '本科一批'  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `special_line_art` WHERE ( `Avg` >= 0 AND `Avg` <= 0  ) AND `Year` = '2014' AND `ProvinceId` = 10000 AND `SpecialName` = 'dsada' AND `Batch` = '本科一批'  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `school` [ RunTime:0.0016s ]
+NOTIC: [8] Undefined variable: info /Users/mrzxc/Sites/gaokao/gaokao/Home/Controller/InqureController.class.php 第 347 行.
+
+[ 2016-03-07T22:37:27+08:00 ] 127.0.0.1 /gaokao/index.php/Home/Inqure/requst
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000486s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000580s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000610s ]
+SQL: SHOW COLUMNS FROM `batch_controlline` [ RunTime:0.0021s ]
+SQL: SELECT * FROM `batch_controlline` WHERE ( Type='science' and Year=2012 and ProvinceId='10000' and Batch='本科一批' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `batch_controlline` WHERE ( Type='science' and Year=2013 and ProvinceId='10000' and Batch='本科一批' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `batch_controlline` WHERE ( Type='science' and Year=2014 and ProvinceId='10000' and Batch='本科一批' ) LIMIT 1   [ RunTime:0.0016s ]
+SQL: SHOW COLUMNS FROM `special_line_science` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `special_line_science` WHERE ( `Avg` >= 423 AND `Avg` <= 423  ) AND `Year` = '2012' AND `ProvinceId` = 10000 AND `SpecialName` = '计算机科学与技术' AND `Batch` = '本科一批'  [ RunTime:0.0017s ]
+SQL: SELECT * FROM `special_line_science` WHERE ( `Avg` >= 405 AND `Avg` <= 405  ) AND `Year` = '2013' AND `ProvinceId` = 10000 AND `SpecialName` = '计算机科学与技术' AND `Batch` = '本科一批'  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `special_line_science` WHERE ( `Avg` >= 0 AND `Avg` <= 0  ) AND `Year` = '2014' AND `ProvinceId` = 10000 AND `SpecialName` = '计算机科学与技术' AND `Batch` = '本科一批'  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `special_line_science` WHERE `Year` = 2012 AND `Batch` = '本科一批' AND `ProvinceId` = 10000 AND `SchoolId` = 417 LIMIT 1   [ RunTime:1.0888s ]
+SQL: SELECT * FROM `special_line_science` WHERE `Year` = 2013 AND `Batch` = '本科一批' AND `ProvinceId` = 10000 AND `SchoolId` = 417 LIMIT 1   [ RunTime:0.2920s ]
+SQL: SELECT * FROM `special_line_science` WHERE `Year` = 2014 AND `Batch` = '本科一批' AND `ProvinceId` = 10000 AND `SchoolId` = 417 LIMIT 1   [ RunTime:0.2139s ]
+SQL: SELECT * FROM `special_line_science` WHERE `Year` = 2012 AND `Batch` = '本科一批' AND `ProvinceId` = 10000 AND `SchoolId` = 591 LIMIT 1   [ RunTime:0.4968s ]
+SQL: SELECT * FROM `special_line_science` WHERE `Year` = 2013 AND `Batch` = '本科一批' AND `ProvinceId` = 10000 AND `SchoolId` = 591 LIMIT 1   [ RunTime:0.4893s ]
+SQL: SELECT * FROM `special_line_science` WHERE `Year` = 2014 AND `Batch` = '本科一批' AND `ProvinceId` = 10000 AND `SchoolId` = 591 LIMIT 1   [ RunTime:2.2708s ]
+SQL: SHOW COLUMNS FROM `school` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `school` WHERE ( SchoolId='417' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `school` WHERE ( SchoolId='591' ) LIMIT 1   [ RunTime:0.0005s ]
+
+[ 2016-03-07T22:54:11+08:00 ] 127.0.0.1 /gaokao/index.php/Home/Inqure
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000822s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000803s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000850s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000057s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000109s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008016s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008057s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000493s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000532s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000824s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000862s ]
+
+[ 2016-03-07T22:54:12+08:00 ] 127.0.0.1 /gaokao/index.php/Home/Inqure/requst
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000217s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000290s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000311s ]
+SQL: SHOW COLUMNS FROM `batch_controlline` [ RunTime:0.0029s ]
+SQL: SELECT * FROM `batch_controlline` WHERE ( Type='art' and Year=2012 and ProvinceId='10000' and Batch='本科一批' ) LIMIT 1   [ RunTime:0.0093s ]
+SQL: SELECT * FROM `batch_controlline` WHERE ( Type='art' and Year=2013 and ProvinceId='10000' and Batch='本科一批' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `batch_controlline` WHERE ( Type='art' and Year=2014 and ProvinceId='10000' and Batch='本科一批' ) LIMIT 1   [ RunTime:0.0112s ]
+SQL: SHOW COLUMNS FROM `provinceline_art` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `provinceline_art` WHERE ( `Average` >= 438 AND `Average` <= 438  ) AND `Year` = 2012 AND `ProvinceId` = 10000 AND `Batch` = '本科一批'  [ RunTime:0.0045s ]
+SQL: SELECT * FROM `provinceline_art` WHERE ( `Average` >= 448 AND `Average` <= 448  ) AND `Year` = 2013 AND `ProvinceId` = 10000 AND `Batch` = '本科一批'  [ RunTime:0.0016s ]
+SQL: SELECT * FROM `provinceline_art` WHERE ( `Average` >= 0 AND `Average` <= 0  ) AND `Year` = 2014 AND `ProvinceId` = 10000 AND `Batch` = '本科一批'  [ RunTime:0.0017s ]
+SQL: SELECT * FROM `provinceline_art` WHERE `Year` = 2012 AND `Batch` = '本科一批' AND `ProvinceId` = 10000 AND `SchoolId` = 62 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `provinceline_art` WHERE `Year` = 2013 AND `Batch` = '本科一批' AND `ProvinceId` = 10000 AND `SchoolId` = 62 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `provinceline_art` WHERE `Year` = 2014 AND `Batch` = '本科一批' AND `ProvinceId` = 10000 AND `SchoolId` = 62 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `provinceline_art` WHERE `Year` = 2012 AND `Batch` = '本科一批' AND `ProvinceId` = 10000 AND `SchoolId` = 120 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `provinceline_art` WHERE `Year` = 2013 AND `Batch` = '本科一批' AND `ProvinceId` = 10000 AND `SchoolId` = 120 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `provinceline_art` WHERE `Year` = 2014 AND `Batch` = '本科一批' AND `ProvinceId` = 10000 AND `SchoolId` = 120 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `provinceline_art` WHERE `Year` = 2012 AND `Batch` = '本科一批' AND `ProvinceId` = 10000 AND `SchoolId` = 1216 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `provinceline_art` WHERE `Year` = 2013 AND `Batch` = '本科一批' AND `ProvinceId` = 10000 AND `SchoolId` = 1216 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `provinceline_art` WHERE `Year` = 2014 AND `Batch` = '本科一批' AND `ProvinceId` = 10000 AND `SchoolId` = 1216 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `school` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `school` WHERE ( SchoolId='62' ) LIMIT 1   [ RunTime:0.0009s ]
+SQL: SELECT * FROM `school` WHERE ( SchoolId='120' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `school` WHERE ( SchoolId='1216' ) LIMIT 1   [ RunTime:0.0009s ]
+
+[ 2016-03-07T22:54:28+08:00 ] 127.0.0.1 /gaokao/index.php/Home/Inqure/requst
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000352s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000377s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000411s ]
+SQL: SHOW COLUMNS FROM `batch_controlline` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `batch_controlline` WHERE ( Type='art' and Year=2012 and ProvinceId='10000' and Batch='本科一批' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `batch_controlline` WHERE ( Type='art' and Year=2013 and ProvinceId='10000' and Batch='本科一批' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `batch_controlline` WHERE ( Type='art' and Year=2014 and ProvinceId='10000' and Batch='本科一批' ) LIMIT 1   [ RunTime:0.0018s ]
+SQL: SHOW COLUMNS FROM `special_line_art` [ RunTime:0.0016s ]
+SQL: SELECT * FROM `special_line_art` WHERE ( `Avg` >= 438 AND `Avg` <= 438  ) AND `Year` = '2012' AND `ProvinceId` = 10000 AND `SpecialName` = '计算机科学与技术' AND `Batch` = '本科一批'  [ RunTime:0.0031s ]
+SQL: SELECT * FROM `special_line_art` WHERE ( `Avg` >= 448 AND `Avg` <= 448  ) AND `Year` = '2013' AND `ProvinceId` = 10000 AND `SpecialName` = '计算机科学与技术' AND `Batch` = '本科一批'  [ RunTime:0.0007s ]
+SQL: SELECT * FROM `special_line_art` WHERE ( `Avg` >= 0 AND `Avg` <= 0  ) AND `Year` = '2014' AND `ProvinceId` = 10000 AND `SpecialName` = '计算机科学与技术' AND `Batch` = '本科一批'  [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `school` [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: info /Users/mrzxc/Sites/gaokao/gaokao/Home/Controller/InqureController.class.php 第 347 行.
+
+[ 2016-03-07T22:54:59+08:00 ] 127.0.0.1 /gaokao/index.php/Home/Inqure
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000207s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000267s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000287s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000043s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000072s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005509s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005530s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000106s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000120s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000294s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000311s ]
+
+[ 2016-03-07T22:55:01+08:00 ] 127.0.0.1 /gaokao/index.php/Home/Inqure/requst
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000206s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000290s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000311s ]
+SQL: SHOW COLUMNS FROM `batch_controlline` [ RunTime:0.0013s ]
+SQL: SELECT * FROM `batch_controlline` WHERE ( Type='art' and Year=2012 and ProvinceId='10000' and Batch='本科一批' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `batch_controlline` WHERE ( Type='art' and Year=2013 and ProvinceId='10000' and Batch='本科一批' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `batch_controlline` WHERE ( Type='art' and Year=2014 and ProvinceId='10000' and Batch='本科一批' ) LIMIT 1   [ RunTime:0.0015s ]
+SQL: SHOW COLUMNS FROM `provinceline_art` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `provinceline_art` WHERE ( `Average` >= 438 AND `Average` <= 438  ) AND `Year` = 2012 AND `ProvinceId` = 10000 AND `Batch` = '本科一批'  [ RunTime:0.0014s ]
+SQL: SELECT * FROM `provinceline_art` WHERE ( `Average` >= 448 AND `Average` <= 448  ) AND `Year` = 2013 AND `ProvinceId` = 10000 AND `Batch` = '本科一批'  [ RunTime:0.0014s ]
+SQL: SELECT * FROM `provinceline_art` WHERE ( `Average` >= 0 AND `Average` <= 0  ) AND `Year` = 2014 AND `ProvinceId` = 10000 AND `Batch` = '本科一批'  [ RunTime:0.0015s ]
+SQL: SELECT * FROM `provinceline_art` WHERE `Year` = 2012 AND `Batch` = '本科一批' AND `ProvinceId` = 10000 AND `SchoolId` = 62 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `provinceline_art` WHERE `Year` = 2013 AND `Batch` = '本科一批' AND `ProvinceId` = 10000 AND `SchoolId` = 62 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `provinceline_art` WHERE `Year` = 2014 AND `Batch` = '本科一批' AND `ProvinceId` = 10000 AND `SchoolId` = 62 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `provinceline_art` WHERE `Year` = 2012 AND `Batch` = '本科一批' AND `ProvinceId` = 10000 AND `SchoolId` = 120 LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT * FROM `provinceline_art` WHERE `Year` = 2013 AND `Batch` = '本科一批' AND `ProvinceId` = 10000 AND `SchoolId` = 120 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `provinceline_art` WHERE `Year` = 2014 AND `Batch` = '本科一批' AND `ProvinceId` = 10000 AND `SchoolId` = 120 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `provinceline_art` WHERE `Year` = 2012 AND `Batch` = '本科一批' AND `ProvinceId` = 10000 AND `SchoolId` = 1216 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `provinceline_art` WHERE `Year` = 2013 AND `Batch` = '本科一批' AND `ProvinceId` = 10000 AND `SchoolId` = 1216 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `provinceline_art` WHERE `Year` = 2014 AND `Batch` = '本科一批' AND `ProvinceId` = 10000 AND `SchoolId` = 1216 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `school` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `school` WHERE ( SchoolId='62' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `school` WHERE ( SchoolId='120' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `school` WHERE ( SchoolId='1216' ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2016-03-07T22:55:09+08:00 ] 127.0.0.1 /gaokao/index.php/Home/Inqure/requst
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000349s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000440s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000482s ]
+SQL: SHOW COLUMNS FROM `batch_controlline` [ RunTime:0.0018s ]
+SQL: SELECT * FROM `batch_controlline` WHERE ( Type='art' and Year=2012 and ProvinceId='10000' and Batch='本科一批' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `batch_controlline` WHERE ( Type='art' and Year=2013 and ProvinceId='10000' and Batch='本科一批' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `batch_controlline` WHERE ( Type='art' and Year=2014 and ProvinceId='10000' and Batch='本科一批' ) LIMIT 1   [ RunTime:0.0032s ]
+SQL: SHOW COLUMNS FROM `provinceline_art` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `provinceline_art` WHERE ( `Average` >= 438 AND `Average` <= 438  ) AND `Year` = 2012 AND `ProvinceId` = 10000 AND `Batch` = '本科一批'  [ RunTime:0.0015s ]
+SQL: SELECT * FROM `provinceline_art` WHERE ( `Average` >= 448 AND `Average` <= 448  ) AND `Year` = 2013 AND `ProvinceId` = 10000 AND `Batch` = '本科一批'  [ RunTime:0.0014s ]
+SQL: SELECT * FROM `provinceline_art` WHERE ( `Average` >= 0 AND `Average` <= 0  ) AND `Year` = 2014 AND `ProvinceId` = 10000 AND `Batch` = '本科一批'  [ RunTime:0.0019s ]
+SQL: SELECT * FROM `provinceline_art` WHERE `Year` = 2012 AND `Batch` = '本科一批' AND `ProvinceId` = 10000 AND `SchoolId` = 62 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `provinceline_art` WHERE `Year` = 2013 AND `Batch` = '本科一批' AND `ProvinceId` = 10000 AND `SchoolId` = 62 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `provinceline_art` WHERE `Year` = 2014 AND `Batch` = '本科一批' AND `ProvinceId` = 10000 AND `SchoolId` = 62 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `provinceline_art` WHERE `Year` = 2012 AND `Batch` = '本科一批' AND `ProvinceId` = 10000 AND `SchoolId` = 120 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `provinceline_art` WHERE `Year` = 2013 AND `Batch` = '本科一批' AND `ProvinceId` = 10000 AND `SchoolId` = 120 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `provinceline_art` WHERE `Year` = 2014 AND `Batch` = '本科一批' AND `ProvinceId` = 10000 AND `SchoolId` = 120 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `provinceline_art` WHERE `Year` = 2012 AND `Batch` = '本科一批' AND `ProvinceId` = 10000 AND `SchoolId` = 1216 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `provinceline_art` WHERE `Year` = 2013 AND `Batch` = '本科一批' AND `ProvinceId` = 10000 AND `SchoolId` = 1216 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `provinceline_art` WHERE `Year` = 2014 AND `Batch` = '本科一批' AND `ProvinceId` = 10000 AND `SchoolId` = 1216 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `school` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `school` WHERE ( SchoolId='62' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `school` WHERE ( SchoolId='120' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `school` WHERE ( SchoolId='1216' ) LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2016-03-07T22:55:10+08:00 ] 127.0.0.1 /gaokao/index.php/Home/Inqure/requst
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000353s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000679s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000743s ]
+SQL: SHOW COLUMNS FROM `batch_controlline` [ RunTime:0.0015s ]
+SQL: SELECT * FROM `batch_controlline` WHERE ( Type='art' and Year=2012 and ProvinceId='10000' and Batch='本科一批' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `batch_controlline` WHERE ( Type='art' and Year=2013 and ProvinceId='10000' and Batch='本科一批' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `batch_controlline` WHERE ( Type='art' and Year=2014 and ProvinceId='10000' and Batch='本科一批' ) LIMIT 1   [ RunTime:0.0023s ]
+SQL: SHOW COLUMNS FROM `provinceline_art` [ RunTime:0.0013s ]
+SQL: SELECT * FROM `provinceline_art` WHERE ( `Average` >= 438 AND `Average` <= 438  ) AND `Year` = 2012 AND `ProvinceId` = 10000 AND `Batch` = '本科一批'  [ RunTime:0.0015s ]
+SQL: SELECT * FROM `provinceline_art` WHERE ( `Average` >= 448 AND `Average` <= 448  ) AND `Year` = 2013 AND `ProvinceId` = 10000 AND `Batch` = '本科一批'  [ RunTime:0.0014s ]
+SQL: SELECT * FROM `provinceline_art` WHERE ( `Average` >= 0 AND `Average` <= 0  ) AND `Year` = 2014 AND `ProvinceId` = 10000 AND `Batch` = '本科一批'  [ RunTime:0.0014s ]
+SQL: SELECT * FROM `provinceline_art` WHERE `Year` = 2012 AND `Batch` = '本科一批' AND `ProvinceId` = 10000 AND `SchoolId` = 62 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `provinceline_art` WHERE `Year` = 2013 AND `Batch` = '本科一批' AND `ProvinceId` = 10000 AND `SchoolId` = 62 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `provinceline_art` WHERE `Year` = 2014 AND `Batch` = '本科一批' AND `ProvinceId` = 10000 AND `SchoolId` = 62 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `provinceline_art` WHERE `Year` = 2012 AND `Batch` = '本科一批' AND `ProvinceId` = 10000 AND `SchoolId` = 120 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `provinceline_art` WHERE `Year` = 2013 AND `Batch` = '本科一批' AND `ProvinceId` = 10000 AND `SchoolId` = 120 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `provinceline_art` WHERE `Year` = 2014 AND `Batch` = '本科一批' AND `ProvinceId` = 10000 AND `SchoolId` = 120 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `provinceline_art` WHERE `Year` = 2012 AND `Batch` = '本科一批' AND `ProvinceId` = 10000 AND `SchoolId` = 1216 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `provinceline_art` WHERE `Year` = 2013 AND `Batch` = '本科一批' AND `ProvinceId` = 10000 AND `SchoolId` = 1216 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `provinceline_art` WHERE `Year` = 2014 AND `Batch` = '本科一批' AND `ProvinceId` = 10000 AND `SchoolId` = 1216 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `school` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `school` WHERE ( SchoolId='62' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `school` WHERE ( SchoolId='120' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `school` WHERE ( SchoolId='1216' ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2016-03-07T22:55:10+08:00 ] 127.0.0.1 /gaokao/index.php/Home/Inqure/requst
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000316s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000709s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000823s ]
+SQL: SHOW COLUMNS FROM `batch_controlline` [ RunTime:0.0029s ]
+SQL: SELECT * FROM `batch_controlline` WHERE ( Type='art' and Year=2012 and ProvinceId='10000' and Batch='本科一批' ) LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `batch_controlline` WHERE ( Type='art' and Year=2013 and ProvinceId='10000' and Batch='本科一批' ) LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `batch_controlline` WHERE ( Type='art' and Year=2014 and ProvinceId='10000' and Batch='本科一批' ) LIMIT 1   [ RunTime:0.0016s ]
+SQL: SHOW COLUMNS FROM `provinceline_art` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `provinceline_art` WHERE ( `Average` >= 438 AND `Average` <= 438  ) AND `Year` = 2012 AND `ProvinceId` = 10000 AND `Batch` = '本科一批'  [ RunTime:0.0015s ]
+SQL: SELECT * FROM `provinceline_art` WHERE ( `Average` >= 448 AND `Average` <= 448  ) AND `Year` = 2013 AND `ProvinceId` = 10000 AND `Batch` = '本科一批'  [ RunTime:0.0014s ]
+SQL: SELECT * FROM `provinceline_art` WHERE ( `Average` >= 0 AND `Average` <= 0  ) AND `Year` = 2014 AND `ProvinceId` = 10000 AND `Batch` = '本科一批'  [ RunTime:0.0015s ]
+SQL: SELECT * FROM `provinceline_art` WHERE `Year` = 2012 AND `Batch` = '本科一批' AND `ProvinceId` = 10000 AND `SchoolId` = 62 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `provinceline_art` WHERE `Year` = 2013 AND `Batch` = '本科一批' AND `ProvinceId` = 10000 AND `SchoolId` = 62 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `provinceline_art` WHERE `Year` = 2014 AND `Batch` = '本科一批' AND `ProvinceId` = 10000 AND `SchoolId` = 62 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `provinceline_art` WHERE `Year` = 2012 AND `Batch` = '本科一批' AND `ProvinceId` = 10000 AND `SchoolId` = 120 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `provinceline_art` WHERE `Year` = 2013 AND `Batch` = '本科一批' AND `ProvinceId` = 10000 AND `SchoolId` = 120 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `provinceline_art` WHERE `Year` = 2014 AND `Batch` = '本科一批' AND `ProvinceId` = 10000 AND `SchoolId` = 120 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `provinceline_art` WHERE `Year` = 2012 AND `Batch` = '本科一批' AND `ProvinceId` = 10000 AND `SchoolId` = 1216 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `provinceline_art` WHERE `Year` = 2013 AND `Batch` = '本科一批' AND `ProvinceId` = 10000 AND `SchoolId` = 1216 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `provinceline_art` WHERE `Year` = 2014 AND `Batch` = '本科一批' AND `ProvinceId` = 10000 AND `SchoolId` = 1216 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `school` [ RunTime:0.0016s ]
+SQL: SELECT * FROM `school` WHERE ( SchoolId='62' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `school` WHERE ( SchoolId='120' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `school` WHERE ( SchoolId='1216' ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2016-03-07T22:55:11+08:00 ] 127.0.0.1 /gaokao/index.php/Home/Inqure/requst
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000878s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000474s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000525s ]
+SQL: SHOW COLUMNS FROM `batch_controlline` [ RunTime:0.0031s ]
+SQL: SELECT * FROM `batch_controlline` WHERE ( Type='art' and Year=2012 and ProvinceId='10000' and Batch='本科一批' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `batch_controlline` WHERE ( Type='art' and Year=2013 and ProvinceId='10000' and Batch='本科一批' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `batch_controlline` WHERE ( Type='art' and Year=2014 and ProvinceId='10000' and Batch='本科一批' ) LIMIT 1   [ RunTime:0.0016s ]
+SQL: SHOW COLUMNS FROM `provinceline_art` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `provinceline_art` WHERE ( `Average` >= 438 AND `Average` <= 438  ) AND `Year` = 2012 AND `ProvinceId` = 10000 AND `Batch` = '本科一批'  [ RunTime:0.0014s ]
+SQL: SELECT * FROM `provinceline_art` WHERE ( `Average` >= 448 AND `Average` <= 448  ) AND `Year` = 2013 AND `ProvinceId` = 10000 AND `Batch` = '本科一批'  [ RunTime:0.0014s ]
+SQL: SELECT * FROM `provinceline_art` WHERE ( `Average` >= 0 AND `Average` <= 0  ) AND `Year` = 2014 AND `ProvinceId` = 10000 AND `Batch` = '本科一批'  [ RunTime:0.0014s ]
+SQL: SELECT * FROM `provinceline_art` WHERE `Year` = 2012 AND `Batch` = '本科一批' AND `ProvinceId` = 10000 AND `SchoolId` = 62 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `provinceline_art` WHERE `Year` = 2013 AND `Batch` = '本科一批' AND `ProvinceId` = 10000 AND `SchoolId` = 62 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `provinceline_art` WHERE `Year` = 2014 AND `Batch` = '本科一批' AND `ProvinceId` = 10000 AND `SchoolId` = 62 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `provinceline_art` WHERE `Year` = 2012 AND `Batch` = '本科一批' AND `ProvinceId` = 10000 AND `SchoolId` = 120 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `provinceline_art` WHERE `Year` = 2013 AND `Batch` = '本科一批' AND `ProvinceId` = 10000 AND `SchoolId` = 120 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `provinceline_art` WHERE `Year` = 2014 AND `Batch` = '本科一批' AND `ProvinceId` = 10000 AND `SchoolId` = 120 LIMIT 1   [ RunTime:0.0011s ]
+SQL: SELECT * FROM `provinceline_art` WHERE `Year` = 2012 AND `Batch` = '本科一批' AND `ProvinceId` = 10000 AND `SchoolId` = 1216 LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT * FROM `provinceline_art` WHERE `Year` = 2013 AND `Batch` = '本科一批' AND `ProvinceId` = 10000 AND `SchoolId` = 1216 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `provinceline_art` WHERE `Year` = 2014 AND `Batch` = '本科一批' AND `ProvinceId` = 10000 AND `SchoolId` = 1216 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `school` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `school` WHERE ( SchoolId='62' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `school` WHERE ( SchoolId='120' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `school` WHERE ( SchoolId='1216' ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2016-03-07T22:55:11+08:00 ] 127.0.0.1 /gaokao/index.php/Home/Inqure/requst
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000301s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000631s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000679s ]
+SQL: SHOW COLUMNS FROM `batch_controlline` [ RunTime:0.0015s ]
+SQL: SELECT * FROM `batch_controlline` WHERE ( Type='art' and Year=2012 and ProvinceId='10000' and Batch='本科一批' ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `batch_controlline` WHERE ( Type='art' and Year=2013 and ProvinceId='10000' and Batch='本科一批' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `batch_controlline` WHERE ( Type='art' and Year=2014 and ProvinceId='10000' and Batch='本科一批' ) LIMIT 1   [ RunTime:0.0027s ]
+SQL: SHOW COLUMNS FROM `provinceline_art` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `provinceline_art` WHERE ( `Average` >= 438 AND `Average` <= 438  ) AND `Year` = 2012 AND `ProvinceId` = 10000 AND `Batch` = '本科一批'  [ RunTime:0.0017s ]
+SQL: SELECT * FROM `provinceline_art` WHERE ( `Average` >= 448 AND `Average` <= 448  ) AND `Year` = 2013 AND `ProvinceId` = 10000 AND `Batch` = '本科一批'  [ RunTime:0.0018s ]
+SQL: SELECT * FROM `provinceline_art` WHERE ( `Average` >= 0 AND `Average` <= 0  ) AND `Year` = 2014 AND `ProvinceId` = 10000 AND `Batch` = '本科一批'  [ RunTime:0.0017s ]
+SQL: SELECT * FROM `provinceline_art` WHERE `Year` = 2012 AND `Batch` = '本科一批' AND `ProvinceId` = 10000 AND `SchoolId` = 62 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `provinceline_art` WHERE `Year` = 2013 AND `Batch` = '本科一批' AND `ProvinceId` = 10000 AND `SchoolId` = 62 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `provinceline_art` WHERE `Year` = 2014 AND `Batch` = '本科一批' AND `ProvinceId` = 10000 AND `SchoolId` = 62 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `provinceline_art` WHERE `Year` = 2012 AND `Batch` = '本科一批' AND `ProvinceId` = 10000 AND `SchoolId` = 120 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `provinceline_art` WHERE `Year` = 2013 AND `Batch` = '本科一批' AND `ProvinceId` = 10000 AND `SchoolId` = 120 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `provinceline_art` WHERE `Year` = 2014 AND `Batch` = '本科一批' AND `ProvinceId` = 10000 AND `SchoolId` = 120 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `provinceline_art` WHERE `Year` = 2012 AND `Batch` = '本科一批' AND `ProvinceId` = 10000 AND `SchoolId` = 1216 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `provinceline_art` WHERE `Year` = 2013 AND `Batch` = '本科一批' AND `ProvinceId` = 10000 AND `SchoolId` = 1216 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `provinceline_art` WHERE `Year` = 2014 AND `Batch` = '本科一批' AND `ProvinceId` = 10000 AND `SchoolId` = 1216 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `school` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `school` WHERE ( SchoolId='62' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `school` WHERE ( SchoolId='120' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `school` WHERE ( SchoolId='1216' ) LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2016-03-07T22:55:11+08:00 ] 127.0.0.1 /gaokao/index.php/Home/Inqure/requst
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000304s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000559s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000613s ]
+SQL: SHOW COLUMNS FROM `batch_controlline` [ RunTime:0.0013s ]
+SQL: SELECT * FROM `batch_controlline` WHERE ( Type='art' and Year=2012 and ProvinceId='10000' and Batch='本科一批' ) LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `batch_controlline` WHERE ( Type='art' and Year=2013 and ProvinceId='10000' and Batch='本科一批' ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `batch_controlline` WHERE ( Type='art' and Year=2014 and ProvinceId='10000' and Batch='本科一批' ) LIMIT 1   [ RunTime:0.0024s ]
+SQL: SHOW COLUMNS FROM `provinceline_art` [ RunTime:0.0013s ]
+SQL: SELECT * FROM `provinceline_art` WHERE ( `Average` >= 438 AND `Average` <= 438  ) AND `Year` = 2012 AND `ProvinceId` = 10000 AND `Batch` = '本科一批'  [ RunTime:0.0025s ]
+SQL: SELECT * FROM `provinceline_art` WHERE ( `Average` >= 448 AND `Average` <= 448  ) AND `Year` = 2013 AND `ProvinceId` = 10000 AND `Batch` = '本科一批'  [ RunTime:0.0015s ]
+SQL: SELECT * FROM `provinceline_art` WHERE ( `Average` >= 0 AND `Average` <= 0  ) AND `Year` = 2014 AND `ProvinceId` = 10000 AND `Batch` = '本科一批'  [ RunTime:0.0016s ]
+SQL: SELECT * FROM `provinceline_art` WHERE `Year` = 2012 AND `Batch` = '本科一批' AND `ProvinceId` = 10000 AND `SchoolId` = 62 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `provinceline_art` WHERE `Year` = 2013 AND `Batch` = '本科一批' AND `ProvinceId` = 10000 AND `SchoolId` = 62 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `provinceline_art` WHERE `Year` = 2014 AND `Batch` = '本科一批' AND `ProvinceId` = 10000 AND `SchoolId` = 62 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `provinceline_art` WHERE `Year` = 2012 AND `Batch` = '本科一批' AND `ProvinceId` = 10000 AND `SchoolId` = 120 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `provinceline_art` WHERE `Year` = 2013 AND `Batch` = '本科一批' AND `ProvinceId` = 10000 AND `SchoolId` = 120 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `provinceline_art` WHERE `Year` = 2014 AND `Batch` = '本科一批' AND `ProvinceId` = 10000 AND `SchoolId` = 120 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `provinceline_art` WHERE `Year` = 2012 AND `Batch` = '本科一批' AND `ProvinceId` = 10000 AND `SchoolId` = 1216 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `provinceline_art` WHERE `Year` = 2013 AND `Batch` = '本科一批' AND `ProvinceId` = 10000 AND `SchoolId` = 1216 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `provinceline_art` WHERE `Year` = 2014 AND `Batch` = '本科一批' AND `ProvinceId` = 10000 AND `SchoolId` = 1216 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `school` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `school` WHERE ( SchoolId='62' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `school` WHERE ( SchoolId='120' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `school` WHERE ( SchoolId='1216' ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2016-03-07T22:55:12+08:00 ] 127.0.0.1 /gaokao/index.php/Home/Inqure/requst
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000361s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000757s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000896s ]
+SQL: SHOW COLUMNS FROM `batch_controlline` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `batch_controlline` WHERE ( Type='art' and Year=2012 and ProvinceId='10000' and Batch='本科一批' ) LIMIT 1   [ RunTime:0.0009s ]
+SQL: SELECT * FROM `batch_controlline` WHERE ( Type='art' and Year=2013 and ProvinceId='10000' and Batch='本科一批' ) LIMIT 1   [ RunTime:0.0011s ]
+SQL: SELECT * FROM `batch_controlline` WHERE ( Type='art' and Year=2014 and ProvinceId='10000' and Batch='本科一批' ) LIMIT 1   [ RunTime:0.0017s ]
+SQL: SHOW COLUMNS FROM `provinceline_art` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `provinceline_art` WHERE ( `Average` >= 438 AND `Average` <= 438  ) AND `Year` = 2012 AND `ProvinceId` = 10000 AND `Batch` = '本科一批'  [ RunTime:0.0014s ]
+SQL: SELECT * FROM `provinceline_art` WHERE ( `Average` >= 448 AND `Average` <= 448  ) AND `Year` = 2013 AND `ProvinceId` = 10000 AND `Batch` = '本科一批'  [ RunTime:0.0014s ]
+SQL: SELECT * FROM `provinceline_art` WHERE ( `Average` >= 0 AND `Average` <= 0  ) AND `Year` = 2014 AND `ProvinceId` = 10000 AND `Batch` = '本科一批'  [ RunTime:0.0016s ]
+SQL: SELECT * FROM `provinceline_art` WHERE `Year` = 2012 AND `Batch` = '本科一批' AND `ProvinceId` = 10000 AND `SchoolId` = 62 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `provinceline_art` WHERE `Year` = 2013 AND `Batch` = '本科一批' AND `ProvinceId` = 10000 AND `SchoolId` = 62 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `provinceline_art` WHERE `Year` = 2014 AND `Batch` = '本科一批' AND `ProvinceId` = 10000 AND `SchoolId` = 62 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `provinceline_art` WHERE `Year` = 2012 AND `Batch` = '本科一批' AND `ProvinceId` = 10000 AND `SchoolId` = 120 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `provinceline_art` WHERE `Year` = 2013 AND `Batch` = '本科一批' AND `ProvinceId` = 10000 AND `SchoolId` = 120 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `provinceline_art` WHERE `Year` = 2014 AND `Batch` = '本科一批' AND `ProvinceId` = 10000 AND `SchoolId` = 120 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `provinceline_art` WHERE `Year` = 2012 AND `Batch` = '本科一批' AND `ProvinceId` = 10000 AND `SchoolId` = 1216 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `provinceline_art` WHERE `Year` = 2013 AND `Batch` = '本科一批' AND `ProvinceId` = 10000 AND `SchoolId` = 1216 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `provinceline_art` WHERE `Year` = 2014 AND `Batch` = '本科一批' AND `ProvinceId` = 10000 AND `SchoolId` = 1216 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `school` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `school` WHERE ( SchoolId='62' ) LIMIT 1   [ RunTime:0.0013s ]
+SQL: SELECT * FROM `school` WHERE ( SchoolId='120' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `school` WHERE ( SchoolId='1216' ) LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2016-03-07T22:55:13+08:00 ] 127.0.0.1 /gaokao/index.php/Home/Inqure/requst
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000328s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000408s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000451s ]
+SQL: SHOW COLUMNS FROM `batch_controlline` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `batch_controlline` WHERE ( Type='art' and Year=2012 and ProvinceId='10000' and Batch='本科一批' ) LIMIT 1   [ RunTime:0.0014s ]
+SQL: SELECT * FROM `batch_controlline` WHERE ( Type='art' and Year=2013 and ProvinceId='10000' and Batch='本科一批' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `batch_controlline` WHERE ( Type='art' and Year=2014 and ProvinceId='10000' and Batch='本科一批' ) LIMIT 1   [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `provinceline_art` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `provinceline_art` WHERE ( `Average` >= 438 AND `Average` <= 438  ) AND `Year` = 2012 AND `ProvinceId` = 10000 AND `Batch` = '本科一批'  [ RunTime:0.0041s ]
+SQL: SELECT * FROM `provinceline_art` WHERE ( `Average` >= 448 AND `Average` <= 448  ) AND `Year` = 2013 AND `ProvinceId` = 10000 AND `Batch` = '本科一批'  [ RunTime:0.0020s ]
+SQL: SELECT * FROM `provinceline_art` WHERE ( `Average` >= 0 AND `Average` <= 0  ) AND `Year` = 2014 AND `ProvinceId` = 10000 AND `Batch` = '本科一批'  [ RunTime:0.0014s ]
+SQL: SELECT * FROM `provinceline_art` WHERE `Year` = 2012 AND `Batch` = '本科一批' AND `ProvinceId` = 10000 AND `SchoolId` = 62 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `provinceline_art` WHERE `Year` = 2013 AND `Batch` = '本科一批' AND `ProvinceId` = 10000 AND `SchoolId` = 62 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `provinceline_art` WHERE `Year` = 2014 AND `Batch` = '本科一批' AND `ProvinceId` = 10000 AND `SchoolId` = 62 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `provinceline_art` WHERE `Year` = 2012 AND `Batch` = '本科一批' AND `ProvinceId` = 10000 AND `SchoolId` = 120 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `provinceline_art` WHERE `Year` = 2013 AND `Batch` = '本科一批' AND `ProvinceId` = 10000 AND `SchoolId` = 120 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `provinceline_art` WHERE `Year` = 2014 AND `Batch` = '本科一批' AND `ProvinceId` = 10000 AND `SchoolId` = 120 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `provinceline_art` WHERE `Year` = 2012 AND `Batch` = '本科一批' AND `ProvinceId` = 10000 AND `SchoolId` = 1216 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `provinceline_art` WHERE `Year` = 2013 AND `Batch` = '本科一批' AND `ProvinceId` = 10000 AND `SchoolId` = 1216 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `provinceline_art` WHERE `Year` = 2014 AND `Batch` = '本科一批' AND `ProvinceId` = 10000 AND `SchoolId` = 1216 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `school` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `school` WHERE ( SchoolId='62' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `school` WHERE ( SchoolId='120' ) LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `school` WHERE ( SchoolId='1216' ) LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2016-03-07T22:55:14+08:00 ] 127.0.0.1 /gaokao/index.php/Home/Inqure/requst
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000324s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000471s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000520s ]
+SQL: SHOW COLUMNS FROM `batch_controlline` [ RunTime:0.0015s ]
+SQL: SELECT * FROM `batch_controlline` WHERE ( Type='art' and Year=2012 and ProvinceId='10000' and Batch='本科一批' ) LIMIT 1   [ RunTime:0.0015s ]
+SQL: SELECT * FROM `batch_controlline` WHERE ( Type='art' and Year=2013 and ProvinceId='10000' and Batch='本科一批' ) LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `batch_controlline` WHERE ( Type='art' and Year=2014 and ProvinceId='10000' and Batch='本科一批' ) LIMIT 1   [ RunTime:0.0026s ]
+SQL: SHOW COLUMNS FROM `provinceline_art` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `provinceline_art` WHERE ( `Average` >= 438 AND `Average` <= 438  ) AND `Year` = 2012 AND `ProvinceId` = 10000 AND `Batch` = '本科一批'  [ RunTime:0.0015s ]
+SQL: SELECT * FROM `provinceline_art` WHERE ( `Average` >= 448 AND `Average` <= 448  ) AND `Year` = 2013 AND `ProvinceId` = 10000 AND `Batch` = '本科一批'  [ RunTime:0.0014s ]
+SQL: SELECT * FROM `provinceline_art` WHERE ( `Average` >= 0 AND `Average` <= 0  ) AND `Year` = 2014 AND `ProvinceId` = 10000 AND `Batch` = '本科一批'  [ RunTime:0.0014s ]
+SQL: SELECT * FROM `provinceline_art` WHERE `Year` = 2012 AND `Batch` = '本科一批' AND `ProvinceId` = 10000 AND `SchoolId` = 62 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `provinceline_art` WHERE `Year` = 2013 AND `Batch` = '本科一批' AND `ProvinceId` = 10000 AND `SchoolId` = 62 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `provinceline_art` WHERE `Year` = 2014 AND `Batch` = '本科一批' AND `ProvinceId` = 10000 AND `SchoolId` = 62 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `provinceline_art` WHERE `Year` = 2012 AND `Batch` = '本科一批' AND `ProvinceId` = 10000 AND `SchoolId` = 120 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `provinceline_art` WHERE `Year` = 2013 AND `Batch` = '本科一批' AND `ProvinceId` = 10000 AND `SchoolId` = 120 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `provinceline_art` WHERE `Year` = 2014 AND `Batch` = '本科一批' AND `ProvinceId` = 10000 AND `SchoolId` = 120 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `provinceline_art` WHERE `Year` = 2012 AND `Batch` = '本科一批' AND `ProvinceId` = 10000 AND `SchoolId` = 1216 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `provinceline_art` WHERE `Year` = 2013 AND `Batch` = '本科一批' AND `ProvinceId` = 10000 AND `SchoolId` = 1216 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `provinceline_art` WHERE `Year` = 2014 AND `Batch` = '本科一批' AND `ProvinceId` = 10000 AND `SchoolId` = 1216 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `school` [ RunTime:0.0013s ]
+SQL: SELECT * FROM `school` WHERE ( SchoolId='62' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `school` WHERE ( SchoolId='120' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `school` WHERE ( SchoolId='1216' ) LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2016-03-07T22:57:35+08:00 ] 127.0.0.1 /gaokao/index.php/Home/Inqure
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000746s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000728s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000773s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000044s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000073s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006026s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006068s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000370s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000398s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000574s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000597s ]
+
+[ 2016-03-07T22:57:36+08:00 ] 127.0.0.1 /gaokao/index.php/Home/Inqure/requst
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000285s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000430s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000459s ]
+SQL: SHOW COLUMNS FROM `batch_controlline` [ RunTime:0.0022s ]
+SQL: SELECT * FROM `batch_controlline` WHERE ( Type='art' and Year=2012 and ProvinceId='10000' and Batch='本科一批' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `batch_controlline` WHERE ( Type='art' and Year=2013 and ProvinceId='10000' and Batch='本科一批' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `batch_controlline` WHERE ( Type='art' and Year=2014 and ProvinceId='10000' and Batch='本科一批' ) LIMIT 1   [ RunTime:0.0016s ]
+SQL: SHOW COLUMNS FROM `provinceline_art` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `provinceline_art` WHERE ( `Average` >= 438 AND `Average` <= 438  ) AND `Year` = 2012 AND `ProvinceId` = 10000 AND `Batch` = '本科一批'  [ RunTime:0.0014s ]
+SQL: SELECT * FROM `provinceline_art` WHERE ( `Average` >= 448 AND `Average` <= 448  ) AND `Year` = 2013 AND `ProvinceId` = 10000 AND `Batch` = '本科一批'  [ RunTime:0.0014s ]
+SQL: SELECT * FROM `provinceline_art` WHERE ( `Average` >= 0 AND `Average` <= 0  ) AND `Year` = 2014 AND `ProvinceId` = 10000 AND `Batch` = '本科一批'  [ RunTime:0.0013s ]
+SQL: SELECT * FROM `provinceline_art` WHERE `Year` = 2012 AND `Batch` = '本科一批' AND `ProvinceId` = 10000 AND `SchoolId` = 62 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `provinceline_art` WHERE `Year` = 2013 AND `Batch` = '本科一批' AND `ProvinceId` = 10000 AND `SchoolId` = 62 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `provinceline_art` WHERE `Year` = 2014 AND `Batch` = '本科一批' AND `ProvinceId` = 10000 AND `SchoolId` = 62 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `provinceline_art` WHERE `Year` = 2012 AND `Batch` = '本科一批' AND `ProvinceId` = 10000 AND `SchoolId` = 120 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `provinceline_art` WHERE `Year` = 2013 AND `Batch` = '本科一批' AND `ProvinceId` = 10000 AND `SchoolId` = 120 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `provinceline_art` WHERE `Year` = 2014 AND `Batch` = '本科一批' AND `ProvinceId` = 10000 AND `SchoolId` = 120 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `provinceline_art` WHERE `Year` = 2012 AND `Batch` = '本科一批' AND `ProvinceId` = 10000 AND `SchoolId` = 1216 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `provinceline_art` WHERE `Year` = 2013 AND `Batch` = '本科一批' AND `ProvinceId` = 10000 AND `SchoolId` = 1216 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `provinceline_art` WHERE `Year` = 2014 AND `Batch` = '本科一批' AND `ProvinceId` = 10000 AND `SchoolId` = 1216 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `school` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `school` WHERE ( SchoolId='62' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `school` WHERE ( SchoolId='120' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `school` WHERE ( SchoolId='1216' ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2016-03-07T22:57:45+08:00 ] 127.0.0.1 /gaokao/index.php/Home/Inqure/requst
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000170s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000354s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000385s ]
+SQL: SHOW COLUMNS FROM `batch_controlline` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `batch_controlline` WHERE ( Type='art' and Year=2012 and ProvinceId='10000' and Batch='本科一批' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `batch_controlline` WHERE ( Type='art' and Year=2013 and ProvinceId='10000' and Batch='本科一批' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `batch_controlline` WHERE ( Type='art' and Year=2014 and ProvinceId='10000' and Batch='本科一批' ) LIMIT 1   [ RunTime:0.0019s ]
+SQL: SHOW COLUMNS FROM `provinceline_art` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `provinceline_art` WHERE ( `Average` >= 438 AND `Average` <= 438  ) AND `Year` = 2012 AND `ProvinceId` = 10000 AND `Batch` = '本科一批'  [ RunTime:0.0015s ]
+SQL: SELECT * FROM `provinceline_art` WHERE ( `Average` >= 448 AND `Average` <= 448  ) AND `Year` = 2013 AND `ProvinceId` = 10000 AND `Batch` = '本科一批'  [ RunTime:0.0014s ]
+SQL: SELECT * FROM `provinceline_art` WHERE ( `Average` >= 0 AND `Average` <= 0  ) AND `Year` = 2014 AND `ProvinceId` = 10000 AND `Batch` = '本科一批'  [ RunTime:0.0014s ]
+SQL: SELECT * FROM `provinceline_art` WHERE `Year` = 2012 AND `Batch` = '本科一批' AND `ProvinceId` = 10000 AND `SchoolId` = 62 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `provinceline_art` WHERE `Year` = 2013 AND `Batch` = '本科一批' AND `ProvinceId` = 10000 AND `SchoolId` = 62 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `provinceline_art` WHERE `Year` = 2014 AND `Batch` = '本科一批' AND `ProvinceId` = 10000 AND `SchoolId` = 62 LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT * FROM `provinceline_art` WHERE `Year` = 2012 AND `Batch` = '本科一批' AND `ProvinceId` = 10000 AND `SchoolId` = 120 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `provinceline_art` WHERE `Year` = 2013 AND `Batch` = '本科一批' AND `ProvinceId` = 10000 AND `SchoolId` = 120 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `provinceline_art` WHERE `Year` = 2014 AND `Batch` = '本科一批' AND `ProvinceId` = 10000 AND `SchoolId` = 120 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `provinceline_art` WHERE `Year` = 2012 AND `Batch` = '本科一批' AND `ProvinceId` = 10000 AND `SchoolId` = 1216 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `provinceline_art` WHERE `Year` = 2013 AND `Batch` = '本科一批' AND `ProvinceId` = 10000 AND `SchoolId` = 1216 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `provinceline_art` WHERE `Year` = 2014 AND `Batch` = '本科一批' AND `ProvinceId` = 10000 AND `SchoolId` = 1216 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `school` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `school` WHERE ( SchoolId='62' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `school` WHERE ( SchoolId='120' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `school` WHERE ( SchoolId='1216' ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2016-03-07T22:57:47+08:00 ] 127.0.0.1 /gaokao/index.php/Home/Inqure/requst
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000168s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000213s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000233s ]
+SQL: SHOW COLUMNS FROM `batch_controlline` [ RunTime:0.0019s ]
+SQL: SELECT * FROM `batch_controlline` WHERE ( Type='art' and Year=2012 and ProvinceId='10000' and Batch='本科一批' ) LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `batch_controlline` WHERE ( Type='art' and Year=2013 and ProvinceId='10000' and Batch='本科一批' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `batch_controlline` WHERE ( Type='art' and Year=2014 and ProvinceId='10000' and Batch='本科一批' ) LIMIT 1   [ RunTime:0.0016s ]
+SQL: SHOW COLUMNS FROM `provinceline_art` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `provinceline_art` WHERE ( `Average` >= 438 AND `Average` <= 438  ) AND `Year` = 2012 AND `ProvinceId` = 10000 AND `Batch` = '本科一批'  [ RunTime:0.0014s ]
+SQL: SELECT * FROM `provinceline_art` WHERE ( `Average` >= 448 AND `Average` <= 448  ) AND `Year` = 2013 AND `ProvinceId` = 10000 AND `Batch` = '本科一批'  [ RunTime:0.0015s ]
+SQL: SELECT * FROM `provinceline_art` WHERE ( `Average` >= 0 AND `Average` <= 0  ) AND `Year` = 2014 AND `ProvinceId` = 10000 AND `Batch` = '本科一批'  [ RunTime:0.0018s ]
+SQL: SELECT * FROM `provinceline_art` WHERE `Year` = 2012 AND `Batch` = '本科一批' AND `ProvinceId` = 10000 AND `SchoolId` = 62 LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `provinceline_art` WHERE `Year` = 2013 AND `Batch` = '本科一批' AND `ProvinceId` = 10000 AND `SchoolId` = 62 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `provinceline_art` WHERE `Year` = 2014 AND `Batch` = '本科一批' AND `ProvinceId` = 10000 AND `SchoolId` = 62 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `provinceline_art` WHERE `Year` = 2012 AND `Batch` = '本科一批' AND `ProvinceId` = 10000 AND `SchoolId` = 120 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `provinceline_art` WHERE `Year` = 2013 AND `Batch` = '本科一批' AND `ProvinceId` = 10000 AND `SchoolId` = 120 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `provinceline_art` WHERE `Year` = 2014 AND `Batch` = '本科一批' AND `ProvinceId` = 10000 AND `SchoolId` = 120 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `provinceline_art` WHERE `Year` = 2012 AND `Batch` = '本科一批' AND `ProvinceId` = 10000 AND `SchoolId` = 1216 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `provinceline_art` WHERE `Year` = 2013 AND `Batch` = '本科一批' AND `ProvinceId` = 10000 AND `SchoolId` = 1216 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `provinceline_art` WHERE `Year` = 2014 AND `Batch` = '本科一批' AND `ProvinceId` = 10000 AND `SchoolId` = 1216 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `school` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `school` WHERE ( SchoolId='62' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `school` WHERE ( SchoolId='120' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `school` WHERE ( SchoolId='1216' ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2016-03-07T22:58:38+08:00 ] 127.0.0.1 /gaokao/index.php/Home/Inqure
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000329s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000430s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000472s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000055s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000089s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005212s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005241s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000106s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000123s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000289s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000307s ]
+
+[ 2016-03-07T23:03:24+08:00 ] 127.0.0.1 /gaokao/index.php/Home/Inqure
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000767s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000714s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000759s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000046s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000077s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005533s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005578s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000497s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000532s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000742s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000773s ]
+
+[ 2016-03-07T23:05:16+08:00 ] 127.0.0.1 /gaokao/index.php/Home/Inqure
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000672s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000637s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000676s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000045s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000076s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005936s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005986s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000455s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000488s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000672s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000706s ]
+
+[ 2016-03-07T23:09:39+08:00 ] 127.0.0.1 /gaokao/index.php/Home/Inqure
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000701s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000675s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000722s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000085s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000121s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005754s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005790s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000365s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000391s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000789s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000819s ]
+
+[ 2016-03-07T23:09:49+08:00 ] 127.0.0.1 /gaokao/index.php/Home/Inqure
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000215s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000302s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000334s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000043s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000068s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003013s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003034s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000103s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000116s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000246s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000263s ]
+
+[ 2016-03-07T23:09:57+08:00 ] 127.0.0.1 /gaokao/index.php/Home/Inqure
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000181s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000228s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000250s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000057s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000103s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003803s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003832s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000108s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000124s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000278s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000295s ]
+
+[ 2016-03-07T23:09:59+08:00 ] 127.0.0.1 /gaokao/index.php/Home/Inqure
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000235s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000258s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000280s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000042s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000068s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003457s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003488s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000121s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000140s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000390s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000418s ]
+
+[ 2016-03-07T23:10:14+08:00 ] 127.0.0.1 /gaokao/index.php/Home/Inqure
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000173s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000243s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000264s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000042s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000064s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002857s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002878s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000096s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000112s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000263s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000283s ]
+
+[ 2016-03-07T23:10:22+08:00 ] 127.0.0.1 /gaokao/index.php/Home/Inqure
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000163s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000211s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000231s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000087s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000134s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003910s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003936s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000112s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000131s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000524s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000546s ]
+
+[ 2016-03-07T23:10:48+08:00 ] 127.0.0.1 /gaokao/index.php/Home/Inqure
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000315s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000270s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000298s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000047s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000075s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004997s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005037s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000108s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000124s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000280s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000298s ]
+
+[ 2016-03-07T23:11:51+08:00 ] 127.0.0.1 /gaokao/index.php/Home/Inqure
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000157s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000205s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000225s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000044s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000074s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004537s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004561s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000105s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000119s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000246s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000263s ]
+
+[ 2016-03-07T23:12:07+08:00 ] 127.0.0.1 /gaokao/index.php/Home/Inqure
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000189s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000234s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000257s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000047s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000075s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003131s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003155s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000322s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000392s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000329s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000359s ]
+
+[ 2016-03-07T23:12:19+08:00 ] 127.0.0.1 /gaokao/index.php/Home/Inqure
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000159s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000221s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000244s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000044s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000072s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004293s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004316s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000095s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000119s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000273s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000290s ]
+
+[ 2016-03-07T23:12:29+08:00 ] 127.0.0.1 /gaokao/index.php/Home/Inqure
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000200s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000456s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000483s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000043s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000067s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004006s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004032s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000107s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000121s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000296s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000314s ]
+
+[ 2016-03-07T23:12:42+08:00 ] 127.0.0.1 /gaokao/index.php/Home/Inqure
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000161s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000464s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000568s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000044s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000072s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004980s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005010s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000108s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000129s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000242s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000257s ]
+
+[ 2016-03-07T23:12:47+08:00 ] 127.0.0.1 /gaokao/index.php/Home/Inqure
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000224s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000206s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000226s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000086s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000173s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004877s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004948s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000165s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000190s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000752s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000798s ]
+
+[ 2016-03-07T23:13:34+08:00 ] 127.0.0.1 /gaokao/index.php/Home/Inqure
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000213s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000223s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000258s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000042s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000064s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002862s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002883s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000112s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000124s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000343s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000364s ]
+
+[ 2016-03-07T23:14:53+08:00 ] 127.0.0.1 /gaokao/index.php/Home/Inqure
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000218s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000301s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000334s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000054s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000099s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005066s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005111s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000182s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000211s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000513s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000547s ]
+
+[ 2016-03-07T23:16:20+08:00 ] 127.0.0.1 /gaokao/index.php/Home/Inqure
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000167s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000212s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000230s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000045s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000073s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004553s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004581s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000108s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000122s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000250s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000266s ]
+
+[ 2016-03-07T23:16:33+08:00 ] 127.0.0.1 /gaokao/index.php/Home/Inqure
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000185s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000207s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000227s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000045s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000071s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003042s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003064s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000102s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000128s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000257s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000274s ]
+
+[ 2016-03-07T23:16:59+08:00 ] 127.0.0.1 /gaokao/index.php/Home/Inqure
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000161s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000204s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000224s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000056s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000087s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003028s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003066s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000106s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000121s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000332s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000355s ]
+
+[ 2016-03-07T23:17:13+08:00 ] 127.0.0.1 /gaokao/index.php/Home/Inqure
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000187s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000254s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000275s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000047s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000074s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003355s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003380s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000096s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000111s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000271s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000288s ]
+
+[ 2016-03-07T23:18:37+08:00 ] 127.0.0.1 /gaokao/index.php/Home/Inqure
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000758s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000679s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000718s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000061s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000099s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005606s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005653s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000581s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000619s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000789s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000828s ]
+
+[ 2016-03-07T23:19:07+08:00 ] 127.0.0.1 /gaokao/index.php/Home/Inqure
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000163s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000206s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000226s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000044s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000067s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002899s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002919s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000128s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000143s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000246s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000261s ]
+
+[ 2016-03-07T23:19:28+08:00 ] 127.0.0.1 /gaokao/index.php/Home/Inqure
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000161s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000206s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000226s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000046s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000073s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004446s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004490s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000099s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000114s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000255s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000272s ]
+
+[ 2016-03-07T23:19:35+08:00 ] 127.0.0.1 /gaokao/index.php/Home/Inqure
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000163s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000206s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000227s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000078s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000116s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003291s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003321s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000115s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000131s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000293s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000311s ]
+
+[ 2016-03-07T23:24:18+08:00 ] 127.0.0.1 /gaokao/index.php/Home/Inqure
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000716s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000696s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000742s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000047s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000077s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005281s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005322s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000491s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000523s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000699s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000731s ]
+
+[ 2016-03-07T23:24:34+08:00 ] 127.0.0.1 /gaokao/index.php/Home/Inqure
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000888s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000716s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000763s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000059s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000096s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005675s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005712s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000385s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000415s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000832s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000863s ]
+
+[ 2016-03-07T23:24:45+08:00 ] 127.0.0.1 /gaokao/index.php/Home/Inqure
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000226s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000302s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000335s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000042s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000065s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002908s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002929s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000110s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000124s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000240s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000255s ]
+
+[ 2016-03-07T23:29:08+08:00 ] 127.0.0.1 /gaokao/index.php/Home/Inqure
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000672s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000697s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000811s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000047s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000078s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005802s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005840s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000519s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000549s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000737s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000769s ]
+
+[ 2016-03-07T23:29:09+08:00 ] 127.0.0.1 /gaokao/index.php/Home/Inqure
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000375s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000577s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000625s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000054s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000102s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006650s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006688s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000110s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000126s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000318s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000335s ]
+
+[ 2016-03-07T23:29:18+08:00 ] 127.0.0.1 /gaokao/index.php/Home/Inqure
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000190s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000355s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000387s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000049s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000083s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004381s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004453s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000263s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000300s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000355s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000383s ]
+
+[ 2016-03-07T23:29:24+08:00 ] 127.0.0.1 /gaokao/index.php/Home/Inqure
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000160s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000208s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000228s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000049s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000078s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003093s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003122s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000417s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000478s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000313s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000347s ]
+
+[ 2016-03-07T23:29:31+08:00 ] 127.0.0.1 /gaokao/index.php/Home/Inqure
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000185s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000296s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000371s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000051s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000086s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005789s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005834s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000105s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000123s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000283s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000302s ]
+
+[ 2016-03-07T23:29:33+08:00 ] 127.0.0.1 /gaokao/index.php/Home/Inqure
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000222s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000283s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000311s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000073s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000112s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005125s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005159s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000135s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000158s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000398s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000425s ]
+
+[ 2016-03-07T23:29:39+08:00 ] 127.0.0.1 /gaokao/index.php/Home/Inqure
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000771s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000576s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000631s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000062s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000117s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004827s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004878s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000165s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000192s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000465s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000500s ]
+
+[ 2016-03-07T23:30:36+08:00 ] 127.0.0.1 /gaokao/index.php/Home/Inqure
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000221s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000268s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000289s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000044s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000066s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003904s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003925s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000103s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000119s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000284s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000301s ]
+
+[ 2016-03-07T23:30:38+08:00 ] 127.0.0.1 /gaokao/index.php/Home/Inqure
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000266s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000329s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000357s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000056s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000105s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005137s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005176s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000136s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000157s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000368s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000391s ]
+
+[ 2016-03-07T23:38:21+08:00 ] 127.0.0.1 /gaokao/index.php/Home/Inqure
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000687s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000775s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000824s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000051s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000210s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006602s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006643s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000455s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000489s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000724s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000754s ]
+
+[ 2016-03-07T23:38:34+08:00 ] 127.0.0.1 /gaokao/index.php/Home/Inqure
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000310s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000238s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000259s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000050s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000080s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003522s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003553s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000092s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000110s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000264s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000281s ]
+
+[ 2016-03-07T23:39:20+08:00 ] 127.0.0.1 /gaokao/index.php/Home/Inqure
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000163s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000210s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000230s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000044s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000081s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003022s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003043s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000081s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000095s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000241s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000257s ]
+
+[ 2016-03-07T23:40:03+08:00 ] 127.0.0.1 /gaokao/index.php/Home/Inqure
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000462s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000502s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000527s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000046s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000076s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004890s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004922s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000389s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000413s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000699s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000733s ]
+
+[ 2016-03-07T23:40:14+08:00 ] 127.0.0.1 /gaokao/index.php/Home/Inqure
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000173s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000225s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000246s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000048s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000074s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003470s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003511s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000139s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000166s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000322s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000341s ]
+
+[ 2016-03-07T23:53:38+08:00 ] 127.0.0.1 /gaokao/index.php/Home/Inqure
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000520s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000539s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000564s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000059s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000097s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006073s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006119s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000517s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000554s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000773s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000811s ]
+
+[ 2016-03-07T23:54:05+08:00 ] 127.0.0.1 /gaokao/index.php/Home/Inqure
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000215s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000277s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000303s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000074s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000117s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004400s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004491s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000133s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000159s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000613s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000639s ]
+
+[ 2016-03-07T23:54:18+08:00 ] 127.0.0.1 /gaokao/index.php/Home/Inqure
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000219s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000284s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000310s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000057s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000085s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004465s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004494s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000105s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000122s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000328s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000348s ]
+
+[ 2016-03-07T23:55:11+08:00 ] 127.0.0.1 /gaokao/index.php/Home/Inqure
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000157s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000205s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000225s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000044s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000067s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002904s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002926s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000111s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000125s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000237s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000254s ]
+

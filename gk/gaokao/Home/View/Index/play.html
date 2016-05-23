@@ -1,0 +1,49 @@
+<html>
+<head>
+<meta charset = 'utf-8'>
+<title>playground</title>
+<style>
+    #line{
+        text-align: center;
+        margin-top: 200px;
+        width: 100%;
+        height: 20px;
+        background: red;
+
+    }
+</style>
+</head>
+<body>
+    <button id = 'todo'>执行</button>
+    <div id = 'line'><p>0%</p></div>
+    <script type="text/javascript" src="__PUBLIC__/js/jquery.gracefulWebSocket.js"></script>
+    <script type="text/javascript" src="__PUBLIC__/js/jquery.min.js"></script>
+    <script>
+    var line = 0;
+    $(function () {
+        getA();
+
+    })
+    function getA(){
+        $('#todo').on('click', function() {
+            $.get('http://zxc/gaokao/index.php/Home/Index/echo',success:function(data){
+                if (data['jindu'] = '100' ) {
+                    return 0;
+                }else{
+                    line = data;
+                    getA();
+                }
+            });
+        });
+    }
+    function updataCss(data){
+        $l = $('#line')
+        $l.css({
+            'width': data+'%'
+        })
+        $l.find('p').html($data+'%')
+    }
+    </script>
+</body>
+
+</html>

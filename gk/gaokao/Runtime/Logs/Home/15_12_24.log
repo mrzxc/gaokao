@@ -1,0 +1,55 @@
+[ 2015-12-24T14:36:08+08:00 ] 127.0.0.1 /gaokao/index.php/Home/Inqure/getProvinceLine
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001569s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000699s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000734s ]
+SQL: SHOW COLUMNS FROM `batch_controlline` [ RunTime:0.0148s ]
+SQL: SELECT * FROM `batch_controlline` WHERE `Year` = 2012 AND `Type` = 'art' AND `ProvinceId` = 10000 AND `Batch` = '本科一批'  [ RunTime:0.0440s ]
+SQL: SELECT * FROM `batch_controlline` WHERE `Year` = 2012 AND `Type` = 'art' AND `ProvinceId` = 10000 AND `Batch` = '本科二批'  [ RunTime:0.0031s ]
+
+[ 2015-12-24T14:36:12+08:00 ] 127.0.0.1 /gaokao/index.php/Home/Inqure/getProvinceLine
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000168s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000206s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000226s ]
+SQL: SHOW COLUMNS FROM `batch_controlline` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `batch_controlline` WHERE `Year` = 2012 AND `Type` = 'art' AND `ProvinceId` = 10000 AND `Batch` = '本科一批'  [ RunTime:0.0016s ]
+SQL: SELECT * FROM `batch_controlline` WHERE `Year` = 2012 AND `Type` = 'art' AND `ProvinceId` = 10000 AND `Batch` = '本科二批'  [ RunTime:0.0015s ]
+
+[ 2015-12-24T14:36:18+08:00 ] 127.0.0.1 /gaokao/index.php/Home/Inqure/getProvinceLine
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000249s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000271s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000292s ]
+SQL: SHOW COLUMNS FROM `batch_controlline` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `batch_controlline` WHERE `Year` = 2012 AND `Type` = 'art' AND `ProvinceId` = 10000 AND `Batch` = '本科一批'  [ RunTime:0.0023s ]
+SQL: SELECT * FROM `batch_controlline` WHERE `Year` = 2012 AND `Type` = 'art' AND `ProvinceId` = 10000 AND `Batch` = '本科二批'  [ RunTime:0.0016s ]
+
+[ 2015-12-24T14:36:54+08:00 ] 127.0.0.1 /gaokao/index.php/Home/Inqure/getProvinceLine
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000230s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000265s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000285s ]
+SQL: SHOW COLUMNS FROM `batch_controlline` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `batch_controlline` WHERE `Year` = 2012 AND `Type` = 'art' AND `ProvinceId` = 10000 AND `Batch` = '本科一批'  [ RunTime:0.0018s ]
+SQL: SELECT * FROM `batch_controlline` WHERE `Year` = 2012 AND `Type` = 'art' AND `ProvinceId` = 10000 AND `Batch` = '本科二批'  [ RunTime:0.0016s ]
+
+[ 2015-12-24T14:36:57+08:00 ] 127.0.0.1 /gaokao/index.php/Home/Inqure/getProvinceLine
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000163s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000208s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000227s ]
+SQL: SHOW COLUMNS FROM `batch_controlline` [ RunTime:0.0013s ]
+SQL: SELECT * FROM `batch_controlline` WHERE `Year` = 2012 AND `Type` = 'art' AND `ProvinceId` = 10000 AND `Batch` = '本科一批'  [ RunTime:0.0017s ]
+SQL: SELECT * FROM `batch_controlline` WHERE `Year` = 2012 AND `Type` = 'art' AND `ProvinceId` = 10000 AND `Batch` = '本科二批'  [ RunTime:0.0016s ]
+

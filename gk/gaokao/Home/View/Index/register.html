@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- 上述3个meta标签*必须*放在最前面，任何其他内容都*必须*跟随其后！ -->
+    <title>register</title>
+
+    <!-- Bootstrap -->
+    <link href="__PUBLIC__/css/bootstrap.min.css" rel="stylesheet">
+    <style >
+        nav{
+      background-color: rgb(248, 248, 248);
+      margin: 0px;
+      padding: 0px;
+    }
+      .navbar-text{
+        color: white;
+      }
+
+      .navbar-text{
+        margin-top: 5px;
+        background-color: #55c28b;
+      }
+      .form{
+        padding-top: 50px;
+      }
+    </style>
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="//cdn.bootcss.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="//cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+       <nav class="navbar navbar-fixed-top " role="navgation">
+        <div class="container">
+          <div id="navbar" class="collapse navbar-collapse">
+            <ul class="nav navbar-nav">
+              <li class="active" ><a href="/gaokao/index.php/Home/index" class="navbar-text">主页</a></li>
+              <li><a href="/gaokao/index.php/Home/Inqure" class="navbar-text">辅助志愿填报系统</a></li>
+              <li><a href="#" class="navbar-text">联系我们</a></li>
+            </ul>
+
+          </div>
+        </div>
+      </nav>
+      <div class="col-md-5 form ">
+        <form action="/gaokao/index.php/Home/Login" method="post">
+        <div class="form-group">
+          <label for="username">账号：</label>
+          <input type="text" class="form-control" name="username" value="" >
+        </div>
+        <div class="form-group">
+          <label for="password">密码：</label>
+          <input type="password" class="form-control" name="password">
+        </div>
+        <div class="form-group">
+          <label for="phonenumber">手机号：</label>
+          <input type="text" class="form-control" name="phonenumber">
+        </div>
+        <div class="form-group">
+          <label for="email">邮箱：</label>
+          <input type="text" class="form-control" name="email">
+        </div>
+        <div class="form-group">
+          <a href="/gaokao/index.php/Home/Register" class="btn btn-default" role="button">注册</a>
+        </div>
+        </form>
+        <a href="a" class="btn btn-default" role="button">返回登陆</a>
+      </div>
+
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="//cdn.bootcss.com/jquery/1.11.3/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="__PUBLIC__js/bootstrap.min.js"></script>
+  </body>
+</html>

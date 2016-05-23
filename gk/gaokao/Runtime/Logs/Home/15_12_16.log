@@ -1,0 +1,1750 @@
+[ 2015-12-16T22:16:29+08:00 ] 127.0.0.1 /gaokao/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001112s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000545s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000573s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000823s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000895s ]
+
+[ 2015-12-16T22:17:06+08:00 ] 127.0.0.1 /gaokao/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000223s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000260s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000280s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000029s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000061s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009129s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009245s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000512s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000551s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000440s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000462s ]
+
+[ 2015-12-16T22:17:08+08:00 ] 127.0.0.1 /gaokao/index.php/Home/Inqure
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000223s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000263s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000283s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000053s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000085s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006266s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006292s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000110s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000128s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000413s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000436s ]
+
+[ 2015-12-16T22:17:12+08:00 ] 127.0.0.1 /gaokao/index.php/Home/Inqure/requst
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000164s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000228s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000250s ]
+SQL: SHOW COLUMNS FROM `batch_controlline` [ RunTime:0.0237s ]
+SQL: SELECT * FROM `batch_controlline` WHERE ( Type='art' and Year=2013 and ProvinceId='10000' and Batch='本科一批' ) LIMIT 1   [ RunTime:0.0147s ]
+SQL: SHOW COLUMNS FROM `provinceline_art` [ RunTime:0.0018s ]
+SQL: SELECT * FROM `provinceline_art` WHERE ( Year=2013 and ProvinceId='10000' ) AND ( `Average` > 445 AND `Average` < 450  )  [ RunTime:0.0248s ]
+SQL: SHOW COLUMNS FROM `school` [ RunTime:0.0014s ]
+SQL: SELECT * FROM `school` WHERE ( SchoolId='43' ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `provinceline_art` WHERE ( SchoolId='43' and Year='2012' and ProvinceId='10000' ) LIMIT 1   [ RunTime:0.0016s ]
+SQL: SELECT * FROM `provinceline_art` WHERE ( SchoolId='43' and Year='2013' and ProvinceId='10000' ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `provinceline_art` WHERE ( SchoolId='43' and Year='2014' and ProvinceId='10000' ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `school` WHERE ( SchoolId='62' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `provinceline_art` WHERE ( SchoolId='62' and Year='2012' and ProvinceId='10000' ) LIMIT 1   [ RunTime:0.0031s ]
+SQL: SELECT * FROM `provinceline_art` WHERE ( SchoolId='62' and Year='2013' and ProvinceId='10000' ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `provinceline_art` WHERE ( SchoolId='62' and Year='2014' and ProvinceId='10000' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `school` WHERE ( SchoolId='120' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `provinceline_art` WHERE ( SchoolId='120' and Year='2012' and ProvinceId='10000' ) LIMIT 1   [ RunTime:0.0018s ]
+SQL: SELECT * FROM `provinceline_art` WHERE ( SchoolId='120' and Year='2013' and ProvinceId='10000' ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `provinceline_art` WHERE ( SchoolId='120' and Year='2014' and ProvinceId='10000' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `school` WHERE ( SchoolId='319' ) LIMIT 1   [ RunTime:0.0009s ]
+SQL: SELECT * FROM `provinceline_art` WHERE ( SchoolId='319' and Year='2012' and ProvinceId='10000' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `provinceline_art` WHERE ( SchoolId='319' and Year='2013' and ProvinceId='10000' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `provinceline_art` WHERE ( SchoolId='319' and Year='2014' and ProvinceId='10000' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `school` WHERE ( SchoolId='320' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `provinceline_art` WHERE ( SchoolId='320' and Year='2012' and ProvinceId='10000' ) LIMIT 1   [ RunTime:0.0024s ]
+SQL: SELECT * FROM `provinceline_art` WHERE ( SchoolId='320' and Year='2013' and ProvinceId='10000' ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `provinceline_art` WHERE ( SchoolId='320' and Year='2014' and ProvinceId='10000' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `school` WHERE ( SchoolId='1216' ) LIMIT 1   [ RunTime:0.0021s ]
+SQL: SELECT * FROM `provinceline_art` WHERE ( SchoolId='1216' and Year='2012' and ProvinceId='10000' ) LIMIT 1   [ RunTime:0.0016s ]
+SQL: SELECT * FROM `provinceline_art` WHERE ( SchoolId='1216' and Year='2013' and ProvinceId='10000' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `provinceline_art` WHERE ( SchoolId='1216' and Year='2014' and ProvinceId='10000' ) LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2015-12-16T22:18:50+08:00 ] 127.0.0.1 /gaokao/index.php/Home/Inqure/requst
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000701s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000677s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000708s ]
+SQL: SHOW COLUMNS FROM `batch_controlline` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `batch_controlline` WHERE ( Type='art' and Year=2013 and ProvinceId='10000' and Batch='本科一批' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `provinceline_art` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `provinceline_art` WHERE ( Year=2013 and ProvinceId='10000' ) AND ( `Average` > 445 AND `Average` < 450  )  [ RunTime:0.0014s ]
+SQL: SHOW COLUMNS FROM `school` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `school` WHERE ( SchoolId='43' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `special_line_art` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `special_line_art` WHERE ( Year=2013 and ProvinceId='10000' and SchoolId='43' )  [ RunTime:0.5141s ]
+SQL: SELECT * FROM `special_line_art` WHERE ( Year=2013 and SchoolId=43 and ProvinceId='10000' and SpecialName='应用心理学' ) LIMIT 1   [ RunTime:0.0030s ]
+SQL: SELECT * FROM `special_line_art` WHERE ( Year=2013 and SchoolId=43 and ProvinceId='10000' and SpecialName='英语' ) LIMIT 1   [ RunTime:0.0009s ]
+SQL: SELECT * FROM `school` WHERE ( SchoolId='62' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `special_line_art` WHERE ( Year=2013 and ProvinceId='10000' and SchoolId='62' )  [ RunTime:0.3648s ]
+SQL: SELECT * FROM `special_line_art` WHERE ( Year=2013 and SchoolId=62 and ProvinceId='10000' and SpecialName='国际经济与贸易' ) LIMIT 1   [ RunTime:0.0011s ]
+SQL: SELECT * FROM `special_line_art` WHERE ( Year=2013 and SchoolId=62 and ProvinceId='10000' and SpecialName='新闻学' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `special_line_art` WHERE ( Year=2013 and SchoolId=62 and ProvinceId='10000' and SpecialName='金融学' ) LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT * FROM `school` WHERE ( SchoolId='120' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `special_line_art` WHERE ( Year=2013 and ProvinceId='10000' and SchoolId='120' )  [ RunTime:0.3699s ]
+SQL: SELECT * FROM `school` WHERE ( SchoolId='319' ) LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT * FROM `special_line_art` WHERE ( Year=2013 and ProvinceId='10000' and SchoolId='319' )  [ RunTime:0.3624s ]
+SQL: SELECT * FROM `special_line_art` WHERE ( Year=2013 and SchoolId=319 and ProvinceId='10000' and SpecialName='日语（商务日语方向）' ) LIMIT 1   [ RunTime:0.0016s ]
+SQL: SELECT * FROM `special_line_art` WHERE ( Year=2013 and SchoolId=319 and ProvinceId='10000' and SpecialName='汉语言文学（财经文秘方向）' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `special_line_art` WHERE ( Year=2013 and SchoolId=319 and ProvinceId='10000' and SpecialName='社会工作' ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `school` WHERE ( SchoolId='320' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `special_line_art` WHERE ( Year=2013 and ProvinceId='10000' and SchoolId='320' )  [ RunTime:0.3717s ]
+SQL: SELECT * FROM `special_line_art` WHERE ( Year=2013 and SchoolId=320 and ProvinceId='10000' and SpecialName='人力资源管理' ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `special_line_art` WHERE ( Year=2013 and SchoolId=320 and ProvinceId='10000' and SpecialName='会计学' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `special_line_art` WHERE ( Year=2013 and SchoolId=320 and ProvinceId='10000' and SpecialName='保险学' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `special_line_art` WHERE ( Year=2013 and SchoolId=320 and ProvinceId='10000' and SpecialName='信用管理' ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `special_line_art` WHERE ( Year=2013 and SchoolId=320 and ProvinceId='10000' and SpecialName='劳动与社会保障' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `special_line_art` WHERE ( Year=2013 and SchoolId=320 and ProvinceId='10000' and SpecialName='国际商务' ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `special_line_art` WHERE ( Year=2013 and SchoolId=320 and ProvinceId='10000' and SpecialName='国际经济与贸易' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `special_line_art` WHERE ( Year=2013 and SchoolId=320 and ProvinceId='10000' and SpecialName='审计学' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `special_line_art` WHERE ( Year=2013 and SchoolId=320 and ProvinceId='10000' and SpecialName='工商管理' ) LIMIT 1   [ RunTime:0.0009s ]
+SQL: SELECT * FROM `special_line_art` WHERE ( Year=2013 and SchoolId=320 and ProvinceId='10000' and SpecialName='市场营销' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `special_line_art` WHERE ( Year=2013 and SchoolId=320 and ProvinceId='10000' and SpecialName='法学' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `special_line_art` WHERE ( Year=2013 and SchoolId=320 and ProvinceId='10000' and SpecialName='物流管理' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `special_line_art` WHERE ( Year=2013 and SchoolId=320 and ProvinceId='10000' and SpecialName='税收学' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `special_line_art` WHERE ( Year=2013 and SchoolId=320 and ProvinceId='10000' and SpecialName='经济学' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `special_line_art` WHERE ( Year=2013 and SchoolId=320 and ProvinceId='10000' and SpecialName='英语' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `special_line_art` WHERE ( Year=2013 and SchoolId=320 and ProvinceId='10000' and SpecialName='行政管理' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `special_line_art` WHERE ( Year=2013 and SchoolId=320 and ProvinceId='10000' and SpecialName='财务管理' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `special_line_art` WHERE ( Year=2013 and SchoolId=320 and ProvinceId='10000' and SpecialName='财政学' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `special_line_art` WHERE ( Year=2013 and SchoolId=320 and ProvinceId='10000' and SpecialName='金融学' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `school` WHERE ( SchoolId='1216' ) LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `special_line_art` WHERE ( Year=2013 and ProvinceId='10000' and SchoolId='1216' )  [ RunTime:0.3679s ]
+SQL: SELECT * FROM `special_line_art` WHERE ( Year=2013 and SchoolId=1216 and ProvinceId='10000' and SpecialName='工商管理' ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `special_line_art` WHERE ( Year=2013 and SchoolId=1216 and ProvinceId='10000' and SpecialName='政治学类(中外合作办学)' ) LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2015-12-16T22:20:53+08:00 ] 127.0.0.1 /gaokao/index.php/Home/Inqure
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000713s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000797s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000838s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000041s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000069s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007478s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007521s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000601s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000647s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000975s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001015s ]
+
+[ 2015-12-16T22:20:58+08:00 ] 127.0.0.1 /gaokao/index.php/Home/Inqure/requst
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000179s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000271s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000295s ]
+SQL: SHOW COLUMNS FROM `batch_controlline` [ RunTime:0.0028s ]
+SQL: SELECT * FROM `batch_controlline` WHERE ( Type='art' and Year=2013 and ProvinceId='10000' and Batch='本科一批' ) LIMIT 1   [ RunTime:0.0013s ]
+SQL: SHOW COLUMNS FROM `provinceline_art` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `provinceline_art` WHERE ( Year=2013 and ProvinceId='10000' ) AND ( `Average` > 445 AND `Average` < 450  )  [ RunTime:0.0053s ]
+SQL: SHOW COLUMNS FROM `school` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `school` WHERE ( SchoolId='43' ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `special_line_art` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `special_line_art` WHERE ( Year=2013 and ProvinceId='10000' and SchoolId='43' )  [ RunTime:0.3863s ]
+SQL: SELECT * FROM `special_line_art` WHERE ( Year=2013 and SchoolId=43 and ProvinceId='10000' and SpecialName='应用心理学' ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `special_line_art` WHERE ( Year=2013 and SchoolId=43 and ProvinceId='10000' and SpecialName='英语' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `school` WHERE ( SchoolId='62' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `special_line_art` WHERE ( Year=2013 and ProvinceId='10000' and SchoolId='62' )  [ RunTime:0.3900s ]
+SQL: SELECT * FROM `special_line_art` WHERE ( Year=2013 and SchoolId=62 and ProvinceId='10000' and SpecialName='国际经济与贸易' ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `special_line_art` WHERE ( Year=2013 and SchoolId=62 and ProvinceId='10000' and SpecialName='新闻学' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `special_line_art` WHERE ( Year=2013 and SchoolId=62 and ProvinceId='10000' and SpecialName='金融学' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `school` WHERE ( SchoolId='120' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `special_line_art` WHERE ( Year=2013 and ProvinceId='10000' and SchoolId='120' )  [ RunTime:0.3804s ]
+SQL: SELECT * FROM `school` WHERE ( SchoolId='319' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `special_line_art` WHERE ( Year=2013 and ProvinceId='10000' and SchoolId='319' )  [ RunTime:0.3666s ]
+SQL: SELECT * FROM `special_line_art` WHERE ( Year=2013 and SchoolId=319 and ProvinceId='10000' and SpecialName='日语（商务日语方向）' ) LIMIT 1   [ RunTime:0.0011s ]
+SQL: SELECT * FROM `special_line_art` WHERE ( Year=2013 and SchoolId=319 and ProvinceId='10000' and SpecialName='汉语言文学（财经文秘方向）' ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `special_line_art` WHERE ( Year=2013 and SchoolId=319 and ProvinceId='10000' and SpecialName='社会工作' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `school` WHERE ( SchoolId='320' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `special_line_art` WHERE ( Year=2013 and ProvinceId='10000' and SchoolId='320' )  [ RunTime:0.3633s ]
+SQL: SELECT * FROM `special_line_art` WHERE ( Year=2013 and SchoolId=320 and ProvinceId='10000' and SpecialName='人力资源管理' ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `special_line_art` WHERE ( Year=2013 and SchoolId=320 and ProvinceId='10000' and SpecialName='会计学' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `special_line_art` WHERE ( Year=2013 and SchoolId=320 and ProvinceId='10000' and SpecialName='保险学' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `special_line_art` WHERE ( Year=2013 and SchoolId=320 and ProvinceId='10000' and SpecialName='信用管理' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `special_line_art` WHERE ( Year=2013 and SchoolId=320 and ProvinceId='10000' and SpecialName='劳动与社会保障' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `special_line_art` WHERE ( Year=2013 and SchoolId=320 and ProvinceId='10000' and SpecialName='国际商务' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `special_line_art` WHERE ( Year=2013 and SchoolId=320 and ProvinceId='10000' and SpecialName='国际经济与贸易' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `special_line_art` WHERE ( Year=2013 and SchoolId=320 and ProvinceId='10000' and SpecialName='审计学' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `special_line_art` WHERE ( Year=2013 and SchoolId=320 and ProvinceId='10000' and SpecialName='工商管理' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `special_line_art` WHERE ( Year=2013 and SchoolId=320 and ProvinceId='10000' and SpecialName='市场营销' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `special_line_art` WHERE ( Year=2013 and SchoolId=320 and ProvinceId='10000' and SpecialName='法学' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `special_line_art` WHERE ( Year=2013 and SchoolId=320 and ProvinceId='10000' and SpecialName='物流管理' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `special_line_art` WHERE ( Year=2013 and SchoolId=320 and ProvinceId='10000' and SpecialName='税收学' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `special_line_art` WHERE ( Year=2013 and SchoolId=320 and ProvinceId='10000' and SpecialName='经济学' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `special_line_art` WHERE ( Year=2013 and SchoolId=320 and ProvinceId='10000' and SpecialName='英语' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `special_line_art` WHERE ( Year=2013 and SchoolId=320 and ProvinceId='10000' and SpecialName='行政管理' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `special_line_art` WHERE ( Year=2013 and SchoolId=320 and ProvinceId='10000' and SpecialName='财务管理' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `special_line_art` WHERE ( Year=2013 and SchoolId=320 and ProvinceId='10000' and SpecialName='财政学' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `special_line_art` WHERE ( Year=2013 and SchoolId=320 and ProvinceId='10000' and SpecialName='金融学' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `school` WHERE ( SchoolId='1216' ) LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `special_line_art` WHERE ( Year=2013 and ProvinceId='10000' and SchoolId='1216' )  [ RunTime:0.3636s ]
+SQL: SELECT * FROM `special_line_art` WHERE ( Year=2013 and SchoolId=1216 and ProvinceId='10000' and SpecialName='工商管理' ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `special_line_art` WHERE ( Year=2013 and SchoolId=1216 and ProvinceId='10000' and SpecialName='政治学类(中外合作办学)' ) LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2015-12-16T23:24:30+08:00 ] 127.0.0.1 /gaokao/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000627s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000594s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000619s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000042s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000083s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008131s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008176s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000414s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000446s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000762s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000798s ]
+
+[ 2015-12-16T23:24:32+08:00 ] 127.0.0.1 /gaokao/index.php/Home/Inqure
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000164s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000217s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000238s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000028s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000070s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004555s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004619s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000120s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000138s ]
+
+[ 2015-12-16T23:24:35+08:00 ] 127.0.0.1 /gaokao/index.php/Home/Index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000166s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000262s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000283s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000024s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000044s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002645s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002667s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000193s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000221s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000286s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000306s ]
+
+[ 2015-12-16T23:24:38+08:00 ] 127.0.0.1 /gaokao/index.php/Home/Login/Login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000209s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000228s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000249s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000027s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000055s ]
+NOTIC: [8] Undefined variable: status /Users/mrzxc/Sites/gaokao/gaokao/Runtime/Cache/Home/cf03159e7429b6fc4b61413f2f543dd6.php 第 114 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002882s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002903s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000093s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000107s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000255s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000271s ]
+
+[ 2015-12-16T23:24:39+08:00 ] 127.0.0.1 /gaokao/index.php/Home/Login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000174s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000211s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000231s ]
+ERR: SQLSTATE[HY000] [2002] Connection refused
+
+[ 2015-12-16T23:26:11+08:00 ] 127.0.0.1 /gaokao/index.php/Home/Login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000227s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000241s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000263s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0099s ]
+SQL: SELECT * FROM `user` WHERE ( username='zxc' )  [ RunTime:0.0034s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000036s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000084s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009710s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009757s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000171s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000200s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000531s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000563s ]
+
+[ 2015-12-16T23:26:12+08:00 ] 127.0.0.1 /gaokao/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000165s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000208s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000228s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000039s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000071s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004819s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004850s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000114s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000136s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000252s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000270s ]
+
+[ 2015-12-16T23:26:56+08:00 ] 127.0.0.1 /gaokao/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000223s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000241s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000263s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000528s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000589s ]
+
+[ 2015-12-16T23:35:22+08:00 ] 127.0.0.1 /gaokao/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000686s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000751s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000798s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000845s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000906s ]
+
+[ 2015-12-16T23:35:23+08:00 ] 127.0.0.1 /gaokao/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000165s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000210s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000232s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000411s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000460s ]
+
+[ 2015-12-16T23:35:23+08:00 ] 127.0.0.1 /gaokao/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000203s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000234s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000309s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000443s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000488s ]
+
+[ 2015-12-16T23:35:24+08:00 ] 127.0.0.1 /gaokao/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000171s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000279s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000300s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000484s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000536s ]
+
+[ 2015-12-16T23:35:25+08:00 ] 127.0.0.1 /gaokao/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000166s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000210s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000230s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000430s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000474s ]
+
+[ 2015-12-16T23:35:35+08:00 ] 127.0.0.1 /gaokao/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000219s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000230s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000250s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000430s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000483s ]
+
+[ 2015-12-16T23:35:37+08:00 ] 127.0.0.1 /gaokao/index.php/Home/Inqure
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000166s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000296s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000321s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000042s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000072s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006860s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006903s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000372s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000401s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000290s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000309s ]
+
+[ 2015-12-16T23:35:41+08:00 ] 127.0.0.1 /gaokao/index.php/Home/Inqure/requst
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000190s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000236s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000256s ]
+SQL: SHOW COLUMNS FROM `batch_controlline` [ RunTime:0.0111s ]
+SQL: SELECT * FROM `batch_controlline` WHERE ( Type='art' and Year=2013 and ProvinceId='10000' and Batch='本科一批' ) LIMIT 1   [ RunTime:0.0064s ]
+SQL: SHOW COLUMNS FROM `special_line_art` [ RunTime:0.0145s ]
+SQL: SELECT * FROM `special_line_art` WHERE `Year` = '2013' AND `ProvinceId` = 10000 AND `SpecialName` = '' AND ( `Avg` > 445 AND `Avg` < 450  )  [ RunTime:0.0028s ]
+SQL: SHOW COLUMNS FROM `school` [ RunTime:0.0031s ]
+NOTIC: [8] Undefined variable: info /Users/mrzxc/Sites/gaokao/gaokao/Home/Controller/InqureController.class.php 第 162 行.
+
+[ 2015-12-16T23:35:46+08:00 ] 127.0.0.1 /gaokao/index.php/Home/Inqure/requst
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000172s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000215s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000236s ]
+SQL: SHOW COLUMNS FROM `batch_controlline` [ RunTime:0.0014s ]
+SQL: SELECT * FROM `batch_controlline` WHERE ( Type='art' and Year=2013 and ProvinceId='10000' and Batch='本科一批' ) LIMIT 1   [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `special_line_art` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `special_line_art` WHERE `Year` = '2013' AND `ProvinceId` = 10000 AND `SpecialName` = '法学' AND ( `Avg` > 445 AND `Avg` < 450  )  [ RunTime:0.0492s ]
+SQL: SHOW COLUMNS FROM `school` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `school` WHERE ( SchoolId='320' ) LIMIT 1   [ RunTime:0.0008s ]
+
+[ 2015-12-16T23:35:52+08:00 ] 127.0.0.1 /gaokao/index.php/Home/Inqure/requst
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000174s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000219s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000240s ]
+SQL: SHOW COLUMNS FROM `batch_controlline` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `batch_controlline` WHERE ( Type='art' and Year=2013 and ProvinceId='10000' and Batch='本科一批' ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `provinceline_art` [ RunTime:0.0112s ]
+SQL: SELECT * FROM `provinceline_art` WHERE ( Year=2013 and ProvinceId='10000' ) AND ( `Average` > 445 AND `Average` < 450  )  [ RunTime:0.0044s ]
+SQL: SHOW COLUMNS FROM `school` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `school` WHERE ( SchoolId='43' ) LIMIT 1   [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `special_line_art` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `special_line_art` WHERE ( Year=2013 and ProvinceId='10000' and SchoolId='43' )  [ RunTime:0.4600s ]
+SQL: SELECT * FROM `special_line_art` WHERE ( Year=2013 and SchoolId=43 and ProvinceId='10000' and SpecialName='应用心理学' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `special_line_art` WHERE ( Year=2013 and SchoolId=43 and ProvinceId='10000' and SpecialName='英语' ) LIMIT 1   [ RunTime:0.0009s ]
+SQL: SELECT * FROM `school` WHERE ( SchoolId='62' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `special_line_art` WHERE ( Year=2013 and ProvinceId='10000' and SchoolId='62' )  [ RunTime:0.3747s ]
+SQL: SELECT * FROM `special_line_art` WHERE ( Year=2013 and SchoolId=62 and ProvinceId='10000' and SpecialName='国际经济与贸易' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `special_line_art` WHERE ( Year=2013 and SchoolId=62 and ProvinceId='10000' and SpecialName='新闻学' ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `special_line_art` WHERE ( Year=2013 and SchoolId=62 and ProvinceId='10000' and SpecialName='金融学' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `school` WHERE ( SchoolId='120' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `special_line_art` WHERE ( Year=2013 and ProvinceId='10000' and SchoolId='120' )  [ RunTime:0.3795s ]
+SQL: SELECT * FROM `school` WHERE ( SchoolId='319' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `special_line_art` WHERE ( Year=2013 and ProvinceId='10000' and SchoolId='319' )  [ RunTime:0.3618s ]
+SQL: SELECT * FROM `special_line_art` WHERE ( Year=2013 and SchoolId=319 and ProvinceId='10000' and SpecialName='日语（商务日语方向）' ) LIMIT 1   [ RunTime:0.0011s ]
+SQL: SELECT * FROM `special_line_art` WHERE ( Year=2013 and SchoolId=319 and ProvinceId='10000' and SpecialName='汉语言文学（财经文秘方向）' ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `special_line_art` WHERE ( Year=2013 and SchoolId=319 and ProvinceId='10000' and SpecialName='社会工作' ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `school` WHERE ( SchoolId='320' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `special_line_art` WHERE ( Year=2013 and ProvinceId='10000' and SchoolId='320' )  [ RunTime:0.3720s ]
+SQL: SELECT * FROM `special_line_art` WHERE ( Year=2013 and SchoolId=320 and ProvinceId='10000' and SpecialName='人力资源管理' ) LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT * FROM `special_line_art` WHERE ( Year=2013 and SchoolId=320 and ProvinceId='10000' and SpecialName='会计学' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `special_line_art` WHERE ( Year=2013 and SchoolId=320 and ProvinceId='10000' and SpecialName='保险学' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `special_line_art` WHERE ( Year=2013 and SchoolId=320 and ProvinceId='10000' and SpecialName='信用管理' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `special_line_art` WHERE ( Year=2013 and SchoolId=320 and ProvinceId='10000' and SpecialName='劳动与社会保障' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `special_line_art` WHERE ( Year=2013 and SchoolId=320 and ProvinceId='10000' and SpecialName='国际商务' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `special_line_art` WHERE ( Year=2013 and SchoolId=320 and ProvinceId='10000' and SpecialName='国际经济与贸易' ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `special_line_art` WHERE ( Year=2013 and SchoolId=320 and ProvinceId='10000' and SpecialName='审计学' ) LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `special_line_art` WHERE ( Year=2013 and SchoolId=320 and ProvinceId='10000' and SpecialName='工商管理' ) LIMIT 1   [ RunTime:0.0009s ]
+SQL: SELECT * FROM `special_line_art` WHERE ( Year=2013 and SchoolId=320 and ProvinceId='10000' and SpecialName='市场营销' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `special_line_art` WHERE ( Year=2013 and SchoolId=320 and ProvinceId='10000' and SpecialName='法学' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `special_line_art` WHERE ( Year=2013 and SchoolId=320 and ProvinceId='10000' and SpecialName='物流管理' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `special_line_art` WHERE ( Year=2013 and SchoolId=320 and ProvinceId='10000' and SpecialName='税收学' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `special_line_art` WHERE ( Year=2013 and SchoolId=320 and ProvinceId='10000' and SpecialName='经济学' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `special_line_art` WHERE ( Year=2013 and SchoolId=320 and ProvinceId='10000' and SpecialName='英语' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `special_line_art` WHERE ( Year=2013 and SchoolId=320 and ProvinceId='10000' and SpecialName='行政管理' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `special_line_art` WHERE ( Year=2013 and SchoolId=320 and ProvinceId='10000' and SpecialName='财务管理' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `special_line_art` WHERE ( Year=2013 and SchoolId=320 and ProvinceId='10000' and SpecialName='财政学' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `special_line_art` WHERE ( Year=2013 and SchoolId=320 and ProvinceId='10000' and SpecialName='金融学' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `school` WHERE ( SchoolId='1216' ) LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `special_line_art` WHERE ( Year=2013 and ProvinceId='10000' and SchoolId='1216' )  [ RunTime:0.3685s ]
+SQL: SELECT * FROM `special_line_art` WHERE ( Year=2013 and SchoolId=1216 and ProvinceId='10000' and SpecialName='工商管理' ) LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `special_line_art` WHERE ( Year=2013 and SchoolId=1216 and ProvinceId='10000' and SpecialName='政治学类(中外合作办学)' ) LIMIT 1   [ RunTime:0.0005s ]
+
+[ 2015-12-16T23:35:59+08:00 ] 127.0.0.1 /gaokao/index.php/Home/Inqure/requst
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000368s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000279s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000301s ]
+SQL: SHOW COLUMNS FROM `batch_controlline` [ RunTime:0.0403s ]
+SQL: SELECT * FROM `batch_controlline` WHERE ( Type='art' and Year=2013 and ProvinceId='10000' and Batch='本科一批' ) LIMIT 1   [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `provinceline_art` [ RunTime:0.0014s ]
+SQL: SELECT * FROM `provinceline_art` WHERE ( Year=2013 and ProvinceId='10000' ) AND ( `Average` > 445 AND `Average` < 450  )  [ RunTime:0.0038s ]
+SQL: SHOW COLUMNS FROM `school` [ RunTime:0.0013s ]
+SQL: SELECT * FROM `school` WHERE ( SchoolId='43' ) LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `provinceline_art` WHERE ( SchoolId='43' and Year='2012' and ProvinceId='10000' ) LIMIT 1   [ RunTime:0.0012s ]
+SQL: SELECT * FROM `provinceline_art` WHERE ( SchoolId='43' and Year='2013' and ProvinceId='10000' ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `provinceline_art` WHERE ( SchoolId='43' and Year='2014' and ProvinceId='10000' ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `school` WHERE ( SchoolId='62' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `provinceline_art` WHERE ( SchoolId='62' and Year='2012' and ProvinceId='10000' ) LIMIT 1   [ RunTime:0.0017s ]
+SQL: SELECT * FROM `provinceline_art` WHERE ( SchoolId='62' and Year='2013' and ProvinceId='10000' ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `provinceline_art` WHERE ( SchoolId='62' and Year='2014' and ProvinceId='10000' ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `school` WHERE ( SchoolId='120' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `provinceline_art` WHERE ( SchoolId='120' and Year='2012' and ProvinceId='10000' ) LIMIT 1   [ RunTime:0.0016s ]
+SQL: SELECT * FROM `provinceline_art` WHERE ( SchoolId='120' and Year='2013' and ProvinceId='10000' ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `provinceline_art` WHERE ( SchoolId='120' and Year='2014' and ProvinceId='10000' ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `school` WHERE ( SchoolId='319' ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `provinceline_art` WHERE ( SchoolId='319' and Year='2012' and ProvinceId='10000' ) LIMIT 1   [ RunTime:0.0011s ]
+SQL: SELECT * FROM `provinceline_art` WHERE ( SchoolId='319' and Year='2013' and ProvinceId='10000' ) LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `provinceline_art` WHERE ( SchoolId='319' and Year='2014' and ProvinceId='10000' ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `school` WHERE ( SchoolId='320' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `provinceline_art` WHERE ( SchoolId='320' and Year='2012' and ProvinceId='10000' ) LIMIT 1   [ RunTime:0.0011s ]
+SQL: SELECT * FROM `provinceline_art` WHERE ( SchoolId='320' and Year='2013' and ProvinceId='10000' ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `provinceline_art` WHERE ( SchoolId='320' and Year='2014' and ProvinceId='10000' ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `school` WHERE ( SchoolId='1216' ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `provinceline_art` WHERE ( SchoolId='1216' and Year='2012' and ProvinceId='10000' ) LIMIT 1   [ RunTime:0.0016s ]
+SQL: SELECT * FROM `provinceline_art` WHERE ( SchoolId='1216' and Year='2013' and ProvinceId='10000' ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `provinceline_art` WHERE ( SchoolId='1216' and Year='2014' and ProvinceId='10000' ) LIMIT 1   [ RunTime:0.0005s ]
+
+[ 2015-12-16T23:36:03+08:00 ] 127.0.0.1 /gaokao/index.php/Home/Inqure/requst
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000180s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000215s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000234s ]
+SQL: SHOW COLUMNS FROM `batch_controlline` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `batch_controlline` WHERE ( Type='art' and Year=2013 and ProvinceId='10000' and Batch='本科一批' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `provinceline_art` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `provinceline_art` WHERE ( Year=2013 and ProvinceId='10000' ) AND ( `Average` > 445 AND `Average` < 450  )  [ RunTime:0.0015s ]
+SQL: SHOW COLUMNS FROM `school` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `school` WHERE ( SchoolId='43' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `special_line_art` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `special_line_art` WHERE ( Year=2013 and ProvinceId='10000' and SchoolId='43' )  [ RunTime:0.3745s ]
+SQL: SELECT * FROM `special_line_art` WHERE ( Year=2013 and SchoolId=43 and ProvinceId='10000' and SpecialName='应用心理学' ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `special_line_art` WHERE ( Year=2013 and SchoolId=43 and ProvinceId='10000' and SpecialName='英语' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `school` WHERE ( SchoolId='62' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `special_line_art` WHERE ( Year=2013 and ProvinceId='10000' and SchoolId='62' )  [ RunTime:0.3684s ]
+SQL: SELECT * FROM `special_line_art` WHERE ( Year=2013 and SchoolId=62 and ProvinceId='10000' and SpecialName='国际经济与贸易' ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `special_line_art` WHERE ( Year=2013 and SchoolId=62 and ProvinceId='10000' and SpecialName='新闻学' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `special_line_art` WHERE ( Year=2013 and SchoolId=62 and ProvinceId='10000' and SpecialName='金融学' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `school` WHERE ( SchoolId='120' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `special_line_art` WHERE ( Year=2013 and ProvinceId='10000' and SchoolId='120' )  [ RunTime:0.3701s ]
+SQL: SELECT * FROM `school` WHERE ( SchoolId='319' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `special_line_art` WHERE ( Year=2013 and ProvinceId='10000' and SchoolId='319' )  [ RunTime:0.3934s ]
+SQL: SELECT * FROM `special_line_art` WHERE ( Year=2013 and SchoolId=319 and ProvinceId='10000' and SpecialName='日语（商务日语方向）' ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `special_line_art` WHERE ( Year=2013 and SchoolId=319 and ProvinceId='10000' and SpecialName='汉语言文学（财经文秘方向）' ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `special_line_art` WHERE ( Year=2013 and SchoolId=319 and ProvinceId='10000' and SpecialName='社会工作' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `school` WHERE ( SchoolId='320' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `special_line_art` WHERE ( Year=2013 and ProvinceId='10000' and SchoolId='320' )  [ RunTime:0.3622s ]
+SQL: SELECT * FROM `special_line_art` WHERE ( Year=2013 and SchoolId=320 and ProvinceId='10000' and SpecialName='人力资源管理' ) LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `special_line_art` WHERE ( Year=2013 and SchoolId=320 and ProvinceId='10000' and SpecialName='会计学' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `special_line_art` WHERE ( Year=2013 and SchoolId=320 and ProvinceId='10000' and SpecialName='保险学' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `special_line_art` WHERE ( Year=2013 and SchoolId=320 and ProvinceId='10000' and SpecialName='信用管理' ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `special_line_art` WHERE ( Year=2013 and SchoolId=320 and ProvinceId='10000' and SpecialName='劳动与社会保障' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `special_line_art` WHERE ( Year=2013 and SchoolId=320 and ProvinceId='10000' and SpecialName='国际商务' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `special_line_art` WHERE ( Year=2013 and SchoolId=320 and ProvinceId='10000' and SpecialName='国际经济与贸易' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `special_line_art` WHERE ( Year=2013 and SchoolId=320 and ProvinceId='10000' and SpecialName='审计学' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `special_line_art` WHERE ( Year=2013 and SchoolId=320 and ProvinceId='10000' and SpecialName='工商管理' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `special_line_art` WHERE ( Year=2013 and SchoolId=320 and ProvinceId='10000' and SpecialName='市场营销' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `special_line_art` WHERE ( Year=2013 and SchoolId=320 and ProvinceId='10000' and SpecialName='法学' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `special_line_art` WHERE ( Year=2013 and SchoolId=320 and ProvinceId='10000' and SpecialName='物流管理' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `special_line_art` WHERE ( Year=2013 and SchoolId=320 and ProvinceId='10000' and SpecialName='税收学' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `special_line_art` WHERE ( Year=2013 and SchoolId=320 and ProvinceId='10000' and SpecialName='经济学' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `special_line_art` WHERE ( Year=2013 and SchoolId=320 and ProvinceId='10000' and SpecialName='英语' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `special_line_art` WHERE ( Year=2013 and SchoolId=320 and ProvinceId='10000' and SpecialName='行政管理' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `special_line_art` WHERE ( Year=2013 and SchoolId=320 and ProvinceId='10000' and SpecialName='财务管理' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `special_line_art` WHERE ( Year=2013 and SchoolId=320 and ProvinceId='10000' and SpecialName='财政学' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `special_line_art` WHERE ( Year=2013 and SchoolId=320 and ProvinceId='10000' and SpecialName='金融学' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `school` WHERE ( SchoolId='1216' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `special_line_art` WHERE ( Year=2013 and ProvinceId='10000' and SchoolId='1216' )  [ RunTime:0.3736s ]
+SQL: SELECT * FROM `special_line_art` WHERE ( Year=2013 and SchoolId=1216 and ProvinceId='10000' and SpecialName='工商管理' ) LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `special_line_art` WHERE ( Year=2013 and SchoolId=1216 and ProvinceId='10000' and SpecialName='政治学类(中外合作办学)' ) LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2015-12-16T23:37:09+08:00 ] 127.0.0.1 /gaokao/index.php/Home/Inqure
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000283s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000246s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000271s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000040s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000070s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005640s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005661s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000099s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000133s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000271s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000288s ]
+
+[ 2015-12-16T23:37:14+08:00 ] 127.0.0.1 /gaokao/index.php/Home/Inqure/requst
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000378s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000378s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000414s ]
+SQL: SHOW COLUMNS FROM `batch_controlline` [ RunTime:0.0013s ]
+SQL: SELECT * FROM `batch_controlline` WHERE ( Type='art' and Year=2013 and ProvinceId='10000' and Batch='本科一批' ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `provinceline_art` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `provinceline_art` WHERE ( Year=2013 and ProvinceId='10000' ) AND ( `Average` > 445 AND `Average` < 450  )  [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `school` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `school` WHERE ( SchoolId='43' ) LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `special_line_art` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `special_line_art` WHERE ( Year=2013 and ProvinceId='10000' and SchoolId='43' )  [ RunTime:0.3794s ]
+SQL: SELECT * FROM `special_line_art` WHERE ( Year=2013 and SchoolId=43 and ProvinceId='10000' and SpecialName='应用心理学' ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `special_line_art` WHERE ( Year=2013 and SchoolId=43 and ProvinceId='10000' and SpecialName='英语' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `school` WHERE ( SchoolId='62' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `special_line_art` WHERE ( Year=2013 and ProvinceId='10000' and SchoolId='62' )  [ RunTime:0.3676s ]
+SQL: SELECT * FROM `special_line_art` WHERE ( Year=2013 and SchoolId=62 and ProvinceId='10000' and SpecialName='国际经济与贸易' ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `special_line_art` WHERE ( Year=2013 and SchoolId=62 and ProvinceId='10000' and SpecialName='新闻学' ) LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `special_line_art` WHERE ( Year=2013 and SchoolId=62 and ProvinceId='10000' and SpecialName='金融学' ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `school` WHERE ( SchoolId='120' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `special_line_art` WHERE ( Year=2013 and ProvinceId='10000' and SchoolId='120' )  [ RunTime:0.3766s ]
+SQL: SELECT * FROM `school` WHERE ( SchoolId='319' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `special_line_art` WHERE ( Year=2013 and ProvinceId='10000' and SchoolId='319' )  [ RunTime:0.3842s ]
+SQL: SELECT * FROM `special_line_art` WHERE ( Year=2013 and SchoolId=319 and ProvinceId='10000' and SpecialName='日语（商务日语方向）' ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `special_line_art` WHERE ( Year=2013 and SchoolId=319 and ProvinceId='10000' and SpecialName='汉语言文学（财经文秘方向）' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `special_line_art` WHERE ( Year=2013 and SchoolId=319 and ProvinceId='10000' and SpecialName='社会工作' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `school` WHERE ( SchoolId='320' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `special_line_art` WHERE ( Year=2013 and ProvinceId='10000' and SchoolId='320' )  [ RunTime:0.3841s ]
+SQL: SELECT * FROM `special_line_art` WHERE ( Year=2013 and SchoolId=320 and ProvinceId='10000' and SpecialName='人力资源管理' ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `special_line_art` WHERE ( Year=2013 and SchoolId=320 and ProvinceId='10000' and SpecialName='会计学' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `special_line_art` WHERE ( Year=2013 and SchoolId=320 and ProvinceId='10000' and SpecialName='保险学' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `special_line_art` WHERE ( Year=2013 and SchoolId=320 and ProvinceId='10000' and SpecialName='信用管理' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `special_line_art` WHERE ( Year=2013 and SchoolId=320 and ProvinceId='10000' and SpecialName='劳动与社会保障' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `special_line_art` WHERE ( Year=2013 and SchoolId=320 and ProvinceId='10000' and SpecialName='国际商务' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `special_line_art` WHERE ( Year=2013 and SchoolId=320 and ProvinceId='10000' and SpecialName='国际经济与贸易' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `special_line_art` WHERE ( Year=2013 and SchoolId=320 and ProvinceId='10000' and SpecialName='审计学' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `special_line_art` WHERE ( Year=2013 and SchoolId=320 and ProvinceId='10000' and SpecialName='工商管理' ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `special_line_art` WHERE ( Year=2013 and SchoolId=320 and ProvinceId='10000' and SpecialName='市场营销' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `special_line_art` WHERE ( Year=2013 and SchoolId=320 and ProvinceId='10000' and SpecialName='法学' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `special_line_art` WHERE ( Year=2013 and SchoolId=320 and ProvinceId='10000' and SpecialName='物流管理' ) LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `special_line_art` WHERE ( Year=2013 and SchoolId=320 and ProvinceId='10000' and SpecialName='税收学' ) LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `special_line_art` WHERE ( Year=2013 and SchoolId=320 and ProvinceId='10000' and SpecialName='经济学' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `special_line_art` WHERE ( Year=2013 and SchoolId=320 and ProvinceId='10000' and SpecialName='英语' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `special_line_art` WHERE ( Year=2013 and SchoolId=320 and ProvinceId='10000' and SpecialName='行政管理' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `special_line_art` WHERE ( Year=2013 and SchoolId=320 and ProvinceId='10000' and SpecialName='财务管理' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `special_line_art` WHERE ( Year=2013 and SchoolId=320 and ProvinceId='10000' and SpecialName='财政学' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `special_line_art` WHERE ( Year=2013 and SchoolId=320 and ProvinceId='10000' and SpecialName='金融学' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `school` WHERE ( SchoolId='1216' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `special_line_art` WHERE ( Year=2013 and ProvinceId='10000' and SchoolId='1216' )  [ RunTime:0.3761s ]
+SQL: SELECT * FROM `special_line_art` WHERE ( Year=2013 and SchoolId=1216 and ProvinceId='10000' and SpecialName='工商管理' ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `special_line_art` WHERE ( Year=2013 and SchoolId=1216 and ProvinceId='10000' and SpecialName='政治学类(中外合作办学)' ) LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2015-12-16T23:37:16+08:00 ] 127.0.0.1 /gaokao/index.php/Home/Inqure/requst
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000162s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000343s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000367s ]
+SQL: SHOW COLUMNS FROM `batch_controlline` [ RunTime:0.0013s ]
+SQL: SELECT * FROM `batch_controlline` WHERE ( Type='art' and Year=2013 and ProvinceId='10000' and Batch='本科一批' ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `provinceline_art` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `provinceline_art` WHERE ( Year=2013 and ProvinceId='10000' ) AND ( `Average` > 445 AND `Average` < 450  )  [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `school` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `school` WHERE ( SchoolId='43' ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `provinceline_art` WHERE ( SchoolId='43' and Year='2012' and ProvinceId='10000' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `provinceline_art` WHERE ( SchoolId='43' and Year='2013' and ProvinceId='10000' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `provinceline_art` WHERE ( SchoolId='43' and Year='2014' and ProvinceId='10000' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `school` WHERE ( SchoolId='62' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `provinceline_art` WHERE ( SchoolId='62' and Year='2012' and ProvinceId='10000' ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `provinceline_art` WHERE ( SchoolId='62' and Year='2013' and ProvinceId='10000' ) LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `provinceline_art` WHERE ( SchoolId='62' and Year='2014' and ProvinceId='10000' ) LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `school` WHERE ( SchoolId='120' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `provinceline_art` WHERE ( SchoolId='120' and Year='2012' and ProvinceId='10000' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `provinceline_art` WHERE ( SchoolId='120' and Year='2013' and ProvinceId='10000' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `provinceline_art` WHERE ( SchoolId='120' and Year='2014' and ProvinceId='10000' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `school` WHERE ( SchoolId='319' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `provinceline_art` WHERE ( SchoolId='319' and Year='2012' and ProvinceId='10000' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `provinceline_art` WHERE ( SchoolId='319' and Year='2013' and ProvinceId='10000' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `provinceline_art` WHERE ( SchoolId='319' and Year='2014' and ProvinceId='10000' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `school` WHERE ( SchoolId='320' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `provinceline_art` WHERE ( SchoolId='320' and Year='2012' and ProvinceId='10000' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `provinceline_art` WHERE ( SchoolId='320' and Year='2013' and ProvinceId='10000' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `provinceline_art` WHERE ( SchoolId='320' and Year='2014' and ProvinceId='10000' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `school` WHERE ( SchoolId='1216' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `provinceline_art` WHERE ( SchoolId='1216' and Year='2012' and ProvinceId='10000' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `provinceline_art` WHERE ( SchoolId='1216' and Year='2013' and ProvinceId='10000' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `provinceline_art` WHERE ( SchoolId='1216' and Year='2014' and ProvinceId='10000' ) LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2015-12-16T23:37:21+08:00 ] 127.0.0.1 /gaokao/index.php/Home/Inqure/requst
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000361s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000285s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000318s ]
+SQL: SHOW COLUMNS FROM `batch_controlline` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `batch_controlline` WHERE ( Type='art' and Year=2013 and ProvinceId='10000' and Batch='本科一批' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `provinceline_art` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `provinceline_art` WHERE ( Year=2013 and ProvinceId='10000' ) AND ( `Average` > 445 AND `Average` < 450  )  [ RunTime:0.0014s ]
+SQL: SHOW COLUMNS FROM `school` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `school` WHERE ( SchoolId='43' ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `special_line_art` [ RunTime:0.0014s ]
+SQL: SELECT * FROM `special_line_art` WHERE ( Year=2013 and ProvinceId='10000' and SchoolId='43' )  [ RunTime:0.3862s ]
+SQL: SELECT * FROM `special_line_art` WHERE ( Year=2013 and SchoolId=43 and ProvinceId='10000' and SpecialName='应用心理学' ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `special_line_art` WHERE ( Year=2013 and SchoolId=43 and ProvinceId='10000' and SpecialName='英语' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `school` WHERE ( SchoolId='62' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `special_line_art` WHERE ( Year=2013 and ProvinceId='10000' and SchoolId='62' )  [ RunTime:0.3749s ]
+SQL: SELECT * FROM `special_line_art` WHERE ( Year=2013 and SchoolId=62 and ProvinceId='10000' and SpecialName='国际经济与贸易' ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `special_line_art` WHERE ( Year=2013 and SchoolId=62 and ProvinceId='10000' and SpecialName='新闻学' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `special_line_art` WHERE ( Year=2013 and SchoolId=62 and ProvinceId='10000' and SpecialName='金融学' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `school` WHERE ( SchoolId='120' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `special_line_art` WHERE ( Year=2013 and ProvinceId='10000' and SchoolId='120' )  [ RunTime:0.3841s ]
+SQL: SELECT * FROM `school` WHERE ( SchoolId='319' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `special_line_art` WHERE ( Year=2013 and ProvinceId='10000' and SchoolId='319' )  [ RunTime:0.3834s ]
+SQL: SELECT * FROM `special_line_art` WHERE ( Year=2013 and SchoolId=319 and ProvinceId='10000' and SpecialName='日语（商务日语方向）' ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `special_line_art` WHERE ( Year=2013 and SchoolId=319 and ProvinceId='10000' and SpecialName='汉语言文学（财经文秘方向）' ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `special_line_art` WHERE ( Year=2013 and SchoolId=319 and ProvinceId='10000' and SpecialName='社会工作' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `school` WHERE ( SchoolId='320' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `special_line_art` WHERE ( Year=2013 and ProvinceId='10000' and SchoolId='320' )  [ RunTime:0.3986s ]
+SQL: SELECT * FROM `special_line_art` WHERE ( Year=2013 and SchoolId=320 and ProvinceId='10000' and SpecialName='人力资源管理' ) LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `special_line_art` WHERE ( Year=2013 and SchoolId=320 and ProvinceId='10000' and SpecialName='会计学' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `special_line_art` WHERE ( Year=2013 and SchoolId=320 and ProvinceId='10000' and SpecialName='保险学' ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `special_line_art` WHERE ( Year=2013 and SchoolId=320 and ProvinceId='10000' and SpecialName='信用管理' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `special_line_art` WHERE ( Year=2013 and SchoolId=320 and ProvinceId='10000' and SpecialName='劳动与社会保障' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `special_line_art` WHERE ( Year=2013 and SchoolId=320 and ProvinceId='10000' and SpecialName='国际商务' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `special_line_art` WHERE ( Year=2013 and SchoolId=320 and ProvinceId='10000' and SpecialName='国际经济与贸易' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `special_line_art` WHERE ( Year=2013 and SchoolId=320 and ProvinceId='10000' and SpecialName='审计学' ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `special_line_art` WHERE ( Year=2013 and SchoolId=320 and ProvinceId='10000' and SpecialName='工商管理' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `special_line_art` WHERE ( Year=2013 and SchoolId=320 and ProvinceId='10000' and SpecialName='市场营销' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `special_line_art` WHERE ( Year=2013 and SchoolId=320 and ProvinceId='10000' and SpecialName='法学' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `special_line_art` WHERE ( Year=2013 and SchoolId=320 and ProvinceId='10000' and SpecialName='物流管理' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `special_line_art` WHERE ( Year=2013 and SchoolId=320 and ProvinceId='10000' and SpecialName='税收学' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `special_line_art` WHERE ( Year=2013 and SchoolId=320 and ProvinceId='10000' and SpecialName='经济学' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `special_line_art` WHERE ( Year=2013 and SchoolId=320 and ProvinceId='10000' and SpecialName='英语' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `special_line_art` WHERE ( Year=2013 and SchoolId=320 and ProvinceId='10000' and SpecialName='行政管理' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `special_line_art` WHERE ( Year=2013 and SchoolId=320 and ProvinceId='10000' and SpecialName='财务管理' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `special_line_art` WHERE ( Year=2013 and SchoolId=320 and ProvinceId='10000' and SpecialName='财政学' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `special_line_art` WHERE ( Year=2013 and SchoolId=320 and ProvinceId='10000' and SpecialName='金融学' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `school` WHERE ( SchoolId='1216' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `special_line_art` WHERE ( Year=2013 and ProvinceId='10000' and SchoolId='1216' )  [ RunTime:0.4665s ]
+SQL: SELECT * FROM `special_line_art` WHERE ( Year=2013 and SchoolId=1216 and ProvinceId='10000' and SpecialName='工商管理' ) LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `special_line_art` WHERE ( Year=2013 and SchoolId=1216 and ProvinceId='10000' and SpecialName='政治学类(中外合作办学)' ) LIMIT 1   [ RunTime:0.0008s ]
+
+[ 2015-12-16T23:51:42+08:00 ] 127.0.0.1 /gaokao/index.php/Home/Inqure
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000727s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000760s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000807s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000041s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000071s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007319s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007363s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000523s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000561s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000791s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000831s ]
+
+[ 2015-12-16T23:51:47+08:00 ] 127.0.0.1 /gaokao/index.php/Home/Inqure/requst
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000644s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000275s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000299s ]
+SQL: SHOW COLUMNS FROM `batch_controlline` [ RunTime:0.0018s ]
+SQL: SELECT * FROM `batch_controlline` WHERE ( Type='art' and Year=2013 and ProvinceId='10000' and Batch='本科一批' ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `provinceline_art` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `provinceline_art` WHERE ( Year=2013 and ProvinceId='10000' ) AND ( `Average` > 445 AND `Average` < 450  )  [ RunTime:0.0022s ]
+SQL: SHOW COLUMNS FROM `school` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `school` WHERE ( SchoolId='43' ) LIMIT 1   [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `special_line_art` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `special_line_art` WHERE ( Year=2013 and ProvinceId='10000' and SchoolId='43' )  [ RunTime:0.3735s ]
+SQL: SELECT * FROM `special_line_art` WHERE ( Year=2013 and SchoolId=43 and ProvinceId='10000' and SpecialName='应用心理学' ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `special_line_art` WHERE ( Year=2013 and SchoolId=43 and ProvinceId='10000' and SpecialName='英语' ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `school` WHERE ( SchoolId='62' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `special_line_art` WHERE ( Year=2013 and ProvinceId='10000' and SchoolId='62' )  [ RunTime:0.3734s ]
+SQL: SELECT * FROM `special_line_art` WHERE ( Year=2013 and SchoolId=62 and ProvinceId='10000' and SpecialName='国际经济与贸易' ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `special_line_art` WHERE ( Year=2013 and SchoolId=62 and ProvinceId='10000' and SpecialName='新闻学' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `special_line_art` WHERE ( Year=2013 and SchoolId=62 and ProvinceId='10000' and SpecialName='金融学' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `school` WHERE ( SchoolId='120' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `special_line_art` WHERE ( Year=2013 and ProvinceId='10000' and SchoolId='120' )  [ RunTime:0.3712s ]
+SQL: SELECT * FROM `school` WHERE ( SchoolId='319' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `special_line_art` WHERE ( Year=2013 and ProvinceId='10000' and SchoolId='319' )  [ RunTime:0.3690s ]
+SQL: SELECT * FROM `special_line_art` WHERE ( Year=2013 and SchoolId=319 and ProvinceId='10000' and SpecialName='日语（商务日语方向）' ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `special_line_art` WHERE ( Year=2013 and SchoolId=319 and ProvinceId='10000' and SpecialName='汉语言文学（财经文秘方向）' ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `special_line_art` WHERE ( Year=2013 and SchoolId=319 and ProvinceId='10000' and SpecialName='社会工作' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `school` WHERE ( SchoolId='320' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `special_line_art` WHERE ( Year=2013 and ProvinceId='10000' and SchoolId='320' )  [ RunTime:0.3864s ]
+SQL: SELECT * FROM `special_line_art` WHERE ( Year=2013 and SchoolId=320 and ProvinceId='10000' and SpecialName='人力资源管理' ) LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `special_line_art` WHERE ( Year=2013 and SchoolId=320 and ProvinceId='10000' and SpecialName='会计学' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `special_line_art` WHERE ( Year=2013 and SchoolId=320 and ProvinceId='10000' and SpecialName='保险学' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `special_line_art` WHERE ( Year=2013 and SchoolId=320 and ProvinceId='10000' and SpecialName='信用管理' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `special_line_art` WHERE ( Year=2013 and SchoolId=320 and ProvinceId='10000' and SpecialName='劳动与社会保障' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `special_line_art` WHERE ( Year=2013 and SchoolId=320 and ProvinceId='10000' and SpecialName='国际商务' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `special_line_art` WHERE ( Year=2013 and SchoolId=320 and ProvinceId='10000' and SpecialName='国际经济与贸易' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `special_line_art` WHERE ( Year=2013 and SchoolId=320 and ProvinceId='10000' and SpecialName='审计学' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `special_line_art` WHERE ( Year=2013 and SchoolId=320 and ProvinceId='10000' and SpecialName='工商管理' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `special_line_art` WHERE ( Year=2013 and SchoolId=320 and ProvinceId='10000' and SpecialName='市场营销' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `special_line_art` WHERE ( Year=2013 and SchoolId=320 and ProvinceId='10000' and SpecialName='法学' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `special_line_art` WHERE ( Year=2013 and SchoolId=320 and ProvinceId='10000' and SpecialName='物流管理' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `special_line_art` WHERE ( Year=2013 and SchoolId=320 and ProvinceId='10000' and SpecialName='税收学' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `special_line_art` WHERE ( Year=2013 and SchoolId=320 and ProvinceId='10000' and SpecialName='经济学' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `special_line_art` WHERE ( Year=2013 and SchoolId=320 and ProvinceId='10000' and SpecialName='英语' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `special_line_art` WHERE ( Year=2013 and SchoolId=320 and ProvinceId='10000' and SpecialName='行政管理' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `special_line_art` WHERE ( Year=2013 and SchoolId=320 and ProvinceId='10000' and SpecialName='财务管理' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `special_line_art` WHERE ( Year=2013 and SchoolId=320 and ProvinceId='10000' and SpecialName='财政学' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `special_line_art` WHERE ( Year=2013 and SchoolId=320 and ProvinceId='10000' and SpecialName='金融学' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `school` WHERE ( SchoolId='1216' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `special_line_art` WHERE ( Year=2013 and ProvinceId='10000' and SchoolId='1216' )  [ RunTime:0.3808s ]
+SQL: SELECT * FROM `special_line_art` WHERE ( Year=2013 and SchoolId=1216 and ProvinceId='10000' and SpecialName='工商管理' ) LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `special_line_art` WHERE ( Year=2013 and SchoolId=1216 and ProvinceId='10000' and SpecialName='政治学类(中外合作办学)' ) LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2015-12-16T23:51:57+08:00 ] 127.0.0.1 /gaokao/index.php/Home/Inqure/requst
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000247s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000250s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000274s ]
+SQL: SHOW COLUMNS FROM `batch_controlline` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `batch_controlline` WHERE ( Type='art' and Year=2013 and ProvinceId='10000' and Batch='本科一批' ) LIMIT 1   [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `provinceline_art` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `provinceline_art` WHERE ( Year=2013 and ProvinceId='10000' ) AND ( `Average` > 445 AND `Average` < 450  )  [ RunTime:0.0064s ]
+SQL: SHOW COLUMNS FROM `school` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `school` WHERE ( SchoolId='43' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `special_line_art` [ RunTime:0.0018s ]
+SQL: SELECT * FROM `special_line_art` WHERE ( Year=2013 and ProvinceId='10000' and SchoolId='43' )  [ RunTime:0.4080s ]
+SQL: SELECT * FROM `special_line_art` WHERE ( Year=2013 and SchoolId=43 and ProvinceId='10000' and SpecialName='应用心理学' ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `special_line_art` WHERE ( Year=2013 and SchoolId=43 and ProvinceId='10000' and SpecialName='英语' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `school` WHERE ( SchoolId='62' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `special_line_art` WHERE ( Year=2013 and ProvinceId='10000' and SchoolId='62' )  [ RunTime:0.3792s ]
+SQL: SELECT * FROM `special_line_art` WHERE ( Year=2013 and SchoolId=62 and ProvinceId='10000' and SpecialName='国际经济与贸易' ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `special_line_art` WHERE ( Year=2013 and SchoolId=62 and ProvinceId='10000' and SpecialName='新闻学' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `special_line_art` WHERE ( Year=2013 and SchoolId=62 and ProvinceId='10000' and SpecialName='金融学' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `school` WHERE ( SchoolId='120' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `special_line_art` WHERE ( Year=2013 and ProvinceId='10000' and SchoolId='120' )  [ RunTime:0.3652s ]
+SQL: SELECT * FROM `school` WHERE ( SchoolId='319' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `special_line_art` WHERE ( Year=2013 and ProvinceId='10000' and SchoolId='319' )  [ RunTime:0.3933s ]
+SQL: SELECT * FROM `special_line_art` WHERE ( Year=2013 and SchoolId=319 and ProvinceId='10000' and SpecialName='日语（商务日语方向）' ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `special_line_art` WHERE ( Year=2013 and SchoolId=319 and ProvinceId='10000' and SpecialName='汉语言文学（财经文秘方向）' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `special_line_art` WHERE ( Year=2013 and SchoolId=319 and ProvinceId='10000' and SpecialName='社会工作' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `school` WHERE ( SchoolId='320' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `special_line_art` WHERE ( Year=2013 and ProvinceId='10000' and SchoolId='320' )  [ RunTime:0.4338s ]
+SQL: SELECT * FROM `special_line_art` WHERE ( Year=2013 and SchoolId=320 and ProvinceId='10000' and SpecialName='人力资源管理' ) LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT * FROM `special_line_art` WHERE ( Year=2013 and SchoolId=320 and ProvinceId='10000' and SpecialName='会计学' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `special_line_art` WHERE ( Year=2013 and SchoolId=320 and ProvinceId='10000' and SpecialName='保险学' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `special_line_art` WHERE ( Year=2013 and SchoolId=320 and ProvinceId='10000' and SpecialName='信用管理' ) LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `special_line_art` WHERE ( Year=2013 and SchoolId=320 and ProvinceId='10000' and SpecialName='劳动与社会保障' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `special_line_art` WHERE ( Year=2013 and SchoolId=320 and ProvinceId='10000' and SpecialName='国际商务' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `special_line_art` WHERE ( Year=2013 and SchoolId=320 and ProvinceId='10000' and SpecialName='国际经济与贸易' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `special_line_art` WHERE ( Year=2013 and SchoolId=320 and ProvinceId='10000' and SpecialName='审计学' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `special_line_art` WHERE ( Year=2013 and SchoolId=320 and ProvinceId='10000' and SpecialName='工商管理' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `special_line_art` WHERE ( Year=2013 and SchoolId=320 and ProvinceId='10000' and SpecialName='市场营销' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `special_line_art` WHERE ( Year=2013 and SchoolId=320 and ProvinceId='10000' and SpecialName='法学' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `special_line_art` WHERE ( Year=2013 and SchoolId=320 and ProvinceId='10000' and SpecialName='物流管理' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `special_line_art` WHERE ( Year=2013 and SchoolId=320 and ProvinceId='10000' and SpecialName='税收学' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `special_line_art` WHERE ( Year=2013 and SchoolId=320 and ProvinceId='10000' and SpecialName='经济学' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `special_line_art` WHERE ( Year=2013 and SchoolId=320 and ProvinceId='10000' and SpecialName='英语' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `special_line_art` WHERE ( Year=2013 and SchoolId=320 and ProvinceId='10000' and SpecialName='行政管理' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `special_line_art` WHERE ( Year=2013 and SchoolId=320 and ProvinceId='10000' and SpecialName='财务管理' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `special_line_art` WHERE ( Year=2013 and SchoolId=320 and ProvinceId='10000' and SpecialName='财政学' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `special_line_art` WHERE ( Year=2013 and SchoolId=320 and ProvinceId='10000' and SpecialName='金融学' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `school` WHERE ( SchoolId='1216' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `special_line_art` WHERE ( Year=2013 and ProvinceId='10000' and SchoolId='1216' )  [ RunTime:0.3820s ]
+SQL: SELECT * FROM `special_line_art` WHERE ( Year=2013 and SchoolId=1216 and ProvinceId='10000' and SpecialName='工商管理' ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `special_line_art` WHERE ( Year=2013 and SchoolId=1216 and ProvinceId='10000' and SpecialName='政治学类(中外合作办学)' ) LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2015-12-16T23:51:59+08:00 ] 127.0.0.1 /gaokao/index.php/Home/Inqure/requst
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000471s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000441s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000484s ]
+SQL: SHOW COLUMNS FROM `batch_controlline` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `batch_controlline` WHERE ( Type='art' and Year=2013 and ProvinceId='10000' and Batch='本科一批' ) LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `provinceline_art` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `provinceline_art` WHERE ( Year=2013 and ProvinceId='10000' ) AND ( `Average` > 445 AND `Average` < 450  )  [ RunTime:0.0021s ]
+SQL: SHOW COLUMNS FROM `school` [ RunTime:0.0013s ]
+SQL: SELECT * FROM `school` WHERE ( SchoolId='43' ) LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `special_line_art` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `special_line_art` WHERE ( Year=2013 and ProvinceId='10000' and SchoolId='43' )  [ RunTime:0.4684s ]
+SQL: SELECT * FROM `special_line_art` WHERE ( Year=2013 and SchoolId=43 and ProvinceId='10000' and SpecialName='应用心理学' ) LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `special_line_art` WHERE ( Year=2013 and SchoolId=43 and ProvinceId='10000' and SpecialName='英语' ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `school` WHERE ( SchoolId='62' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `special_line_art` WHERE ( Year=2013 and ProvinceId='10000' and SchoolId='62' )  [ RunTime:0.3803s ]
+SQL: SELECT * FROM `special_line_art` WHERE ( Year=2013 and SchoolId=62 and ProvinceId='10000' and SpecialName='国际经济与贸易' ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `special_line_art` WHERE ( Year=2013 and SchoolId=62 and ProvinceId='10000' and SpecialName='新闻学' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `special_line_art` WHERE ( Year=2013 and SchoolId=62 and ProvinceId='10000' and SpecialName='金融学' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `school` WHERE ( SchoolId='120' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `special_line_art` WHERE ( Year=2013 and ProvinceId='10000' and SchoolId='120' )  [ RunTime:0.3772s ]
+SQL: SELECT * FROM `school` WHERE ( SchoolId='319' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `special_line_art` WHERE ( Year=2013 and ProvinceId='10000' and SchoolId='319' )  [ RunTime:0.3821s ]
+SQL: SELECT * FROM `special_line_art` WHERE ( Year=2013 and SchoolId=319 and ProvinceId='10000' and SpecialName='日语（商务日语方向）' ) LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `special_line_art` WHERE ( Year=2013 and SchoolId=319 and ProvinceId='10000' and SpecialName='汉语言文学（财经文秘方向）' ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `special_line_art` WHERE ( Year=2013 and SchoolId=319 and ProvinceId='10000' and SpecialName='社会工作' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `school` WHERE ( SchoolId='320' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `special_line_art` WHERE ( Year=2013 and ProvinceId='10000' and SchoolId='320' )  [ RunTime:0.3993s ]
+SQL: SELECT * FROM `special_line_art` WHERE ( Year=2013 and SchoolId=320 and ProvinceId='10000' and SpecialName='人力资源管理' ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `special_line_art` WHERE ( Year=2013 and SchoolId=320 and ProvinceId='10000' and SpecialName='会计学' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `special_line_art` WHERE ( Year=2013 and SchoolId=320 and ProvinceId='10000' and SpecialName='保险学' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `special_line_art` WHERE ( Year=2013 and SchoolId=320 and ProvinceId='10000' and SpecialName='信用管理' ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `special_line_art` WHERE ( Year=2013 and SchoolId=320 and ProvinceId='10000' and SpecialName='劳动与社会保障' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `special_line_art` WHERE ( Year=2013 and SchoolId=320 and ProvinceId='10000' and SpecialName='国际商务' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `special_line_art` WHERE ( Year=2013 and SchoolId=320 and ProvinceId='10000' and SpecialName='国际经济与贸易' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `special_line_art` WHERE ( Year=2013 and SchoolId=320 and ProvinceId='10000' and SpecialName='审计学' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `special_line_art` WHERE ( Year=2013 and SchoolId=320 and ProvinceId='10000' and SpecialName='工商管理' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `special_line_art` WHERE ( Year=2013 and SchoolId=320 and ProvinceId='10000' and SpecialName='市场营销' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `special_line_art` WHERE ( Year=2013 and SchoolId=320 and ProvinceId='10000' and SpecialName='法学' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `special_line_art` WHERE ( Year=2013 and SchoolId=320 and ProvinceId='10000' and SpecialName='物流管理' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `special_line_art` WHERE ( Year=2013 and SchoolId=320 and ProvinceId='10000' and SpecialName='税收学' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `special_line_art` WHERE ( Year=2013 and SchoolId=320 and ProvinceId='10000' and SpecialName='经济学' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `special_line_art` WHERE ( Year=2013 and SchoolId=320 and ProvinceId='10000' and SpecialName='英语' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `special_line_art` WHERE ( Year=2013 and SchoolId=320 and ProvinceId='10000' and SpecialName='行政管理' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `special_line_art` WHERE ( Year=2013 and SchoolId=320 and ProvinceId='10000' and SpecialName='财务管理' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `special_line_art` WHERE ( Year=2013 and SchoolId=320 and ProvinceId='10000' and SpecialName='财政学' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `special_line_art` WHERE ( Year=2013 and SchoolId=320 and ProvinceId='10000' and SpecialName='金融学' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `school` WHERE ( SchoolId='1216' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `special_line_art` WHERE ( Year=2013 and ProvinceId='10000' and SchoolId='1216' )  [ RunTime:0.3763s ]
+SQL: SELECT * FROM `special_line_art` WHERE ( Year=2013 and SchoolId=1216 and ProvinceId='10000' and SpecialName='工商管理' ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `special_line_art` WHERE ( Year=2013 and SchoolId=1216 and ProvinceId='10000' and SpecialName='政治学类(中外合作办学)' ) LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2015-12-16T23:52:01+08:00 ] 127.0.0.1 /gaokao/index.php/Home/Inqure/requst
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000191s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000366s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000398s ]
+SQL: SHOW COLUMNS FROM `batch_controlline` [ RunTime:0.0025s ]
+SQL: SELECT * FROM `batch_controlline` WHERE ( Type='art' and Year=2013 and ProvinceId='10000' and Batch='本科一批' ) LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `provinceline_art` [ RunTime:0.0021s ]
+SQL: SELECT * FROM `provinceline_art` WHERE ( Year=2013 and ProvinceId='10000' ) AND ( `Average` > 445 AND `Average` < 450  )  [ RunTime:0.0033s ]
+SQL: SHOW COLUMNS FROM `school` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `school` WHERE ( SchoolId='43' ) LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `special_line_art` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `special_line_art` WHERE ( Year=2013 and ProvinceId='10000' and SchoolId='43' )  [ RunTime:0.3926s ]
+SQL: SELECT * FROM `special_line_art` WHERE ( Year=2013 and SchoolId=43 and ProvinceId='10000' and SpecialName='应用心理学' ) LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `special_line_art` WHERE ( Year=2013 and SchoolId=43 and ProvinceId='10000' and SpecialName='英语' ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `school` WHERE ( SchoolId='62' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `special_line_art` WHERE ( Year=2013 and ProvinceId='10000' and SchoolId='62' )  [ RunTime:0.4075s ]
+SQL: SELECT * FROM `special_line_art` WHERE ( Year=2013 and SchoolId=62 and ProvinceId='10000' and SpecialName='国际经济与贸易' ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `special_line_art` WHERE ( Year=2013 and SchoolId=62 and ProvinceId='10000' and SpecialName='新闻学' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `special_line_art` WHERE ( Year=2013 and SchoolId=62 and ProvinceId='10000' and SpecialName='金融学' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `school` WHERE ( SchoolId='120' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `special_line_art` WHERE ( Year=2013 and ProvinceId='10000' and SchoolId='120' )  [ RunTime:0.3846s ]
+SQL: SELECT * FROM `school` WHERE ( SchoolId='319' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `special_line_art` WHERE ( Year=2013 and ProvinceId='10000' and SchoolId='319' )  [ RunTime:0.3884s ]
+SQL: SELECT * FROM `special_line_art` WHERE ( Year=2013 and SchoolId=319 and ProvinceId='10000' and SpecialName='日语（商务日语方向）' ) LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `special_line_art` WHERE ( Year=2013 and SchoolId=319 and ProvinceId='10000' and SpecialName='汉语言文学（财经文秘方向）' ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `special_line_art` WHERE ( Year=2013 and SchoolId=319 and ProvinceId='10000' and SpecialName='社会工作' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `school` WHERE ( SchoolId='320' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `special_line_art` WHERE ( Year=2013 and ProvinceId='10000' and SchoolId='320' )  [ RunTime:0.3968s ]
+SQL: SELECT * FROM `special_line_art` WHERE ( Year=2013 and SchoolId=320 and ProvinceId='10000' and SpecialName='人力资源管理' ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `special_line_art` WHERE ( Year=2013 and SchoolId=320 and ProvinceId='10000' and SpecialName='会计学' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `special_line_art` WHERE ( Year=2013 and SchoolId=320 and ProvinceId='10000' and SpecialName='保险学' ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `special_line_art` WHERE ( Year=2013 and SchoolId=320 and ProvinceId='10000' and SpecialName='信用管理' ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `special_line_art` WHERE ( Year=2013 and SchoolId=320 and ProvinceId='10000' and SpecialName='劳动与社会保障' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `special_line_art` WHERE ( Year=2013 and SchoolId=320 and ProvinceId='10000' and SpecialName='国际商务' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `special_line_art` WHERE ( Year=2013 and SchoolId=320 and ProvinceId='10000' and SpecialName='国际经济与贸易' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `special_line_art` WHERE ( Year=2013 and SchoolId=320 and ProvinceId='10000' and SpecialName='审计学' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `special_line_art` WHERE ( Year=2013 and SchoolId=320 and ProvinceId='10000' and SpecialName='工商管理' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `special_line_art` WHERE ( Year=2013 and SchoolId=320 and ProvinceId='10000' and SpecialName='市场营销' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `special_line_art` WHERE ( Year=2013 and SchoolId=320 and ProvinceId='10000' and SpecialName='法学' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `special_line_art` WHERE ( Year=2013 and SchoolId=320 and ProvinceId='10000' and SpecialName='物流管理' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `special_line_art` WHERE ( Year=2013 and SchoolId=320 and ProvinceId='10000' and SpecialName='税收学' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `special_line_art` WHERE ( Year=2013 and SchoolId=320 and ProvinceId='10000' and SpecialName='经济学' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `special_line_art` WHERE ( Year=2013 and SchoolId=320 and ProvinceId='10000' and SpecialName='英语' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `special_line_art` WHERE ( Year=2013 and SchoolId=320 and ProvinceId='10000' and SpecialName='行政管理' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `special_line_art` WHERE ( Year=2013 and SchoolId=320 and ProvinceId='10000' and SpecialName='财务管理' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `special_line_art` WHERE ( Year=2013 and SchoolId=320 and ProvinceId='10000' and SpecialName='财政学' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `special_line_art` WHERE ( Year=2013 and SchoolId=320 and ProvinceId='10000' and SpecialName='金融学' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `school` WHERE ( SchoolId='1216' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `special_line_art` WHERE ( Year=2013 and ProvinceId='10000' and SchoolId='1216' )  [ RunTime:0.3901s ]
+SQL: SELECT * FROM `special_line_art` WHERE ( Year=2013 and SchoolId=1216 and ProvinceId='10000' and SpecialName='工商管理' ) LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `special_line_art` WHERE ( Year=2013 and SchoolId=1216 and ProvinceId='10000' and SpecialName='政治学类(中外合作办学)' ) LIMIT 1   [ RunTime:0.0006s ]
+
+[ 2015-12-16T23:52:31+08:00 ] 127.0.0.1 /gaokao/index.php/Home/Inqure
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000165s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000209s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000230s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000041s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000070s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004035s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004058s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000099s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000125s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000253s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000270s ]
+
+[ 2015-12-16T23:52:32+08:00 ] 127.0.0.1 /gaokao/index.php/Home/Inqure/requst
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000166s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000252s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000274s ]
+SQL: SHOW COLUMNS FROM `batch_controlline` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `batch_controlline` WHERE ( Type='art' and Year=2013 and ProvinceId='10000' and Batch='本科一批' ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `provinceline_art` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `provinceline_art` WHERE ( Year=2013 and ProvinceId='10000' ) AND ( `Average` > 445 AND `Average` < 450  )  [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `school` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `school` WHERE ( SchoolId='43' ) LIMIT 1   [ RunTime:0.0015s ]
+SQL: SELECT * FROM `provinceline_art` WHERE ( SchoolId='43' and Year='2012' and ProvinceId='10000' ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `provinceline_art` WHERE ( SchoolId='43' and Year='2013' and ProvinceId='10000' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `provinceline_art` WHERE ( SchoolId='43' and Year='2014' and ProvinceId='10000' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `school` WHERE ( SchoolId='62' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `provinceline_art` WHERE ( SchoolId='62' and Year='2012' and ProvinceId='10000' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `provinceline_art` WHERE ( SchoolId='62' and Year='2013' and ProvinceId='10000' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `provinceline_art` WHERE ( SchoolId='62' and Year='2014' and ProvinceId='10000' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `school` WHERE ( SchoolId='120' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `provinceline_art` WHERE ( SchoolId='120' and Year='2012' and ProvinceId='10000' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `provinceline_art` WHERE ( SchoolId='120' and Year='2013' and ProvinceId='10000' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `provinceline_art` WHERE ( SchoolId='120' and Year='2014' and ProvinceId='10000' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `school` WHERE ( SchoolId='319' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `provinceline_art` WHERE ( SchoolId='319' and Year='2012' and ProvinceId='10000' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `provinceline_art` WHERE ( SchoolId='319' and Year='2013' and ProvinceId='10000' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `provinceline_art` WHERE ( SchoolId='319' and Year='2014' and ProvinceId='10000' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `school` WHERE ( SchoolId='320' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `provinceline_art` WHERE ( SchoolId='320' and Year='2012' and ProvinceId='10000' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `provinceline_art` WHERE ( SchoolId='320' and Year='2013' and ProvinceId='10000' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `provinceline_art` WHERE ( SchoolId='320' and Year='2014' and ProvinceId='10000' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `school` WHERE ( SchoolId='1216' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `provinceline_art` WHERE ( SchoolId='1216' and Year='2012' and ProvinceId='10000' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `provinceline_art` WHERE ( SchoolId='1216' and Year='2013' and ProvinceId='10000' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `provinceline_art` WHERE ( SchoolId='1216' and Year='2014' and ProvinceId='10000' ) LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2015-12-16T23:52:37+08:00 ] 127.0.0.1 /gaokao/index.php/Home/Inqure/requst
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000318s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000257s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000280s ]
+SQL: SHOW COLUMNS FROM `batch_controlline` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `batch_controlline` WHERE ( Type='art' and Year=2013 and ProvinceId='10000' and Batch='本科一批' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `provinceline_art` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `provinceline_art` WHERE ( Year=2013 and ProvinceId='10000' ) AND ( `Average` > 445 AND `Average` < 450  )  [ RunTime:0.0015s ]
+SQL: SHOW COLUMNS FROM `school` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `school` WHERE ( SchoolId='43' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `special_line_art` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `special_line_art` WHERE ( Year=2013 and ProvinceId='10000' and SchoolId='43' )  [ RunTime:0.3846s ]
+SQL: SELECT * FROM `special_line_art` WHERE ( Year=2013 and SchoolId=43 and ProvinceId='10000' and SpecialName='应用心理学' ) LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `special_line_art` WHERE ( Year=2013 and SchoolId=43 and ProvinceId='10000' and SpecialName='英语' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `school` WHERE ( SchoolId='62' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `special_line_art` WHERE ( Year=2013 and ProvinceId='10000' and SchoolId='62' )  [ RunTime:0.3801s ]
+SQL: SELECT * FROM `special_line_art` WHERE ( Year=2013 and SchoolId=62 and ProvinceId='10000' and SpecialName='国际经济与贸易' ) LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `special_line_art` WHERE ( Year=2013 and SchoolId=62 and ProvinceId='10000' and SpecialName='新闻学' ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `special_line_art` WHERE ( Year=2013 and SchoolId=62 and ProvinceId='10000' and SpecialName='金融学' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `school` WHERE ( SchoolId='120' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `special_line_art` WHERE ( Year=2013 and ProvinceId='10000' and SchoolId='120' )  [ RunTime:0.3787s ]
+SQL: SELECT * FROM `school` WHERE ( SchoolId='319' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `special_line_art` WHERE ( Year=2013 and ProvinceId='10000' and SchoolId='319' )  [ RunTime:0.3714s ]
+SQL: SELECT * FROM `special_line_art` WHERE ( Year=2013 and SchoolId=319 and ProvinceId='10000' and SpecialName='日语（商务日语方向）' ) LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `special_line_art` WHERE ( Year=2013 and SchoolId=319 and ProvinceId='10000' and SpecialName='汉语言文学（财经文秘方向）' ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `special_line_art` WHERE ( Year=2013 and SchoolId=319 and ProvinceId='10000' and SpecialName='社会工作' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `school` WHERE ( SchoolId='320' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `special_line_art` WHERE ( Year=2013 and ProvinceId='10000' and SchoolId='320' )  [ RunTime:0.3682s ]
+SQL: SELECT * FROM `special_line_art` WHERE ( Year=2013 and SchoolId=320 and ProvinceId='10000' and SpecialName='人力资源管理' ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `special_line_art` WHERE ( Year=2013 and SchoolId=320 and ProvinceId='10000' and SpecialName='会计学' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `special_line_art` WHERE ( Year=2013 and SchoolId=320 and ProvinceId='10000' and SpecialName='保险学' ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `special_line_art` WHERE ( Year=2013 and SchoolId=320 and ProvinceId='10000' and SpecialName='信用管理' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `special_line_art` WHERE ( Year=2013 and SchoolId=320 and ProvinceId='10000' and SpecialName='劳动与社会保障' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `special_line_art` WHERE ( Year=2013 and SchoolId=320 and ProvinceId='10000' and SpecialName='国际商务' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `special_line_art` WHERE ( Year=2013 and SchoolId=320 and ProvinceId='10000' and SpecialName='国际经济与贸易' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `special_line_art` WHERE ( Year=2013 and SchoolId=320 and ProvinceId='10000' and SpecialName='审计学' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `special_line_art` WHERE ( Year=2013 and SchoolId=320 and ProvinceId='10000' and SpecialName='工商管理' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `special_line_art` WHERE ( Year=2013 and SchoolId=320 and ProvinceId='10000' and SpecialName='市场营销' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `special_line_art` WHERE ( Year=2013 and SchoolId=320 and ProvinceId='10000' and SpecialName='法学' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `special_line_art` WHERE ( Year=2013 and SchoolId=320 and ProvinceId='10000' and SpecialName='物流管理' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `special_line_art` WHERE ( Year=2013 and SchoolId=320 and ProvinceId='10000' and SpecialName='税收学' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `special_line_art` WHERE ( Year=2013 and SchoolId=320 and ProvinceId='10000' and SpecialName='经济学' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `special_line_art` WHERE ( Year=2013 and SchoolId=320 and ProvinceId='10000' and SpecialName='英语' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `special_line_art` WHERE ( Year=2013 and SchoolId=320 and ProvinceId='10000' and SpecialName='行政管理' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `special_line_art` WHERE ( Year=2013 and SchoolId=320 and ProvinceId='10000' and SpecialName='财务管理' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `special_line_art` WHERE ( Year=2013 and SchoolId=320 and ProvinceId='10000' and SpecialName='财政学' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `special_line_art` WHERE ( Year=2013 and SchoolId=320 and ProvinceId='10000' and SpecialName='金融学' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `school` WHERE ( SchoolId='1216' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `special_line_art` WHERE ( Year=2013 and ProvinceId='10000' and SchoolId='1216' )  [ RunTime:0.3691s ]
+SQL: SELECT * FROM `special_line_art` WHERE ( Year=2013 and SchoolId=1216 and ProvinceId='10000' and SpecialName='工商管理' ) LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `special_line_art` WHERE ( Year=2013 and SchoolId=1216 and ProvinceId='10000' and SpecialName='政治学类(中外合作办学)' ) LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2015-12-16T23:52:42+08:00 ] 127.0.0.1 /gaokao/index.php/Home/Inqure/requst
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000378s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000254s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000279s ]
+SQL: SHOW COLUMNS FROM `batch_controlline` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `batch_controlline` WHERE ( Type='art' and Year=2013 and ProvinceId='10000' and Batch='本科一批' ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `provinceline_art` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `provinceline_art` WHERE ( Year=2013 and ProvinceId='10000' ) AND ( `Average` > 445 AND `Average` < 450  )  [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `school` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `school` WHERE ( SchoolId='43' ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `special_line_art` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `special_line_art` WHERE ( Year=2013 and ProvinceId='10000' and SchoolId='43' )  [ RunTime:0.3825s ]
+SQL: SELECT * FROM `special_line_art` WHERE ( Year=2013 and SchoolId=43 and ProvinceId='10000' and SpecialName='应用心理学' ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `special_line_art` WHERE ( Year=2013 and SchoolId=43 and ProvinceId='10000' and SpecialName='英语' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `school` WHERE ( SchoolId='62' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `special_line_art` WHERE ( Year=2013 and ProvinceId='10000' and SchoolId='62' )  [ RunTime:0.3806s ]
+SQL: SELECT * FROM `special_line_art` WHERE ( Year=2013 and SchoolId=62 and ProvinceId='10000' and SpecialName='国际经济与贸易' ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `special_line_art` WHERE ( Year=2013 and SchoolId=62 and ProvinceId='10000' and SpecialName='新闻学' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `special_line_art` WHERE ( Year=2013 and SchoolId=62 and ProvinceId='10000' and SpecialName='金融学' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `school` WHERE ( SchoolId='120' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `special_line_art` WHERE ( Year=2013 and ProvinceId='10000' and SchoolId='120' )  [ RunTime:0.3840s ]
+SQL: SELECT * FROM `school` WHERE ( SchoolId='319' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `special_line_art` WHERE ( Year=2013 and ProvinceId='10000' and SchoolId='319' )  [ RunTime:0.3767s ]
+SQL: SELECT * FROM `special_line_art` WHERE ( Year=2013 and SchoolId=319 and ProvinceId='10000' and SpecialName='日语（商务日语方向）' ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `special_line_art` WHERE ( Year=2013 and SchoolId=319 and ProvinceId='10000' and SpecialName='汉语言文学（财经文秘方向）' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `special_line_art` WHERE ( Year=2013 and SchoolId=319 and ProvinceId='10000' and SpecialName='社会工作' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `school` WHERE ( SchoolId='320' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `special_line_art` WHERE ( Year=2013 and ProvinceId='10000' and SchoolId='320' )  [ RunTime:0.3941s ]
+SQL: SELECT * FROM `special_line_art` WHERE ( Year=2013 and SchoolId=320 and ProvinceId='10000' and SpecialName='人力资源管理' ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `special_line_art` WHERE ( Year=2013 and SchoolId=320 and ProvinceId='10000' and SpecialName='会计学' ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `special_line_art` WHERE ( Year=2013 and SchoolId=320 and ProvinceId='10000' and SpecialName='保险学' ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `special_line_art` WHERE ( Year=2013 and SchoolId=320 and ProvinceId='10000' and SpecialName='信用管理' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `special_line_art` WHERE ( Year=2013 and SchoolId=320 and ProvinceId='10000' and SpecialName='劳动与社会保障' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `special_line_art` WHERE ( Year=2013 and SchoolId=320 and ProvinceId='10000' and SpecialName='国际商务' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `special_line_art` WHERE ( Year=2013 and SchoolId=320 and ProvinceId='10000' and SpecialName='国际经济与贸易' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `special_line_art` WHERE ( Year=2013 and SchoolId=320 and ProvinceId='10000' and SpecialName='审计学' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `special_line_art` WHERE ( Year=2013 and SchoolId=320 and ProvinceId='10000' and SpecialName='工商管理' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `special_line_art` WHERE ( Year=2013 and SchoolId=320 and ProvinceId='10000' and SpecialName='市场营销' ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `special_line_art` WHERE ( Year=2013 and SchoolId=320 and ProvinceId='10000' and SpecialName='法学' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `special_line_art` WHERE ( Year=2013 and SchoolId=320 and ProvinceId='10000' and SpecialName='物流管理' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `special_line_art` WHERE ( Year=2013 and SchoolId=320 and ProvinceId='10000' and SpecialName='税收学' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `special_line_art` WHERE ( Year=2013 and SchoolId=320 and ProvinceId='10000' and SpecialName='经济学' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `special_line_art` WHERE ( Year=2013 and SchoolId=320 and ProvinceId='10000' and SpecialName='英语' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `special_line_art` WHERE ( Year=2013 and SchoolId=320 and ProvinceId='10000' and SpecialName='行政管理' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `special_line_art` WHERE ( Year=2013 and SchoolId=320 and ProvinceId='10000' and SpecialName='财务管理' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `special_line_art` WHERE ( Year=2013 and SchoolId=320 and ProvinceId='10000' and SpecialName='财政学' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `special_line_art` WHERE ( Year=2013 and SchoolId=320 and ProvinceId='10000' and SpecialName='金融学' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `school` WHERE ( SchoolId='1216' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `special_line_art` WHERE ( Year=2013 and ProvinceId='10000' and SchoolId='1216' )  [ RunTime:0.3872s ]
+SQL: SELECT * FROM `special_line_art` WHERE ( Year=2013 and SchoolId=1216 and ProvinceId='10000' and SpecialName='工商管理' ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `special_line_art` WHERE ( Year=2013 and SchoolId=1216 and ProvinceId='10000' and SpecialName='政治学类(中外合作办学)' ) LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2015-12-16T23:52:44+08:00 ] 127.0.0.1 /gaokao/index.php/Home/Inqure/requst
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000177s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000321s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000350s ]
+SQL: SHOW COLUMNS FROM `batch_controlline` [ RunTime:0.0062s ]
+SQL: SELECT * FROM `batch_controlline` WHERE ( Type='art' and Year=2013 and ProvinceId='10000' and Batch='本科一批' ) LIMIT 1   [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `provinceline_art` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `provinceline_art` WHERE ( Year=2013 and ProvinceId='10000' ) AND ( `Average` > 445 AND `Average` < 450  )  [ RunTime:0.0036s ]
+SQL: SHOW COLUMNS FROM `school` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `school` WHERE ( SchoolId='43' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `special_line_art` [ RunTime:0.0014s ]
+SQL: SELECT * FROM `special_line_art` WHERE ( Year=2013 and ProvinceId='10000' and SchoolId='43' )  [ RunTime:0.3957s ]
+SQL: SELECT * FROM `special_line_art` WHERE ( Year=2013 and SchoolId=43 and ProvinceId='10000' and SpecialName='应用心理学' ) LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `special_line_art` WHERE ( Year=2013 and SchoolId=43 and ProvinceId='10000' and SpecialName='英语' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `school` WHERE ( SchoolId='62' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `special_line_art` WHERE ( Year=2013 and ProvinceId='10000' and SchoolId='62' )  [ RunTime:0.3755s ]
+SQL: SELECT * FROM `special_line_art` WHERE ( Year=2013 and SchoolId=62 and ProvinceId='10000' and SpecialName='国际经济与贸易' ) LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `special_line_art` WHERE ( Year=2013 and SchoolId=62 and ProvinceId='10000' and SpecialName='新闻学' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `special_line_art` WHERE ( Year=2013 and SchoolId=62 and ProvinceId='10000' and SpecialName='金融学' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `school` WHERE ( SchoolId='120' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `special_line_art` WHERE ( Year=2013 and ProvinceId='10000' and SchoolId='120' )  [ RunTime:0.3759s ]
+SQL: SELECT * FROM `school` WHERE ( SchoolId='319' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `special_line_art` WHERE ( Year=2013 and ProvinceId='10000' and SchoolId='319' )  [ RunTime:0.3917s ]
+SQL: SELECT * FROM `special_line_art` WHERE ( Year=2013 and SchoolId=319 and ProvinceId='10000' and SpecialName='日语（商务日语方向）' ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `special_line_art` WHERE ( Year=2013 and SchoolId=319 and ProvinceId='10000' and SpecialName='汉语言文学（财经文秘方向）' ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `special_line_art` WHERE ( Year=2013 and SchoolId=319 and ProvinceId='10000' and SpecialName='社会工作' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `school` WHERE ( SchoolId='320' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `special_line_art` WHERE ( Year=2013 and ProvinceId='10000' and SchoolId='320' )  [ RunTime:0.3924s ]
+SQL: SELECT * FROM `special_line_art` WHERE ( Year=2013 and SchoolId=320 and ProvinceId='10000' and SpecialName='人力资源管理' ) LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT * FROM `special_line_art` WHERE ( Year=2013 and SchoolId=320 and ProvinceId='10000' and SpecialName='会计学' ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `special_line_art` WHERE ( Year=2013 and SchoolId=320 and ProvinceId='10000' and SpecialName='保险学' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `special_line_art` WHERE ( Year=2013 and SchoolId=320 and ProvinceId='10000' and SpecialName='信用管理' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `special_line_art` WHERE ( Year=2013 and SchoolId=320 and ProvinceId='10000' and SpecialName='劳动与社会保障' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `special_line_art` WHERE ( Year=2013 and SchoolId=320 and ProvinceId='10000' and SpecialName='国际商务' ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `special_line_art` WHERE ( Year=2013 and SchoolId=320 and ProvinceId='10000' and SpecialName='国际经济与贸易' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `special_line_art` WHERE ( Year=2013 and SchoolId=320 and ProvinceId='10000' and SpecialName='审计学' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `special_line_art` WHERE ( Year=2013 and SchoolId=320 and ProvinceId='10000' and SpecialName='工商管理' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `special_line_art` WHERE ( Year=2013 and SchoolId=320 and ProvinceId='10000' and SpecialName='市场营销' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `special_line_art` WHERE ( Year=2013 and SchoolId=320 and ProvinceId='10000' and SpecialName='法学' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `special_line_art` WHERE ( Year=2013 and SchoolId=320 and ProvinceId='10000' and SpecialName='物流管理' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `special_line_art` WHERE ( Year=2013 and SchoolId=320 and ProvinceId='10000' and SpecialName='税收学' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `special_line_art` WHERE ( Year=2013 and SchoolId=320 and ProvinceId='10000' and SpecialName='经济学' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `special_line_art` WHERE ( Year=2013 and SchoolId=320 and ProvinceId='10000' and SpecialName='英语' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `special_line_art` WHERE ( Year=2013 and SchoolId=320 and ProvinceId='10000' and SpecialName='行政管理' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `special_line_art` WHERE ( Year=2013 and SchoolId=320 and ProvinceId='10000' and SpecialName='财务管理' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `special_line_art` WHERE ( Year=2013 and SchoolId=320 and ProvinceId='10000' and SpecialName='财政学' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `special_line_art` WHERE ( Year=2013 and SchoolId=320 and ProvinceId='10000' and SpecialName='金融学' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `school` WHERE ( SchoolId='1216' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `special_line_art` WHERE ( Year=2013 and ProvinceId='10000' and SchoolId='1216' )  [ RunTime:0.3660s ]
+SQL: SELECT * FROM `special_line_art` WHERE ( Year=2013 and SchoolId=1216 and ProvinceId='10000' and SpecialName='工商管理' ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `special_line_art` WHERE ( Year=2013 and SchoolId=1216 and ProvinceId='10000' and SpecialName='政治学类(中外合作办学)' ) LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2015-12-16T23:52:47+08:00 ] 127.0.0.1 /gaokao/index.php/Home/Inqure/requst
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000211s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000238s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000260s ]
+SQL: SHOW COLUMNS FROM `batch_controlline` [ RunTime:0.0022s ]
+SQL: SELECT * FROM `batch_controlline` WHERE ( Type='art' and Year=2013 and ProvinceId='10000' and Batch='本科一批' ) LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `provinceline_art` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `provinceline_art` WHERE ( Year=2013 and ProvinceId='10000' ) AND ( `Average` > 445 AND `Average` < 450  )  [ RunTime:0.0023s ]
+SQL: SHOW COLUMNS FROM `school` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `school` WHERE ( SchoolId='43' ) LIMIT 1   [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `special_line_art` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `special_line_art` WHERE ( Year=2013 and ProvinceId='10000' and SchoolId='43' )  [ RunTime:0.3818s ]
+SQL: SELECT * FROM `special_line_art` WHERE ( Year=2013 and SchoolId=43 and ProvinceId='10000' and SpecialName='应用心理学' ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `special_line_art` WHERE ( Year=2013 and SchoolId=43 and ProvinceId='10000' and SpecialName='英语' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `school` WHERE ( SchoolId='62' ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `special_line_art` WHERE ( Year=2013 and ProvinceId='10000' and SchoolId='62' )  [ RunTime:0.3872s ]
+SQL: SELECT * FROM `special_line_art` WHERE ( Year=2013 and SchoolId=62 and ProvinceId='10000' and SpecialName='国际经济与贸易' ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `special_line_art` WHERE ( Year=2013 and SchoolId=62 and ProvinceId='10000' and SpecialName='新闻学' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `special_line_art` WHERE ( Year=2013 and SchoolId=62 and ProvinceId='10000' and SpecialName='金融学' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `school` WHERE ( SchoolId='120' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `special_line_art` WHERE ( Year=2013 and ProvinceId='10000' and SchoolId='120' )  [ RunTime:0.4377s ]
+SQL: SELECT * FROM `school` WHERE ( SchoolId='319' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `special_line_art` WHERE ( Year=2013 and ProvinceId='10000' and SchoolId='319' )  [ RunTime:0.3695s ]
+SQL: SELECT * FROM `special_line_art` WHERE ( Year=2013 and SchoolId=319 and ProvinceId='10000' and SpecialName='日语（商务日语方向）' ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `special_line_art` WHERE ( Year=2013 and SchoolId=319 and ProvinceId='10000' and SpecialName='汉语言文学（财经文秘方向）' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `special_line_art` WHERE ( Year=2013 and SchoolId=319 and ProvinceId='10000' and SpecialName='社会工作' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `school` WHERE ( SchoolId='320' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `special_line_art` WHERE ( Year=2013 and ProvinceId='10000' and SchoolId='320' )  [ RunTime:0.3741s ]
+SQL: SELECT * FROM `special_line_art` WHERE ( Year=2013 and SchoolId=320 and ProvinceId='10000' and SpecialName='人力资源管理' ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `special_line_art` WHERE ( Year=2013 and SchoolId=320 and ProvinceId='10000' and SpecialName='会计学' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `special_line_art` WHERE ( Year=2013 and SchoolId=320 and ProvinceId='10000' and SpecialName='保险学' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `special_line_art` WHERE ( Year=2013 and SchoolId=320 and ProvinceId='10000' and SpecialName='信用管理' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `special_line_art` WHERE ( Year=2013 and SchoolId=320 and ProvinceId='10000' and SpecialName='劳动与社会保障' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `special_line_art` WHERE ( Year=2013 and SchoolId=320 and ProvinceId='10000' and SpecialName='国际商务' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `special_line_art` WHERE ( Year=2013 and SchoolId=320 and ProvinceId='10000' and SpecialName='国际经济与贸易' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `special_line_art` WHERE ( Year=2013 and SchoolId=320 and ProvinceId='10000' and SpecialName='审计学' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `special_line_art` WHERE ( Year=2013 and SchoolId=320 and ProvinceId='10000' and SpecialName='工商管理' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `special_line_art` WHERE ( Year=2013 and SchoolId=320 and ProvinceId='10000' and SpecialName='市场营销' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `special_line_art` WHERE ( Year=2013 and SchoolId=320 and ProvinceId='10000' and SpecialName='法学' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `special_line_art` WHERE ( Year=2013 and SchoolId=320 and ProvinceId='10000' and SpecialName='物流管理' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `special_line_art` WHERE ( Year=2013 and SchoolId=320 and ProvinceId='10000' and SpecialName='税收学' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `special_line_art` WHERE ( Year=2013 and SchoolId=320 and ProvinceId='10000' and SpecialName='经济学' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `special_line_art` WHERE ( Year=2013 and SchoolId=320 and ProvinceId='10000' and SpecialName='英语' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `special_line_art` WHERE ( Year=2013 and SchoolId=320 and ProvinceId='10000' and SpecialName='行政管理' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `special_line_art` WHERE ( Year=2013 and SchoolId=320 and ProvinceId='10000' and SpecialName='财务管理' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `special_line_art` WHERE ( Year=2013 and SchoolId=320 and ProvinceId='10000' and SpecialName='财政学' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `special_line_art` WHERE ( Year=2013 and SchoolId=320 and ProvinceId='10000' and SpecialName='金融学' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `school` WHERE ( SchoolId='1216' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `special_line_art` WHERE ( Year=2013 and ProvinceId='10000' and SchoolId='1216' )  [ RunTime:0.3696s ]
+SQL: SELECT * FROM `special_line_art` WHERE ( Year=2013 and SchoolId=1216 and ProvinceId='10000' and SpecialName='工商管理' ) LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `special_line_art` WHERE ( Year=2013 and SchoolId=1216 and ProvinceId='10000' and SpecialName='政治学类(中外合作办学)' ) LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2015-12-16T23:52:49+08:00 ] 127.0.0.1 /gaokao/index.php/Home/Inqure/requst
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000252s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000302s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000333s ]
+SQL: SHOW COLUMNS FROM `batch_controlline` [ RunTime:0.0023s ]
+SQL: SELECT * FROM `batch_controlline` WHERE ( Type='art' and Year=2013 and ProvinceId='10000' and Batch='本科一批' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `provinceline_art` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `provinceline_art` WHERE ( Year=2013 and ProvinceId='10000' ) AND ( `Average` > 445 AND `Average` < 450  )  [ RunTime:0.0022s ]
+SQL: SHOW COLUMNS FROM `school` [ RunTime:0.0014s ]
+SQL: SELECT * FROM `school` WHERE ( SchoolId='43' ) LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `special_line_art` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `special_line_art` WHERE ( Year=2013 and ProvinceId='10000' and SchoolId='43' )  [ RunTime:0.4621s ]
+SQL: SELECT * FROM `special_line_art` WHERE ( Year=2013 and SchoolId=43 and ProvinceId='10000' and SpecialName='应用心理学' ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `special_line_art` WHERE ( Year=2013 and SchoolId=43 and ProvinceId='10000' and SpecialName='英语' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `school` WHERE ( SchoolId='62' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `special_line_art` WHERE ( Year=2013 and ProvinceId='10000' and SchoolId='62' )  [ RunTime:0.3844s ]
+SQL: SELECT * FROM `special_line_art` WHERE ( Year=2013 and SchoolId=62 and ProvinceId='10000' and SpecialName='国际经济与贸易' ) LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `special_line_art` WHERE ( Year=2013 and SchoolId=62 and ProvinceId='10000' and SpecialName='新闻学' ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `special_line_art` WHERE ( Year=2013 and SchoolId=62 and ProvinceId='10000' and SpecialName='金融学' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `school` WHERE ( SchoolId='120' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `special_line_art` WHERE ( Year=2013 and ProvinceId='10000' and SchoolId='120' )  [ RunTime:0.4253s ]
+SQL: SELECT * FROM `school` WHERE ( SchoolId='319' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `special_line_art` WHERE ( Year=2013 and ProvinceId='10000' and SchoolId='319' )  [ RunTime:0.3811s ]
+SQL: SELECT * FROM `special_line_art` WHERE ( Year=2013 and SchoolId=319 and ProvinceId='10000' and SpecialName='日语（商务日语方向）' ) LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `special_line_art` WHERE ( Year=2013 and SchoolId=319 and ProvinceId='10000' and SpecialName='汉语言文学（财经文秘方向）' ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `special_line_art` WHERE ( Year=2013 and SchoolId=319 and ProvinceId='10000' and SpecialName='社会工作' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `school` WHERE ( SchoolId='320' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `special_line_art` WHERE ( Year=2013 and ProvinceId='10000' and SchoolId='320' )  [ RunTime:0.3707s ]
+SQL: SELECT * FROM `special_line_art` WHERE ( Year=2013 and SchoolId=320 and ProvinceId='10000' and SpecialName='人力资源管理' ) LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `special_line_art` WHERE ( Year=2013 and SchoolId=320 and ProvinceId='10000' and SpecialName='会计学' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `special_line_art` WHERE ( Year=2013 and SchoolId=320 and ProvinceId='10000' and SpecialName='保险学' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `special_line_art` WHERE ( Year=2013 and SchoolId=320 and ProvinceId='10000' and SpecialName='信用管理' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `special_line_art` WHERE ( Year=2013 and SchoolId=320 and ProvinceId='10000' and SpecialName='劳动与社会保障' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `special_line_art` WHERE ( Year=2013 and SchoolId=320 and ProvinceId='10000' and SpecialName='国际商务' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `special_line_art` WHERE ( Year=2013 and SchoolId=320 and ProvinceId='10000' and SpecialName='国际经济与贸易' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `special_line_art` WHERE ( Year=2013 and SchoolId=320 and ProvinceId='10000' and SpecialName='审计学' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `special_line_art` WHERE ( Year=2013 and SchoolId=320 and ProvinceId='10000' and SpecialName='工商管理' ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `special_line_art` WHERE ( Year=2013 and SchoolId=320 and ProvinceId='10000' and SpecialName='市场营销' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `special_line_art` WHERE ( Year=2013 and SchoolId=320 and ProvinceId='10000' and SpecialName='法学' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `special_line_art` WHERE ( Year=2013 and SchoolId=320 and ProvinceId='10000' and SpecialName='物流管理' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `special_line_art` WHERE ( Year=2013 and SchoolId=320 and ProvinceId='10000' and SpecialName='税收学' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `special_line_art` WHERE ( Year=2013 and SchoolId=320 and ProvinceId='10000' and SpecialName='经济学' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `special_line_art` WHERE ( Year=2013 and SchoolId=320 and ProvinceId='10000' and SpecialName='英语' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `special_line_art` WHERE ( Year=2013 and SchoolId=320 and ProvinceId='10000' and SpecialName='行政管理' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `special_line_art` WHERE ( Year=2013 and SchoolId=320 and ProvinceId='10000' and SpecialName='财务管理' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `special_line_art` WHERE ( Year=2013 and SchoolId=320 and ProvinceId='10000' and SpecialName='财政学' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `special_line_art` WHERE ( Year=2013 and SchoolId=320 and ProvinceId='10000' and SpecialName='金融学' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `school` WHERE ( SchoolId='1216' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `special_line_art` WHERE ( Year=2013 and ProvinceId='10000' and SchoolId='1216' )  [ RunTime:0.3780s ]
+SQL: SELECT * FROM `special_line_art` WHERE ( Year=2013 and SchoolId=1216 and ProvinceId='10000' and SpecialName='工商管理' ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `special_line_art` WHERE ( Year=2013 and SchoolId=1216 and ProvinceId='10000' and SpecialName='政治学类(中外合作办学)' ) LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2015-12-16T23:53:39+08:00 ] 127.0.0.1 /gaokao/index.php/Home/Inqure
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000459s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000245s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000267s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000039s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000060s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002877s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002900s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000184s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000209s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000330s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000355s ]
+
+[ 2015-12-16T23:53:45+08:00 ] 127.0.0.1 /gaokao/index.php/Home/Inqure/requst
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000177s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000210s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000230s ]
+SQL: SHOW COLUMNS FROM `batch_controlline` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `batch_controlline` WHERE ( Type='art' and Year=2013 and ProvinceId='10000' and Batch='本科一批' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `provinceline_art` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `provinceline_art` WHERE ( Year=2013 and ProvinceId='10000' ) AND ( `Average` > 445 AND `Average` < 450  )  [ RunTime:0.0024s ]
+SQL: SHOW COLUMNS FROM `school` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `school` WHERE ( SchoolId='43' ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `special_line_art` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `special_line_art` WHERE ( Year=2013 and ProvinceId='10000' and SchoolId='43' )  [ RunTime:0.3811s ]
+SQL: SELECT * FROM `special_line_art` WHERE ( Year=2013 and SchoolId=43 and ProvinceId='10000' and SpecialName='应用心理学' ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `special_line_art` WHERE ( Year=2013 and SchoolId=43 and ProvinceId='10000' and SpecialName='英语' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `school` WHERE ( SchoolId='62' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `special_line_art` WHERE ( Year=2013 and ProvinceId='10000' and SchoolId='62' )  [ RunTime:0.3694s ]
+SQL: SELECT * FROM `special_line_art` WHERE ( Year=2013 and SchoolId=62 and ProvinceId='10000' and SpecialName='国际经济与贸易' ) LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `special_line_art` WHERE ( Year=2013 and SchoolId=62 and ProvinceId='10000' and SpecialName='新闻学' ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `special_line_art` WHERE ( Year=2013 and SchoolId=62 and ProvinceId='10000' and SpecialName='金融学' ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `school` WHERE ( SchoolId='120' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `special_line_art` WHERE ( Year=2013 and ProvinceId='10000' and SchoolId='120' )  [ RunTime:0.3797s ]
+SQL: SELECT * FROM `school` WHERE ( SchoolId='319' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `special_line_art` WHERE ( Year=2013 and ProvinceId='10000' and SchoolId='319' )  [ RunTime:0.3824s ]
+SQL: SELECT * FROM `special_line_art` WHERE ( Year=2013 and SchoolId=319 and ProvinceId='10000' and SpecialName='日语（商务日语方向）' ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `special_line_art` WHERE ( Year=2013 and SchoolId=319 and ProvinceId='10000' and SpecialName='汉语言文学（财经文秘方向）' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `special_line_art` WHERE ( Year=2013 and SchoolId=319 and ProvinceId='10000' and SpecialName='社会工作' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `school` WHERE ( SchoolId='320' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `special_line_art` WHERE ( Year=2013 and ProvinceId='10000' and SchoolId='320' )  [ RunTime:0.3773s ]
+SQL: SELECT * FROM `special_line_art` WHERE ( Year=2013 and SchoolId=320 and ProvinceId='10000' and SpecialName='人力资源管理' ) LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `special_line_art` WHERE ( Year=2013 and SchoolId=320 and ProvinceId='10000' and SpecialName='会计学' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `special_line_art` WHERE ( Year=2013 and SchoolId=320 and ProvinceId='10000' and SpecialName='保险学' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `special_line_art` WHERE ( Year=2013 and SchoolId=320 and ProvinceId='10000' and SpecialName='信用管理' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `special_line_art` WHERE ( Year=2013 and SchoolId=320 and ProvinceId='10000' and SpecialName='劳动与社会保障' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `special_line_art` WHERE ( Year=2013 and SchoolId=320 and ProvinceId='10000' and SpecialName='国际商务' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `special_line_art` WHERE ( Year=2013 and SchoolId=320 and ProvinceId='10000' and SpecialName='国际经济与贸易' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `special_line_art` WHERE ( Year=2013 and SchoolId=320 and ProvinceId='10000' and SpecialName='审计学' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `special_line_art` WHERE ( Year=2013 and SchoolId=320 and ProvinceId='10000' and SpecialName='工商管理' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `special_line_art` WHERE ( Year=2013 and SchoolId=320 and ProvinceId='10000' and SpecialName='市场营销' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `special_line_art` WHERE ( Year=2013 and SchoolId=320 and ProvinceId='10000' and SpecialName='法学' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `special_line_art` WHERE ( Year=2013 and SchoolId=320 and ProvinceId='10000' and SpecialName='物流管理' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `special_line_art` WHERE ( Year=2013 and SchoolId=320 and ProvinceId='10000' and SpecialName='税收学' ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `special_line_art` WHERE ( Year=2013 and SchoolId=320 and ProvinceId='10000' and SpecialName='经济学' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `special_line_art` WHERE ( Year=2013 and SchoolId=320 and ProvinceId='10000' and SpecialName='英语' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `special_line_art` WHERE ( Year=2013 and SchoolId=320 and ProvinceId='10000' and SpecialName='行政管理' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `special_line_art` WHERE ( Year=2013 and SchoolId=320 and ProvinceId='10000' and SpecialName='财务管理' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `special_line_art` WHERE ( Year=2013 and SchoolId=320 and ProvinceId='10000' and SpecialName='财政学' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `special_line_art` WHERE ( Year=2013 and SchoolId=320 and ProvinceId='10000' and SpecialName='金融学' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `school` WHERE ( SchoolId='1216' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `special_line_art` WHERE ( Year=2013 and ProvinceId='10000' and SchoolId='1216' )  [ RunTime:0.3707s ]
+SQL: SELECT * FROM `special_line_art` WHERE ( Year=2013 and SchoolId=1216 and ProvinceId='10000' and SpecialName='工商管理' ) LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `special_line_art` WHERE ( Year=2013 and SchoolId=1216 and ProvinceId='10000' and SpecialName='政治学类(中外合作办学)' ) LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2015-12-16T23:53:46+08:00 ] 127.0.0.1 /gaokao/index.php/Home/Inqure
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000165s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000209s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000229s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000054s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000094s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004190s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004227s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000144s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000170s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000347s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000372s ]
+
+[ 2015-12-16T23:53:47+08:00 ] 127.0.0.1 /gaokao/index.php/Home/Inqure
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000223s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000282s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000310s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000041s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000072s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003671s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003700s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000115s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000130s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000259s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000276s ]
+
+[ 2015-12-16T23:53:47+08:00 ] 127.0.0.1 /gaokao/index.php/Home/Inqure
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000301s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000412s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000451s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000067s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000114s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003402s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003447s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000156s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000181s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000341s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000363s ]
+
+[ 2015-12-16T23:54:24+08:00 ] 127.0.0.1 /gaokao/index.php/Home/Inqure
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000335s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000448s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000483s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000040s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000068s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004341s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004371s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000104s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000122s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000275s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000291s ]
+
+[ 2015-12-16T23:54:27+08:00 ] 127.0.0.1 /gaokao/index.php/Home/Inqure
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000176s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000214s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000235s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000039s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000061s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002784s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002804s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000101s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000115s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000240s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000255s ]
+
+[ 2015-12-16T23:54:48+08:00 ] 127.0.0.1 /gaokao/index.php/Home/Inqure
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000170s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000228s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000248s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000039s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000066s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004037s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004065s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000098s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000114s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000253s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000270s ]
+
+[ 2015-12-16T23:54:52+08:00 ] 127.0.0.1 /gaokao/index.php/Home/Inqure
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000172s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000217s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000237s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000038s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000060s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002835s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002866s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000152s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000174s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000402s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000430s ]
+
+[ 2015-12-16T23:54:55+08:00 ] 127.0.0.1 /gaokao/index.php/Home/Inqure
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000171s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000217s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000239s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000038s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000059s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002732s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002754s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000100s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000114s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000238s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000255s ]
+
+[ 2015-12-16T23:54:58+08:00 ] 127.0.0.1 /gaokao/index.php/Home/Inqure
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000290s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000287s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000317s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000040s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000066s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002949s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002973s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000112s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000126s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000246s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000262s ]
+
+[ 2015-12-16T23:54:59+08:00 ] 127.0.0.1 /gaokao/index.php/Home/Inqure/requst
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000173s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000217s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000237s ]
+SQL: SHOW COLUMNS FROM `batch_controlline` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `batch_controlline` WHERE ( Type='art' and Year=2013 and ProvinceId='10000' and Batch='本科一批' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `provinceline_art` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `provinceline_art` WHERE ( Year=2013 and ProvinceId='10000' ) AND ( `Average` > 445 AND `Average` < 450  )  [ RunTime:0.0022s ]
+SQL: SHOW COLUMNS FROM `school` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `school` WHERE ( SchoolId='43' ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `provinceline_art` WHERE ( SchoolId='43' and Year='2012' and ProvinceId='10000' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `provinceline_art` WHERE ( SchoolId='43' and Year='2013' and ProvinceId='10000' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `provinceline_art` WHERE ( SchoolId='43' and Year='2014' and ProvinceId='10000' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `school` WHERE ( SchoolId='62' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `provinceline_art` WHERE ( SchoolId='62' and Year='2012' and ProvinceId='10000' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `provinceline_art` WHERE ( SchoolId='62' and Year='2013' and ProvinceId='10000' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `provinceline_art` WHERE ( SchoolId='62' and Year='2014' and ProvinceId='10000' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `school` WHERE ( SchoolId='120' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `provinceline_art` WHERE ( SchoolId='120' and Year='2012' and ProvinceId='10000' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `provinceline_art` WHERE ( SchoolId='120' and Year='2013' and ProvinceId='10000' ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `provinceline_art` WHERE ( SchoolId='120' and Year='2014' and ProvinceId='10000' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `school` WHERE ( SchoolId='319' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `provinceline_art` WHERE ( SchoolId='319' and Year='2012' and ProvinceId='10000' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `provinceline_art` WHERE ( SchoolId='319' and Year='2013' and ProvinceId='10000' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `provinceline_art` WHERE ( SchoolId='319' and Year='2014' and ProvinceId='10000' ) LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `school` WHERE ( SchoolId='320' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `provinceline_art` WHERE ( SchoolId='320' and Year='2012' and ProvinceId='10000' ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `provinceline_art` WHERE ( SchoolId='320' and Year='2013' and ProvinceId='10000' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `provinceline_art` WHERE ( SchoolId='320' and Year='2014' and ProvinceId='10000' ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `school` WHERE ( SchoolId='1216' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `provinceline_art` WHERE ( SchoolId='1216' and Year='2012' and ProvinceId='10000' ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `provinceline_art` WHERE ( SchoolId='1216' and Year='2013' and ProvinceId='10000' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `provinceline_art` WHERE ( SchoolId='1216' and Year='2014' and ProvinceId='10000' ) LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2015-12-16T23:55:18+08:00 ] 127.0.0.1 /gaokao/index.php/Home/Inqure
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000166s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000232s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000253s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000067s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000128s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004443s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004470s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000123s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000143s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000345s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000368s ]
+
+[ 2015-12-16T23:55:19+08:00 ] 127.0.0.1 /gaokao/index.php/Home/Inqure
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000167s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000208s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000229s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000096s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000154s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004363s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004401s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000114s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000130s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000278s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000296s ]
+
+[ 2015-12-16T23:55:22+08:00 ] 127.0.0.1 /gaokao/index.php/Home/Inqure
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000167s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000211s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000232s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000039s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000059s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003035s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003058s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000108s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000123s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000241s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000258s ]
+
+[ 2015-12-16T23:56:12+08:00 ] 127.0.0.1 /gaokao/index.php/Home/Inqure
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000162s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000208s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000228s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000041s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000073s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004580s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004615s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000113s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000129s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000271s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000289s ]
+
+[ 2015-12-16T23:57:32+08:00 ] 127.0.0.1 /gaokao/index.php/Home/Inqure
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000170s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000213s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000233s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000039s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000062s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002958s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002992s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000097s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000114s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000419s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000464s ]
+

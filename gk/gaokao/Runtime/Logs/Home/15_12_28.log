@@ -1,0 +1,1038 @@
+[ 2015-12-28T18:58:59+08:00 ] 127.0.0.1 /gaokao/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000739s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000755s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000792s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000036s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000073s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011079s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011144s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000513s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000551s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000882s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000924s ]
+
+[ 2015-12-28T18:59:01+08:00 ] 127.0.0.1 /gaokao/index.php/Home/Inqure
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000167s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000211s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000231s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000058s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000096s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005350s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005443s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000160s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000183s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000729s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000775s ]
+
+[ 2015-12-28T18:59:04+08:00 ] 127.0.0.1 /gaokao/index.php/Home/Inqure/requst
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000197s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000224s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000247s ]
+SQL: SHOW COLUMNS FROM `batch_controlline` [ RunTime:0.0137s ]
+SQL: SELECT * FROM `batch_controlline` WHERE ( Type='art' and Year=2012 and ProvinceId='10000' and Batch='本科一批' ) LIMIT 1   [ RunTime:0.0111s ]
+SQL: SELECT * FROM `batch_controlline` WHERE ( Type='art' and Year=2013 and ProvinceId='10000' and Batch='本科一批' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `batch_controlline` WHERE ( Type='art' and Year=2014 and ProvinceId='10000' and Batch='本科一批' ) LIMIT 1   [ RunTime:0.0028s ]
+SQL: SHOW COLUMNS FROM `provinceline_art` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `provinceline_art` WHERE ( `Average` >= 438 AND `Average` <= 438  ) AND `Year` = 2012 AND `ProvinceId` = 10000 AND `Batch` = '本科一批'  [ RunTime:0.0024s ]
+SQL: SELECT * FROM `provinceline_art` WHERE ( `Average` >= 448 AND `Average` <= 448  ) AND `Year` = 2013 AND `ProvinceId` = 10000 AND `Batch` = '本科一批'  [ RunTime:0.0013s ]
+SQL: SELECT * FROM `provinceline_art` WHERE ( `Average` >= 0 AND `Average` <= 0  ) AND `Year` = 2014 AND `ProvinceId` = 10000 AND `Batch` = '本科一批'  [ RunTime:0.0013s ]
+SQL: SELECT * FROM `provinceline_art` WHERE `Year` = 2012 AND `Batch` = '本科一批' AND `ProvinceId` = 10000 AND `SchoolId` = 62 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `provinceline_art` WHERE `Year` = 2013 AND `Batch` = '本科一批' AND `ProvinceId` = 10000 AND `SchoolId` = 62 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `provinceline_art` WHERE `Year` = 2014 AND `Batch` = '本科一批' AND `ProvinceId` = 10000 AND `SchoolId` = 62 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `provinceline_art` WHERE `Year` = 2012 AND `Batch` = '本科一批' AND `ProvinceId` = 10000 AND `SchoolId` = 120 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `provinceline_art` WHERE `Year` = 2013 AND `Batch` = '本科一批' AND `ProvinceId` = 10000 AND `SchoolId` = 120 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `provinceline_art` WHERE `Year` = 2014 AND `Batch` = '本科一批' AND `ProvinceId` = 10000 AND `SchoolId` = 120 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `provinceline_art` WHERE `Year` = 2012 AND `Batch` = '本科一批' AND `ProvinceId` = 10000 AND `SchoolId` = 1216 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `provinceline_art` WHERE `Year` = 2013 AND `Batch` = '本科一批' AND `ProvinceId` = 10000 AND `SchoolId` = 1216 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `provinceline_art` WHERE `Year` = 2014 AND `Batch` = '本科一批' AND `ProvinceId` = 10000 AND `SchoolId` = 1216 LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2015-12-28T19:02:10+08:00 ] 127.0.0.1 /gaokao/index.php/Home/Inqure/requst
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000299s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000386s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000416s ]
+SQL: SHOW COLUMNS FROM `batch_controlline` [ RunTime:0.0019s ]
+SQL: SELECT * FROM `batch_controlline` WHERE ( Type='art' and Year=2012 and ProvinceId='10003' and Batch='本科一批' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `batch_controlline` WHERE ( Type='art' and Year=2013 and ProvinceId='10003' and Batch='本科一批' ) LIMIT 1   [ RunTime:0.0014s ]
+SQL: SELECT * FROM `batch_controlline` WHERE ( Type='art' and Year=2014 and ProvinceId='10003' and Batch='本科一批' ) LIMIT 1   [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `provinceline_art` [ RunTime:0.0035s ]
+SQL: SELECT * FROM `provinceline_art` WHERE ( `Average` >= 495 AND `Average` <= 495  ) AND `Year` = 2012 AND `ProvinceId` = 10003 AND `Batch` = '本科一批'  [ RunTime:0.0392s ]
+SQL: SELECT * FROM `provinceline_art` WHERE ( `Average` >= 549 AND `Average` <= 549  ) AND `Year` = 2013 AND `ProvinceId` = 10003 AND `Batch` = '本科一批'  [ RunTime:0.0023s ]
+SQL: SELECT * FROM `provinceline_art` WHERE ( `Average` >= 565 AND `Average` <= 565  ) AND `Year` = 2014 AND `ProvinceId` = 10003 AND `Batch` = '本科一批'  [ RunTime:0.0023s ]
+NOTIC: [8] Undefined variable: info /Users/mrzxc/Sites/gaokao/gaokao/Home/Controller/InqureController.class.php 第 116 行.
+
+[ 2015-12-28T19:02:17+08:00 ] 127.0.0.1 /gaokao/index.php/Home/Inqure/requst
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000212s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000434s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000474s ]
+SQL: SHOW COLUMNS FROM `batch_controlline` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `batch_controlline` WHERE ( Type='art' and Year=2012 and ProvinceId='10006' and Batch='本科一批' ) LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `batch_controlline` WHERE ( Type='art' and Year=2013 and ProvinceId='10006' and Batch='本科一批' ) LIMIT 1   [ RunTime:0.0016s ]
+SQL: SELECT * FROM `batch_controlline` WHERE ( Type='art' and Year=2014 and ProvinceId='10006' and Batch='本科一批' ) LIMIT 1   [ RunTime:0.0015s ]
+SQL: SHOW COLUMNS FROM `provinceline_art` [ RunTime:0.0015s ]
+SQL: SELECT * FROM `provinceline_art` WHERE ( `Average` >= 549 AND `Average` <= 549  ) AND `Year` = 2012 AND `ProvinceId` = 10006 AND `Batch` = '本科一批'  [ RunTime:0.0179s ]
+SQL: SELECT * FROM `provinceline_art` WHERE ( `Average` >= 0 AND `Average` <= 0  ) AND `Year` = 2013 AND `ProvinceId` = 10006 AND `Batch` = '本科一批'  [ RunTime:0.0035s ]
+SQL: SELECT * FROM `provinceline_art` WHERE ( `Average` >= 0 AND `Average` <= 0  ) AND `Year` = 2014 AND `ProvinceId` = 10006 AND `Batch` = '本科一批'  [ RunTime:0.0024s ]
+SQL: SELECT * FROM `provinceline_art` WHERE `Year` = 2012 AND `Batch` = '本科一批' AND `ProvinceId` = 10006 AND `SchoolId` = 425 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `provinceline_art` WHERE `Year` = 2013 AND `Batch` = '本科一批' AND `ProvinceId` = 10006 AND `SchoolId` = 425 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `provinceline_art` WHERE `Year` = 2014 AND `Batch` = '本科一批' AND `ProvinceId` = 10006 AND `SchoolId` = 425 LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2015-12-28T19:03:34+08:00 ] 127.0.0.1 /gaokao/index.php/Home/Inqure/requst
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000273s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000272s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000292s ]
+SQL: SHOW COLUMNS FROM `batch_controlline` [ RunTime:0.0018s ]
+SQL: SELECT * FROM `batch_controlline` WHERE ( Type='art' and Year=2012 and ProvinceId='10006' and Batch='本科一批' ) LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `batch_controlline` WHERE ( Type='art' and Year=2013 and ProvinceId='10006' and Batch='本科一批' ) LIMIT 1   [ RunTime:0.0018s ]
+SQL: SELECT * FROM `batch_controlline` WHERE ( Type='art' and Year=2014 and ProvinceId='10006' and Batch='本科一批' ) LIMIT 1   [ RunTime:0.0016s ]
+SQL: SHOW COLUMNS FROM `provinceline_art` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `provinceline_art` WHERE ( `Average` >= 549 AND `Average` <= 549  ) AND `Year` = 2012 AND `ProvinceId` = 10006 AND `Batch` = '本科一批'  [ RunTime:0.0024s ]
+SQL: SELECT * FROM `provinceline_art` WHERE ( `Average` >= 0 AND `Average` <= 0  ) AND `Year` = 2013 AND `ProvinceId` = 10006 AND `Batch` = '本科一批'  [ RunTime:0.0025s ]
+SQL: SELECT * FROM `provinceline_art` WHERE ( `Average` >= 0 AND `Average` <= 0  ) AND `Year` = 2014 AND `ProvinceId` = 10006 AND `Batch` = '本科一批'  [ RunTime:0.0023s ]
+
+[ 2015-12-28T19:06:11+08:00 ] 127.0.0.1 /gaokao/index.php/Home/Inqure/requst
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000228s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000277s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000297s ]
+SQL: SHOW COLUMNS FROM `batch_controlline` [ RunTime:0.0014s ]
+SQL: SELECT * FROM `batch_controlline` WHERE ( Type='art' and Year=2012 and ProvinceId='10006' and Batch='本科一批' ) LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `batch_controlline` WHERE ( Type='art' and Year=2013 and ProvinceId='10006' and Batch='本科一批' ) LIMIT 1   [ RunTime:0.0018s ]
+SQL: SELECT * FROM `batch_controlline` WHERE ( Type='art' and Year=2014 and ProvinceId='10006' and Batch='本科一批' ) LIMIT 1   [ RunTime:0.0016s ]
+SQL: SHOW COLUMNS FROM `provinceline_art` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `provinceline_art` WHERE ( `Average` >= 549 AND `Average` <= 549  ) AND `Year` = 2012 AND `ProvinceId` = 10006 AND `Batch` = '本科一批'  [ RunTime:0.0025s ]
+SQL: SELECT * FROM `provinceline_art` WHERE ( `Average` >= 0 AND `Average` <= 0  ) AND `Year` = 2013 AND `ProvinceId` = 10006 AND `Batch` = '本科一批'  [ RunTime:0.0028s ]
+SQL: SELECT * FROM `provinceline_art` WHERE ( `Average` >= 0 AND `Average` <= 0  ) AND `Year` = 2014 AND `ProvinceId` = 10006 AND `Batch` = '本科一批'  [ RunTime:0.0024s ]
+
+[ 2015-12-28T19:06:54+08:00 ] 127.0.0.1 /gaokao/index.php/Home/Inqure/requst
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000765s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000812s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000894s ]
+SQL: SHOW COLUMNS FROM `batch_controlline` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `batch_controlline` WHERE ( Type='art' and Year=2012 and ProvinceId='10008' and Batch='本科一批' ) LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `batch_controlline` WHERE ( Type='art' and Year=2013 and ProvinceId='10008' and Batch='本科一批' ) LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `batch_controlline` WHERE ( Type='art' and Year=2014 and ProvinceId='10008' and Batch='本科一批' ) LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `provinceline_art` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `provinceline_art` WHERE ( `Average` >= 595 AND `Average` <= 599  ) AND `Year` = 2012 AND `ProvinceId` = 10008 AND `Batch` = '本科一批'  [ RunTime:0.0206s ]
+SQL: SELECT * FROM `provinceline_art` WHERE ( `Average` >= 558 AND `Average` <= 562  ) AND `Year` = 2013 AND `ProvinceId` = 10008 AND `Batch` = '本科一批'  [ RunTime:0.0045s ]
+SQL: SELECT * FROM `provinceline_art` WHERE ( `Average` >= 559 AND `Average` <= 563  ) AND `Year` = 2014 AND `ProvinceId` = 10008 AND `Batch` = '本科一批'  [ RunTime:0.0032s ]
+
+[ 2015-12-28T19:13:25+08:00 ] 127.0.0.1 /gaokao/index.php/Home/Inqure/requst
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000235s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000266s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000287s ]
+SQL: SHOW COLUMNS FROM `batch_controlline` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `batch_controlline` WHERE ( Type='art' and Year=2012 and ProvinceId='10008' and Batch='本科一批' ) LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `batch_controlline` WHERE ( Type='art' and Year=2013 and ProvinceId='10008' and Batch='本科一批' ) LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `batch_controlline` WHERE ( Type='art' and Year=2014 and ProvinceId='10008' and Batch='本科一批' ) LIMIT 1   [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `provinceline_art` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `provinceline_art` WHERE ( `Average` >= 595 AND `Average` <= 599  ) AND `Year` = 2012 AND `ProvinceId` = 10008 AND `Batch` = '本科一批'  [ RunTime:0.0034s ]
+SQL: SELECT * FROM `provinceline_art` WHERE ( `Average` >= 558 AND `Average` <= 562  ) AND `Year` = 2013 AND `ProvinceId` = 10008 AND `Batch` = '本科一批'  [ RunTime:0.0038s ]
+SQL: SELECT * FROM `provinceline_art` WHERE ( `Average` >= 559 AND `Average` <= 563  ) AND `Year` = 2014 AND `ProvinceId` = 10008 AND `Batch` = '本科一批'  [ RunTime:0.0033s ]
+
+[ 2015-12-28T19:13:32+08:00 ] 127.0.0.1 /gaokao/index.php/Home/Inqure/requst
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000226s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000318s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000356s ]
+SQL: SHOW COLUMNS FROM `batch_controlline` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `batch_controlline` WHERE ( Type='art' and Year=2012 and ProvinceId='10008' and Batch='本科一批' ) LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `batch_controlline` WHERE ( Type='art' and Year=2013 and ProvinceId='10008' and Batch='本科一批' ) LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `batch_controlline` WHERE ( Type='art' and Year=2014 and ProvinceId='10008' and Batch='本科一批' ) LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `provinceline_art` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `provinceline_art` WHERE ( `Average` >= 595 AND `Average` <= 599  ) AND `Year` = 2012 AND `ProvinceId` = 10008 AND `Batch` = '本科一批'  [ RunTime:0.0033s ]
+SQL: SELECT * FROM `provinceline_art` WHERE ( `Average` >= 558 AND `Average` <= 562  ) AND `Year` = 2013 AND `ProvinceId` = 10008 AND `Batch` = '本科一批'  [ RunTime:0.0034s ]
+SQL: SELECT * FROM `provinceline_art` WHERE ( `Average` >= 559 AND `Average` <= 563  ) AND `Year` = 2014 AND `ProvinceId` = 10008 AND `Batch` = '本科一批'  [ RunTime:0.0042s ]
+
+[ 2015-12-28T19:13:36+08:00 ] 127.0.0.1 /gaokao/index.php/Home/Inqure/requst
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000339s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000429s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000470s ]
+SQL: SHOW COLUMNS FROM `batch_controlline` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `batch_controlline` WHERE ( Type='art' and Year=2012 and ProvinceId='10008' and Batch='本科一批' ) LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT * FROM `batch_controlline` WHERE ( Type='art' and Year=2013 and ProvinceId='10008' and Batch='本科一批' ) LIMIT 1   [ RunTime:0.0011s ]
+SQL: SELECT * FROM `batch_controlline` WHERE ( Type='art' and Year=2014 and ProvinceId='10008' and Batch='本科一批' ) LIMIT 1   [ RunTime:0.0011s ]
+SQL: SHOW COLUMNS FROM `provinceline_art` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `provinceline_art` WHERE ( `Average` >= 595 AND `Average` <= 599  ) AND `Year` = 2012 AND `ProvinceId` = 10008 AND `Batch` = '本科一批'  [ RunTime:0.0034s ]
+SQL: SELECT * FROM `provinceline_art` WHERE ( `Average` >= 558 AND `Average` <= 562  ) AND `Year` = 2013 AND `ProvinceId` = 10008 AND `Batch` = '本科一批'  [ RunTime:0.0035s ]
+SQL: SELECT * FROM `provinceline_art` WHERE ( `Average` >= 559 AND `Average` <= 563  ) AND `Year` = 2014 AND `ProvinceId` = 10008 AND `Batch` = '本科一批'  [ RunTime:0.0033s ]
+
+[ 2015-12-28T19:13:55+08:00 ] 127.0.0.1 /gaokao/index.php/Home/Inqure/requst
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000312s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000350s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000385s ]
+SQL: SHOW COLUMNS FROM `batch_controlline` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `batch_controlline` WHERE ( Type='art' and Year=2012 and ProvinceId='10008' and Batch='本科一批' ) LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `batch_controlline` WHERE ( Type='art' and Year=2013 and ProvinceId='10008' and Batch='本科一批' ) LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `batch_controlline` WHERE ( Type='art' and Year=2014 and ProvinceId='10008' and Batch='本科一批' ) LIMIT 1   [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `provinceline_art` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `provinceline_art` WHERE ( `Average` >= 595 AND `Average` <= 599  ) AND `Year` = 2012 AND `ProvinceId` = 10008 AND `Batch` = '本科一批'  [ RunTime:0.0033s ]
+SQL: SELECT * FROM `provinceline_art` WHERE ( `Average` >= 558 AND `Average` <= 562  ) AND `Year` = 2013 AND `ProvinceId` = 10008 AND `Batch` = '本科一批'  [ RunTime:0.0038s ]
+SQL: SELECT * FROM `provinceline_art` WHERE ( `Average` >= 559 AND `Average` <= 563  ) AND `Year` = 2014 AND `ProvinceId` = 10008 AND `Batch` = '本科一批'  [ RunTime:0.0033s ]
+NOTIC: [8] Undefined variable: preinfo /Users/mrzxc/Sites/gaokao/gaokao/Home/Controller/InqureController.class.php 第 99 行.
+NOTIC: [2] Invalid argument supplied for foreach() /Users/mrzxc/Sites/gaokao/gaokao/Home/Controller/InqureController.class.php 第 99 行.
+NOTIC: [8] Undefined variable: preinfo /Users/mrzxc/Sites/gaokao/gaokao/Home/Controller/InqureController.class.php 第 107 行.
+ERR: Unsupported operand types
+
+[ 2015-12-28T19:15:07+08:00 ] 127.0.0.1 /gaokao/index.php/Home/Inqure/requst
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000266s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000331s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000355s ]
+SQL: SHOW COLUMNS FROM `batch_controlline` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `batch_controlline` WHERE ( Type='art' and Year=2012 and ProvinceId='10008' and Batch='本科一批' ) LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `batch_controlline` WHERE ( Type='art' and Year=2013 and ProvinceId='10008' and Batch='本科一批' ) LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `batch_controlline` WHERE ( Type='art' and Year=2014 and ProvinceId='10008' and Batch='本科一批' ) LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `provinceline_art` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `provinceline_art` WHERE ( `Average` >= 595 AND `Average` <= 599  ) AND `Year` = 2012 AND `ProvinceId` = 10008 AND `Batch` = '本科一批'  [ RunTime:0.0043s ]
+SQL: SELECT * FROM `provinceline_art` WHERE ( `Average` >= 558 AND `Average` <= 562  ) AND `Year` = 2013 AND `ProvinceId` = 10008 AND `Batch` = '本科一批'  [ RunTime:0.0035s ]
+SQL: SELECT * FROM `provinceline_art` WHERE ( `Average` >= 559 AND `Average` <= 563  ) AND `Year` = 2014 AND `ProvinceId` = 10008 AND `Batch` = '本科一批'  [ RunTime:0.0032s ]
+NOTIC: [8] Undefined variable: preinfo /Users/mrzxc/Sites/gaokao/gaokao/Home/Controller/InqureController.class.php 第 99 行.
+NOTIC: [2] Invalid argument supplied for foreach() /Users/mrzxc/Sites/gaokao/gaokao/Home/Controller/InqureController.class.php 第 99 行.
+NOTIC: [8] Undefined variable: preinfo /Users/mrzxc/Sites/gaokao/gaokao/Home/Controller/InqureController.class.php 第 107 行.
+ERR: Unsupported operand types
+
+[ 2015-12-28T19:15:16+08:00 ] 127.0.0.1 /gaokao/index.php/Home/Inqure/requst
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000455s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000630s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000683s ]
+SQL: SHOW COLUMNS FROM `batch_controlline` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `batch_controlline` WHERE ( Type='art' and Year=2012 and ProvinceId='10010' and Batch='本科一批' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `batch_controlline` WHERE ( Type='art' and Year=2013 and ProvinceId='10010' and Batch='本科一批' ) LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT * FROM `batch_controlline` WHERE ( Type='art' and Year=2014 and ProvinceId='10010' and Batch='本科一批' ) LIMIT 1   [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `provinceline_art` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `provinceline_art` WHERE ( `Average` >= 591 AND `Average` <= 595  ) AND `Year` = 2012 AND `ProvinceId` = 10010 AND `Batch` = '本科一批'  [ RunTime:0.0137s ]
+SQL: SELECT * FROM `provinceline_art` WHERE ( `Average` >= 588 AND `Average` <= 592  ) AND `Year` = 2013 AND `ProvinceId` = 10010 AND `Batch` = '本科一批'  [ RunTime:0.0038s ]
+SQL: SELECT * FROM `provinceline_art` WHERE ( `Average` >= 597 AND `Average` <= 601  ) AND `Year` = 2014 AND `ProvinceId` = 10010 AND `Batch` = '本科一批'  [ RunTime:0.0048s ]
+NOTIC: [8] Undefined variable: preinfo /Users/mrzxc/Sites/gaokao/gaokao/Home/Controller/InqureController.class.php 第 99 行.
+NOTIC: [2] Invalid argument supplied for foreach() /Users/mrzxc/Sites/gaokao/gaokao/Home/Controller/InqureController.class.php 第 99 行.
+NOTIC: [8] Undefined variable: preinfo /Users/mrzxc/Sites/gaokao/gaokao/Home/Controller/InqureController.class.php 第 107 行.
+ERR: Unsupported operand types
+
+[ 2015-12-28T19:16:16+08:00 ] 127.0.0.1 /gaokao/index.php/Home/Inqure/requst
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000089s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000640s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000322s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000351s ]
+SQL: SHOW COLUMNS FROM `batch_controlline` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `batch_controlline` WHERE ( Type='art' and Year=2012 and ProvinceId='10010' and Batch='本科一批' ) LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT * FROM `batch_controlline` WHERE ( Type='art' and Year=2013 and ProvinceId='10010' and Batch='本科一批' ) LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT * FROM `batch_controlline` WHERE ( Type='art' and Year=2014 and ProvinceId='10010' and Batch='本科一批' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `provinceline_art` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `provinceline_art` WHERE ( `Average` >= 591 AND `Average` <= 595  ) AND `Year` = 2012 AND `ProvinceId` = 10010 AND `Batch` = '本科一批'  [ RunTime:0.0030s ]
+SQL: SELECT * FROM `provinceline_art` WHERE ( `Average` >= 588 AND `Average` <= 592  ) AND `Year` = 2013 AND `ProvinceId` = 10010 AND `Batch` = '本科一批'  [ RunTime:0.0044s ]
+SQL: SELECT * FROM `provinceline_art` WHERE ( `Average` >= 597 AND `Average` <= 601  ) AND `Year` = 2014 AND `ProvinceId` = 10010 AND `Batch` = '本科一批'  [ RunTime:0.0038s ]
+
+[ 2015-12-28T19:16:49+08:00 ] 127.0.0.1 /gaokao/index.php/Home/Inqure/requst
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000341s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000381s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000417s ]
+SQL: SHOW COLUMNS FROM `batch_controlline` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `batch_controlline` WHERE ( Type='art' and Year=2012 and ProvinceId='10010' and Batch='本科一批' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `batch_controlline` WHERE ( Type='art' and Year=2013 and ProvinceId='10010' and Batch='本科一批' ) LIMIT 1   [ RunTime:0.0009s ]
+SQL: SELECT * FROM `batch_controlline` WHERE ( Type='art' and Year=2014 and ProvinceId='10010' and Batch='本科一批' ) LIMIT 1   [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `provinceline_art` [ RunTime:0.0013s ]
+SQL: SELECT * FROM `provinceline_art` WHERE ( `Average` >= 591 AND `Average` <= 595  ) AND `Year` = 2012 AND `ProvinceId` = 10010 AND `Batch` = '本科一批'  [ RunTime:0.0035s ]
+SQL: SELECT * FROM `provinceline_art` WHERE ( `Average` >= 588 AND `Average` <= 592  ) AND `Year` = 2013 AND `ProvinceId` = 10010 AND `Batch` = '本科一批'  [ RunTime:0.0031s ]
+SQL: SELECT * FROM `provinceline_art` WHERE ( `Average` >= 597 AND `Average` <= 601  ) AND `Year` = 2014 AND `ProvinceId` = 10010 AND `Batch` = '本科一批'  [ RunTime:0.0029s ]
+
+[ 2015-12-28T19:17:07+08:00 ] 127.0.0.1 /gaokao/index.php/Home/Inqure/requst
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000609s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000347s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000385s ]
+SQL: SHOW COLUMNS FROM `batch_controlline` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `batch_controlline` WHERE ( Type='art' and Year=2012 and ProvinceId='10010' and Batch='本科一批' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `batch_controlline` WHERE ( Type='art' and Year=2013 and ProvinceId='10010' and Batch='本科一批' ) LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `batch_controlline` WHERE ( Type='art' and Year=2014 and ProvinceId='10010' and Batch='本科一批' ) LIMIT 1   [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `provinceline_art` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `provinceline_art` WHERE ( `Average` >= 591 AND `Average` <= 595  ) AND `Year` = 2012 AND `ProvinceId` = 10010 AND `Batch` = '本科一批'  [ RunTime:0.0040s ]
+SQL: SELECT * FROM `provinceline_art` WHERE ( `Average` >= 588 AND `Average` <= 592  ) AND `Year` = 2013 AND `ProvinceId` = 10010 AND `Batch` = '本科一批'  [ RunTime:0.0033s ]
+SQL: SELECT * FROM `provinceline_art` WHERE ( `Average` >= 597 AND `Average` <= 601  ) AND `Year` = 2014 AND `ProvinceId` = 10010 AND `Batch` = '本科一批'  [ RunTime:0.0029s ]
+
+[ 2015-12-28T19:18:44+08:00 ] 127.0.0.1 /gaokao/index.php/Home/Inqure/requst
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000316s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000388s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000425s ]
+SQL: SHOW COLUMNS FROM `batch_controlline` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `batch_controlline` WHERE ( Type='art' and Year=2012 and ProvinceId='10010' and Batch='本科一批' ) LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT * FROM `batch_controlline` WHERE ( Type='art' and Year=2013 and ProvinceId='10010' and Batch='本科一批' ) LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `batch_controlline` WHERE ( Type='art' and Year=2014 and ProvinceId='10010' and Batch='本科一批' ) LIMIT 1   [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `provinceline_art` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `provinceline_art` WHERE ( `Average` >= 591 AND `Average` <= 595  ) AND `Year` = 2012 AND `ProvinceId` = 10010 AND `Batch` = '本科一批'  [ RunTime:0.0029s ]
+SQL: SELECT * FROM `provinceline_art` WHERE ( `Average` >= 588 AND `Average` <= 592  ) AND `Year` = 2013 AND `ProvinceId` = 10010 AND `Batch` = '本科一批'  [ RunTime:0.0028s ]
+SQL: SELECT * FROM `provinceline_art` WHERE ( `Average` >= 597 AND `Average` <= 601  ) AND `Year` = 2014 AND `ProvinceId` = 10010 AND `Batch` = '本科一批'  [ RunTime:0.0037s ]
+SQL: SELECT * FROM `provinceline_art` WHERE `Year` = 2012 AND `Batch` = '本科一批' AND `ProvinceId` = 10010 AND `SchoolId` = 53 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `provinceline_art` WHERE `Year` = 2013 AND `Batch` = '本科一批' AND `ProvinceId` = 10010 AND `SchoolId` = 53 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `provinceline_art` WHERE `Year` = 2014 AND `Batch` = '本科一批' AND `ProvinceId` = 10010 AND `SchoolId` = 53 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `provinceline_art` WHERE `Year` = 2012 AND `Batch` = '本科一批' AND `ProvinceId` = 10010 AND `SchoolId` = 59 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `provinceline_art` WHERE `Year` = 2013 AND `Batch` = '本科一批' AND `ProvinceId` = 10010 AND `SchoolId` = 59 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `provinceline_art` WHERE `Year` = 2014 AND `Batch` = '本科一批' AND `ProvinceId` = 10010 AND `SchoolId` = 59 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `provinceline_art` WHERE `Year` = 2012 AND `Batch` = '本科一批' AND `ProvinceId` = 10010 AND `SchoolId` = 125 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `provinceline_art` WHERE `Year` = 2013 AND `Batch` = '本科一批' AND `ProvinceId` = 10010 AND `SchoolId` = 125 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `provinceline_art` WHERE `Year` = 2014 AND `Batch` = '本科一批' AND `ProvinceId` = 10010 AND `SchoolId` = 125 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `provinceline_art` WHERE `Year` = 2012 AND `Batch` = '本科一批' AND `ProvinceId` = 10010 AND `SchoolId` = 132 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `provinceline_art` WHERE `Year` = 2013 AND `Batch` = '本科一批' AND `ProvinceId` = 10010 AND `SchoolId` = 132 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `provinceline_art` WHERE `Year` = 2014 AND `Batch` = '本科一批' AND `ProvinceId` = 10010 AND `SchoolId` = 132 LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2015-12-28T19:23:28+08:00 ] 127.0.0.1 /gaokao/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000163s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000209s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000228s ]
+ERR: syntax error, unexpected end of file, expecting function (T_FUNCTION)
+
+[ 2015-12-28T19:23:47+08:00 ] 127.0.0.1 /gaokao/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000164s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000222s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000241s ]
+NOTIC: [8] Array to string conversion /Users/mrzxc/Sites/gaokao/gaokao/Home/Controller/IndexController.class.php 第 23 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000229s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000246s ]
+
+[ 2015-12-28T19:23:57+08:00 ] 127.0.0.1 /gaokao/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000167s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000245s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000265s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000227s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000247s ]
+
+[ 2015-12-28T19:24:03+08:00 ] 127.0.0.1 /gaokao/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000192s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000250s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000290s ]
+NOTIC: [8] Undefined offset: 1 /Users/mrzxc/Sites/gaokao/gaokao/Home/Controller/IndexController.class.php 第 23 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000260s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000279s ]
+
+[ 2015-12-28T19:24:15+08:00 ] 127.0.0.1 /gaokao/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000209s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000426s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000453s ]
+NOTIC: [8] Undefined offset: 1 /Users/mrzxc/Sites/gaokao/gaokao/Home/Controller/IndexController.class.php 第 23 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000399s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000448s ]
+
+[ 2015-12-28T19:30:48+08:00 ] 127.0.0.1 /gaokao/index.php/Home/Inqure/requst
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000186s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000247s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000270s ]
+ERR: syntax error, unexpected ';'
+
+[ 2015-12-28T19:30:59+08:00 ] 127.0.0.1 /gaokao/index.php/Home/Inqure/requst
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000203s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000301s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000331s ]
+SQL: SHOW COLUMNS FROM `batch_controlline` [ RunTime:0.0025s ]
+SQL: SELECT * FROM `batch_controlline` WHERE ( Type='art' and Year=2012 and ProvinceId='10010' and Batch='本科一批' ) LIMIT 1   [ RunTime:0.0021s ]
+SQL: SELECT * FROM `batch_controlline` WHERE ( Type='art' and Year=2013 and ProvinceId='10010' and Batch='本科一批' ) LIMIT 1   [ RunTime:0.0014s ]
+SQL: SELECT * FROM `batch_controlline` WHERE ( Type='art' and Year=2014 and ProvinceId='10010' and Batch='本科一批' ) LIMIT 1   [ RunTime:0.0014s ]
+SQL: SHOW COLUMNS FROM `provinceline_art` [ RunTime:0.0016s ]
+SQL: SELECT * FROM `provinceline_art` WHERE ( `Average` >= 591 AND `Average` <= 595  ) AND `Year` = 2012 AND `ProvinceId` = 10010 AND `Batch` = '本科一批'  [ RunTime:0.0045s ]
+SQL: SELECT * FROM `provinceline_art` WHERE ( `Average` >= 588 AND `Average` <= 592  ) AND `Year` = 2013 AND `ProvinceId` = 10010 AND `Batch` = '本科一批'  [ RunTime:0.0030s ]
+SQL: SELECT * FROM `provinceline_art` WHERE ( `Average` >= 597 AND `Average` <= 601  ) AND `Year` = 2014 AND `ProvinceId` = 10010 AND `Batch` = '本科一批'  [ RunTime:0.0038s ]
+SQL: SELECT * FROM `provinceline_art` WHERE `Year` = 2012 AND `Batch` = '本科一批' AND `ProvinceId` = 10010 AND `SchoolId` = 53 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `provinceline_art` WHERE `Year` = 2013 AND `Batch` = '本科一批' AND `ProvinceId` = 10010 AND `SchoolId` = 53 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `provinceline_art` WHERE `Year` = 2014 AND `Batch` = '本科一批' AND `ProvinceId` = 10010 AND `SchoolId` = 53 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `provinceline_art` WHERE `Year` = 2012 AND `Batch` = '本科一批' AND `ProvinceId` = 10010 AND `SchoolId` = 59 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `provinceline_art` WHERE `Year` = 2013 AND `Batch` = '本科一批' AND `ProvinceId` = 10010 AND `SchoolId` = 59 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `provinceline_art` WHERE `Year` = 2014 AND `Batch` = '本科一批' AND `ProvinceId` = 10010 AND `SchoolId` = 59 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `provinceline_art` WHERE `Year` = 2012 AND `Batch` = '本科一批' AND `ProvinceId` = 10010 AND `SchoolId` = 125 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `provinceline_art` WHERE `Year` = 2013 AND `Batch` = '本科一批' AND `ProvinceId` = 10010 AND `SchoolId` = 125 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `provinceline_art` WHERE `Year` = 2014 AND `Batch` = '本科一批' AND `ProvinceId` = 10010 AND `SchoolId` = 125 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `provinceline_art` WHERE `Year` = 2012 AND `Batch` = '本科一批' AND `ProvinceId` = 10010 AND `SchoolId` = 132 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `provinceline_art` WHERE `Year` = 2013 AND `Batch` = '本科一批' AND `ProvinceId` = 10010 AND `SchoolId` = 132 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `provinceline_art` WHERE `Year` = 2014 AND `Batch` = '本科一批' AND `ProvinceId` = 10010 AND `SchoolId` = 132 LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2015-12-28T19:31:34+08:00 ] 127.0.0.1 /gaokao/index.php/Home/Inqure/requst
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000321s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000389s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000429s ]
+SQL: SHOW COLUMNS FROM `batch_controlline` [ RunTime:0.0015s ]
+SQL: SELECT * FROM `batch_controlline` WHERE ( Type='art' and Year=2012 and ProvinceId='10010' and Batch='本科一批' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `batch_controlline` WHERE ( Type='art' and Year=2013 and ProvinceId='10010' and Batch='本科一批' ) LIMIT 1   [ RunTime:0.0015s ]
+SQL: SELECT * FROM `batch_controlline` WHERE ( Type='art' and Year=2014 and ProvinceId='10010' and Batch='本科一批' ) LIMIT 1   [ RunTime:0.0035s ]
+SQL: SHOW COLUMNS FROM `provinceline_art` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `provinceline_art` WHERE ( `Average` >= 591 AND `Average` <= 595  ) AND `Year` = 2012 AND `ProvinceId` = 10010 AND `Batch` = '本科一批'  [ RunTime:0.0032s ]
+SQL: SELECT * FROM `provinceline_art` WHERE ( `Average` >= 588 AND `Average` <= 592  ) AND `Year` = 2013 AND `ProvinceId` = 10010 AND `Batch` = '本科一批'  [ RunTime:0.0029s ]
+SQL: SELECT * FROM `provinceline_art` WHERE ( `Average` >= 597 AND `Average` <= 601  ) AND `Year` = 2014 AND `ProvinceId` = 10010 AND `Batch` = '本科一批'  [ RunTime:0.0028s ]
+SQL: SELECT * FROM `provinceline_art` WHERE `Year` = 2012 AND `Batch` = '本科一批' AND `ProvinceId` = 10010 AND `SchoolId` = 53 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `provinceline_art` WHERE `Year` = 2013 AND `Batch` = '本科一批' AND `ProvinceId` = 10010 AND `SchoolId` = 53 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `provinceline_art` WHERE `Year` = 2014 AND `Batch` = '本科一批' AND `ProvinceId` = 10010 AND `SchoolId` = 53 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `provinceline_art` WHERE `Year` = 2012 AND `Batch` = '本科一批' AND `ProvinceId` = 10010 AND `SchoolId` = 59 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `provinceline_art` WHERE `Year` = 2013 AND `Batch` = '本科一批' AND `ProvinceId` = 10010 AND `SchoolId` = 59 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `provinceline_art` WHERE `Year` = 2014 AND `Batch` = '本科一批' AND `ProvinceId` = 10010 AND `SchoolId` = 59 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `provinceline_art` WHERE `Year` = 2012 AND `Batch` = '本科一批' AND `ProvinceId` = 10010 AND `SchoolId` = 125 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `provinceline_art` WHERE `Year` = 2013 AND `Batch` = '本科一批' AND `ProvinceId` = 10010 AND `SchoolId` = 125 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `provinceline_art` WHERE `Year` = 2014 AND `Batch` = '本科一批' AND `ProvinceId` = 10010 AND `SchoolId` = 125 LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `provinceline_art` WHERE `Year` = 2012 AND `Batch` = '本科一批' AND `ProvinceId` = 10010 AND `SchoolId` = 132 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `provinceline_art` WHERE `Year` = 2013 AND `Batch` = '本科一批' AND `ProvinceId` = 10010 AND `SchoolId` = 132 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `provinceline_art` WHERE `Year` = 2014 AND `Batch` = '本科一批' AND `ProvinceId` = 10010 AND `SchoolId` = 132 LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2015-12-28T19:32:03+08:00 ] 127.0.0.1 /gaokao/index.php/Home/Inqure/requst
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000212s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000353s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000395s ]
+SQL: SHOW COLUMNS FROM `batch_controlline` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `batch_controlline` WHERE ( Type='art' and Year=2012 and ProvinceId='10010' and Batch='本科一批' ) LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT * FROM `batch_controlline` WHERE ( Type='art' and Year=2013 and ProvinceId='10010' and Batch='本科一批' ) LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `batch_controlline` WHERE ( Type='art' and Year=2014 and ProvinceId='10010' and Batch='本科一批' ) LIMIT 1   [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `provinceline_art` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `provinceline_art` WHERE ( `Average` >= 591 AND `Average` <= 595  ) AND `Year` = 2012 AND `ProvinceId` = 10010 AND `Batch` = '本科一批'  [ RunTime:0.0029s ]
+SQL: SELECT * FROM `provinceline_art` WHERE ( `Average` >= 588 AND `Average` <= 592  ) AND `Year` = 2013 AND `ProvinceId` = 10010 AND `Batch` = '本科一批'  [ RunTime:0.0031s ]
+SQL: SELECT * FROM `provinceline_art` WHERE ( `Average` >= 597 AND `Average` <= 601  ) AND `Year` = 2014 AND `ProvinceId` = 10010 AND `Batch` = '本科一批'  [ RunTime:0.0034s ]
+
+[ 2015-12-28T19:32:38+08:00 ] 127.0.0.1 /gaokao/index.php/Home/Inqure/requst
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000191s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000245s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000268s ]
+SQL: SHOW COLUMNS FROM `batch_controlline` [ RunTime:0.0015s ]
+SQL: SELECT * FROM `batch_controlline` WHERE ( Type='art' and Year=2012 and ProvinceId='10010' and Batch='本科一批' ) LIMIT 1   [ RunTime:0.0017s ]
+SQL: SELECT * FROM `batch_controlline` WHERE ( Type='art' and Year=2013 and ProvinceId='10010' and Batch='本科一批' ) LIMIT 1   [ RunTime:0.0017s ]
+SQL: SELECT * FROM `batch_controlline` WHERE ( Type='art' and Year=2014 and ProvinceId='10010' and Batch='本科一批' ) LIMIT 1   [ RunTime:0.0012s ]
+SQL: SHOW COLUMNS FROM `provinceline_art` [ RunTime:0.0016s ]
+SQL: SELECT * FROM `provinceline_art` WHERE ( `Average` >= 591 AND `Average` <= 595  ) AND `Year` = 2012 AND `ProvinceId` = 10010 AND `Batch` = '本科一批'  [ RunTime:0.0039s ]
+SQL: SELECT * FROM `provinceline_art` WHERE ( `Average` >= 588 AND `Average` <= 592  ) AND `Year` = 2013 AND `ProvinceId` = 10010 AND `Batch` = '本科一批'  [ RunTime:0.0043s ]
+SQL: SELECT * FROM `provinceline_art` WHERE ( `Average` >= 597 AND `Average` <= 601  ) AND `Year` = 2014 AND `ProvinceId` = 10010 AND `Batch` = '本科一批'  [ RunTime:0.0030s ]
+
+[ 2015-12-28T19:32:53+08:00 ] 127.0.0.1 /gaokao/index.php/Home/Inqure/requst
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000190s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000229s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000249s ]
+SQL: SHOW COLUMNS FROM `batch_controlline` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `batch_controlline` WHERE ( Type='art' and Year=2012 and ProvinceId='10010' and Batch='本科一批' ) LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT * FROM `batch_controlline` WHERE ( Type='art' and Year=2013 and ProvinceId='10010' and Batch='本科一批' ) LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT * FROM `batch_controlline` WHERE ( Type='art' and Year=2014 and ProvinceId='10010' and Batch='本科一批' ) LIMIT 1   [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `provinceline_art` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `provinceline_art` WHERE ( `Average` >= 591 AND `Average` <= 595  ) AND `Year` = 2012 AND `ProvinceId` = 10010 AND `Batch` = '本科一批'  [ RunTime:0.0030s ]
+SQL: SELECT * FROM `provinceline_art` WHERE ( `Average` >= 588 AND `Average` <= 592  ) AND `Year` = 2013 AND `ProvinceId` = 10010 AND `Batch` = '本科一批'  [ RunTime:0.0034s ]
+SQL: SELECT * FROM `provinceline_art` WHERE ( `Average` >= 597 AND `Average` <= 601  ) AND `Year` = 2014 AND `ProvinceId` = 10010 AND `Batch` = '本科一批'  [ RunTime:0.0029s ]
+SQL: SELECT * FROM `provinceline_art` WHERE `Year` = 2012 AND `Batch` = '本科一批' AND `ProvinceId` = 10010 AND `SchoolId` = 53 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `provinceline_art` WHERE `Year` = 2013 AND `Batch` = '本科一批' AND `ProvinceId` = 10010 AND `SchoolId` = 53 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `provinceline_art` WHERE `Year` = 2014 AND `Batch` = '本科一批' AND `ProvinceId` = 10010 AND `SchoolId` = 53 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `provinceline_art` WHERE `Year` = 2012 AND `Batch` = '本科一批' AND `ProvinceId` = 10010 AND `SchoolId` = 59 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `provinceline_art` WHERE `Year` = 2013 AND `Batch` = '本科一批' AND `ProvinceId` = 10010 AND `SchoolId` = 59 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `provinceline_art` WHERE `Year` = 2014 AND `Batch` = '本科一批' AND `ProvinceId` = 10010 AND `SchoolId` = 59 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `provinceline_art` WHERE `Year` = 2012 AND `Batch` = '本科一批' AND `ProvinceId` = 10010 AND `SchoolId` = 125 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `provinceline_art` WHERE `Year` = 2013 AND `Batch` = '本科一批' AND `ProvinceId` = 10010 AND `SchoolId` = 125 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `provinceline_art` WHERE `Year` = 2014 AND `Batch` = '本科一批' AND `ProvinceId` = 10010 AND `SchoolId` = 125 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `provinceline_art` WHERE `Year` = 2012 AND `Batch` = '本科一批' AND `ProvinceId` = 10010 AND `SchoolId` = 132 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `provinceline_art` WHERE `Year` = 2013 AND `Batch` = '本科一批' AND `ProvinceId` = 10010 AND `SchoolId` = 132 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `provinceline_art` WHERE `Year` = 2014 AND `Batch` = '本科一批' AND `ProvinceId` = 10010 AND `SchoolId` = 132 LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2015-12-28T19:33:00+08:00 ] 127.0.0.1 /gaokao/index.php/Home/Inqure/requst
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000301s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000473s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000526s ]
+SQL: SHOW COLUMNS FROM `batch_controlline` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `batch_controlline` WHERE ( Type='art' and Year=2012 and ProvinceId='10010' and Batch='本科一批' ) LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT * FROM `batch_controlline` WHERE ( Type='art' and Year=2013 and ProvinceId='10010' and Batch='本科一批' ) LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT * FROM `batch_controlline` WHERE ( Type='art' and Year=2014 and ProvinceId='10010' and Batch='本科一批' ) LIMIT 1   [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `provinceline_art` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `provinceline_art` WHERE ( `Average` >= 591 AND `Average` <= 595  ) AND `Year` = 2012 AND `ProvinceId` = 10010 AND `Batch` = '本科一批'  [ RunTime:0.0031s ]
+SQL: SELECT * FROM `provinceline_art` WHERE ( `Average` >= 588 AND `Average` <= 592  ) AND `Year` = 2013 AND `ProvinceId` = 10010 AND `Batch` = '本科一批'  [ RunTime:0.0038s ]
+SQL: SELECT * FROM `provinceline_art` WHERE ( `Average` >= 597 AND `Average` <= 601  ) AND `Year` = 2014 AND `ProvinceId` = 10010 AND `Batch` = '本科一批'  [ RunTime:0.0029s ]
+
+[ 2015-12-28T19:35:01+08:00 ] 127.0.0.1 /gaokao/index.php/Home/Inqure/requst
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000212s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000426s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000466s ]
+SQL: SHOW COLUMNS FROM `batch_controlline` [ RunTime:0.0013s ]
+SQL: SELECT * FROM `batch_controlline` WHERE ( Type='art' and Year=2012 and ProvinceId='10010' and Batch='本科一批' ) LIMIT 1   [ RunTime:0.0011s ]
+SQL: SELECT * FROM `batch_controlline` WHERE ( Type='art' and Year=2013 and ProvinceId='10010' and Batch='本科一批' ) LIMIT 1   [ RunTime:0.0013s ]
+SQL: SELECT * FROM `batch_controlline` WHERE ( Type='art' and Year=2014 and ProvinceId='10010' and Batch='本科一批' ) LIMIT 1   [ RunTime:0.0017s ]
+SQL: SHOW COLUMNS FROM `provinceline_art` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `provinceline_art` WHERE ( `Average` >= 591 AND `Average` <= 595  ) AND `Year` = 2012 AND `ProvinceId` = 10010 AND `Batch` = '本科一批'  [ RunTime:0.0038s ]
+SQL: SELECT * FROM `provinceline_art` WHERE ( `Average` >= 588 AND `Average` <= 592  ) AND `Year` = 2013 AND `ProvinceId` = 10010 AND `Batch` = '本科一批'  [ RunTime:0.0029s ]
+SQL: SELECT * FROM `provinceline_art` WHERE ( `Average` >= 597 AND `Average` <= 601  ) AND `Year` = 2014 AND `ProvinceId` = 10010 AND `Batch` = '本科一批'  [ RunTime:0.0029s ]
+SQL: SELECT * FROM `provinceline_art` WHERE `Year` = 2012 AND `Batch` = '本科一批' AND `ProvinceId` = 10010 AND `SchoolId` = 53 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `provinceline_art` WHERE `Year` = 2013 AND `Batch` = '本科一批' AND `ProvinceId` = 10010 AND `SchoolId` = 53 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `provinceline_art` WHERE `Year` = 2014 AND `Batch` = '本科一批' AND `ProvinceId` = 10010 AND `SchoolId` = 53 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `provinceline_art` WHERE `Year` = 2012 AND `Batch` = '本科一批' AND `ProvinceId` = 10010 AND `SchoolId` = 59 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `provinceline_art` WHERE `Year` = 2013 AND `Batch` = '本科一批' AND `ProvinceId` = 10010 AND `SchoolId` = 59 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `provinceline_art` WHERE `Year` = 2014 AND `Batch` = '本科一批' AND `ProvinceId` = 10010 AND `SchoolId` = 59 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `provinceline_art` WHERE `Year` = 2012 AND `Batch` = '本科一批' AND `ProvinceId` = 10010 AND `SchoolId` = 125 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `provinceline_art` WHERE `Year` = 2013 AND `Batch` = '本科一批' AND `ProvinceId` = 10010 AND `SchoolId` = 125 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `provinceline_art` WHERE `Year` = 2014 AND `Batch` = '本科一批' AND `ProvinceId` = 10010 AND `SchoolId` = 125 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `provinceline_art` WHERE `Year` = 2012 AND `Batch` = '本科一批' AND `ProvinceId` = 10010 AND `SchoolId` = 132 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `provinceline_art` WHERE `Year` = 2013 AND `Batch` = '本科一批' AND `ProvinceId` = 10010 AND `SchoolId` = 132 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `provinceline_art` WHERE `Year` = 2014 AND `Batch` = '本科一批' AND `ProvinceId` = 10010 AND `SchoolId` = 132 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `school` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `school` WHERE ( SchoolId='53' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `school` WHERE ( SchoolId='59' ) LIMIT 1   [ RunTime:0.0009s ]
+SQL: SELECT * FROM `school` WHERE ( SchoolId='125' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `school` WHERE ( SchoolId='132' ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2015-12-28T19:42:32+08:00 ] 127.0.0.1 /gaokao/index.php/Home/Inqure
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000496s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000524s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000549s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000043s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000073s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005118s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005142s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000364s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000394s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000626s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000659s ]
+
+[ 2015-12-28T19:42:34+08:00 ] 127.0.0.1 /gaokao/index.php/Home/Inqure/requst
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000213s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000947s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001017s ]
+SQL: SHOW COLUMNS FROM `batch_controlline` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `batch_controlline` WHERE ( Type='art' and Year=2012 and ProvinceId='10000' and Batch='本科一批' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `batch_controlline` WHERE ( Type='art' and Year=2013 and ProvinceId='10000' and Batch='本科一批' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `batch_controlline` WHERE ( Type='art' and Year=2014 and ProvinceId='10000' and Batch='本科一批' ) LIMIT 1   [ RunTime:0.0018s ]
+SQL: SHOW COLUMNS FROM `provinceline_art` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `provinceline_art` WHERE ( `Average` >= 438 AND `Average` <= 438  ) AND `Year` = 2012 AND `ProvinceId` = 10000 AND `Batch` = '本科一批'  [ RunTime:0.0015s ]
+SQL: SELECT * FROM `provinceline_art` WHERE ( `Average` >= 448 AND `Average` <= 448  ) AND `Year` = 2013 AND `ProvinceId` = 10000 AND `Batch` = '本科一批'  [ RunTime:0.0022s ]
+SQL: SELECT * FROM `provinceline_art` WHERE ( `Average` >= 0 AND `Average` <= 0  ) AND `Year` = 2014 AND `ProvinceId` = 10000 AND `Batch` = '本科一批'  [ RunTime:0.0016s ]
+SQL: SELECT * FROM `provinceline_art` WHERE `Year` = 2012 AND `Batch` = '本科一批' AND `ProvinceId` = 10000 AND `SchoolId` = 62 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `provinceline_art` WHERE `Year` = 2013 AND `Batch` = '本科一批' AND `ProvinceId` = 10000 AND `SchoolId` = 62 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `provinceline_art` WHERE `Year` = 2014 AND `Batch` = '本科一批' AND `ProvinceId` = 10000 AND `SchoolId` = 62 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `provinceline_art` WHERE `Year` = 2012 AND `Batch` = '本科一批' AND `ProvinceId` = 10000 AND `SchoolId` = 120 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `provinceline_art` WHERE `Year` = 2013 AND `Batch` = '本科一批' AND `ProvinceId` = 10000 AND `SchoolId` = 120 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `provinceline_art` WHERE `Year` = 2014 AND `Batch` = '本科一批' AND `ProvinceId` = 10000 AND `SchoolId` = 120 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `provinceline_art` WHERE `Year` = 2012 AND `Batch` = '本科一批' AND `ProvinceId` = 10000 AND `SchoolId` = 1216 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `provinceline_art` WHERE `Year` = 2013 AND `Batch` = '本科一批' AND `ProvinceId` = 10000 AND `SchoolId` = 1216 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `provinceline_art` WHERE `Year` = 2014 AND `Batch` = '本科一批' AND `ProvinceId` = 10000 AND `SchoolId` = 1216 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `school` [ RunTime:0.0009s ]
+NOTIC: [8] Undefined index: schoolid /Users/mrzxc/Sites/gaokao/gaokao/Home/Controller/InqureController.class.php 第 129 行.
+SQL: SELECT * FROM `school` WHERE ( SchoolId='%s' ) LIMIT 1   [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: schoolid /Users/mrzxc/Sites/gaokao/gaokao/Home/Controller/InqureController.class.php 第 129 行.
+SQL: SELECT * FROM `school` WHERE ( SchoolId='%s' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `school` WHERE ( SchoolId='1216' ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2015-12-28T19:42:48+08:00 ] 127.0.0.1 /gaokao/index.php/Home/Inqure/requst
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000318s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000527s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000576s ]
+SQL: SHOW COLUMNS FROM `batch_controlline` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `batch_controlline` WHERE ( Type='art' and Year=2012 and ProvinceId='10002' and Batch='本科一批' ) LIMIT 1   [ RunTime:0.0016s ]
+SQL: SELECT * FROM `batch_controlline` WHERE ( Type='art' and Year=2013 and ProvinceId='10002' and Batch='本科一批' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `batch_controlline` WHERE ( Type='art' and Year=2014 and ProvinceId='10002' and Batch='本科一批' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `provinceline_art` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `provinceline_art` WHERE ( `Average` >= 0 AND `Average` <= 0  ) AND `Year` = 2012 AND `ProvinceId` = 10002 AND `Batch` = '本科一批'  [ RunTime:0.0038s ]
+SQL: SELECT * FROM `provinceline_art` WHERE ( `Average` >= 474 AND `Average` <= 474  ) AND `Year` = 2013 AND `ProvinceId` = 10002 AND `Batch` = '本科一批'  [ RunTime:0.0041s ]
+SQL: SELECT * FROM `provinceline_art` WHERE ( `Average` >= 525 AND `Average` <= 525  ) AND `Year` = 2014 AND `ProvinceId` = 10002 AND `Batch` = '本科一批'  [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `school` [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: info /Users/mrzxc/Sites/gaokao/gaokao/Home/Controller/InqureController.class.php 第 127 行.
+NOTIC: [8] Undefined variable: info /Users/mrzxc/Sites/gaokao/gaokao/Home/Controller/InqureController.class.php 第 133 行.
+
+[ 2015-12-28T19:42:52+08:00 ] 127.0.0.1 /gaokao/index.php/Home/Inqure/requst
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000347s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000673s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000782s ]
+SQL: SHOW COLUMNS FROM `batch_controlline` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `batch_controlline` WHERE ( Type='art' and Year=2012 and ProvinceId='10012' and Batch='本科一批' ) LIMIT 1   [ RunTime:0.0009s ]
+SQL: SELECT * FROM `batch_controlline` WHERE ( Type='art' and Year=2013 and ProvinceId='10012' and Batch='本科一批' ) LIMIT 1   [ RunTime:0.0009s ]
+SQL: SELECT * FROM `batch_controlline` WHERE ( Type='art' and Year=2014 and ProvinceId='10012' and Batch='本科一批' ) LIMIT 1   [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `provinceline_art` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `provinceline_art` WHERE ( `Average` >= 544 AND `Average` <= 544  ) AND `Year` = 2012 AND `ProvinceId` = 10012 AND `Batch` = '本科一批'  [ RunTime:0.0122s ]
+SQL: SELECT * FROM `provinceline_art` WHERE ( `Average` >= 541 AND `Average` <= 541  ) AND `Year` = 2013 AND `ProvinceId` = 10012 AND `Batch` = '本科一批'  [ RunTime:0.0031s ]
+SQL: SELECT * FROM `provinceline_art` WHERE ( `Average` >= 550 AND `Average` <= 550  ) AND `Year` = 2014 AND `ProvinceId` = 10012 AND `Batch` = '本科一批'  [ RunTime:0.0034s ]
+SQL: SELECT * FROM `provinceline_art` WHERE `Year` = 2012 AND `Batch` = '本科一批' AND `ProvinceId` = 10012 AND `SchoolId` = 32 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `provinceline_art` WHERE `Year` = 2013 AND `Batch` = '本科一批' AND `ProvinceId` = 10012 AND `SchoolId` = 32 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `provinceline_art` WHERE `Year` = 2014 AND `Batch` = '本科一批' AND `ProvinceId` = 10012 AND `SchoolId` = 32 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `school` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `school` WHERE ( SchoolId='32' ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2015-12-28T19:42:56+08:00 ] 127.0.0.1 /gaokao/index.php/Home/Inqure/requst
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000196s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000272s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000304s ]
+SQL: SHOW COLUMNS FROM `batch_controlline` [ RunTime:0.0015s ]
+SQL: SELECT * FROM `batch_controlline` WHERE ( Type='art' and Year=2012 and ProvinceId='10019' and Batch='本科一批' ) LIMIT 1   [ RunTime:0.0013s ]
+SQL: SELECT * FROM `batch_controlline` WHERE ( Type='art' and Year=2013 and ProvinceId='10019' and Batch='本科一批' ) LIMIT 1   [ RunTime:0.0014s ]
+SQL: SELECT * FROM `batch_controlline` WHERE ( Type='art' and Year=2014 and ProvinceId='10019' and Batch='本科一批' ) LIMIT 1   [ RunTime:0.0012s ]
+SQL: SHOW COLUMNS FROM `provinceline_art` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `provinceline_art` WHERE ( `Average` >= 668 AND `Average` <= 668  ) AND `Year` = 2012 AND `ProvinceId` = 10019 AND `Batch` = '本科一批'  [ RunTime:0.0112s ]
+SQL: SELECT * FROM `provinceline_art` WHERE ( `Average` >= 667 AND `Average` <= 667  ) AND `Year` = 2013 AND `ProvinceId` = 10019 AND `Batch` = '本科一批'  [ RunTime:0.0022s ]
+SQL: SELECT * FROM `provinceline_art` WHERE ( `Average` >= 666 AND `Average` <= 666  ) AND `Year` = 2014 AND `ProvinceId` = 10019 AND `Batch` = '本科一批'  [ RunTime:0.0022s ]
+SQL: SELECT * FROM `provinceline_art` WHERE `Year` = 2012 AND `Batch` = '本科一批' AND `ProvinceId` = 10019 AND `SchoolId` = 379 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `provinceline_art` WHERE `Year` = 2013 AND `Batch` = '本科一批' AND `ProvinceId` = 10019 AND `SchoolId` = 379 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `provinceline_art` WHERE `Year` = 2014 AND `Batch` = '本科一批' AND `ProvinceId` = 10019 AND `SchoolId` = 379 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `provinceline_art` WHERE `Year` = 2012 AND `Batch` = '本科一批' AND `ProvinceId` = 10019 AND `SchoolId` = 544 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `provinceline_art` WHERE `Year` = 2013 AND `Batch` = '本科一批' AND `ProvinceId` = 10019 AND `SchoolId` = 544 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `provinceline_art` WHERE `Year` = 2014 AND `Batch` = '本科一批' AND `ProvinceId` = 10019 AND `SchoolId` = 544 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `school` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `school` WHERE ( SchoolId='379' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `school` WHERE ( SchoolId='544' ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2015-12-28T19:43:57+08:00 ] 127.0.0.1 /gaokao/index.php/Home/Inqure/getProvinceLine
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000794s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000385s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000422s ]
+SQL: SHOW COLUMNS FROM `batch_controlline` [ RunTime:0.0013s ]
+SQL: SELECT * FROM `batch_controlline` WHERE `Year` = 2012 AND `Type` = 'art' AND `ProvinceId` = 10019 AND `Batch` = '本科一批'  [ RunTime:0.0023s ]
+SQL: SELECT * FROM `batch_controlline` WHERE `Year` = 2012 AND `Type` = 'art' AND `ProvinceId` = 10019 AND `Batch` = '本科二批'  [ RunTime:0.0016s ]
+
+[ 2015-12-28T19:43:58+08:00 ] 127.0.0.1 /gaokao/index.php/Home/Inqure/requst
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000410s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000468s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000580s ]
+SQL: SHOW COLUMNS FROM `batch_controlline` [ RunTime:0.0019s ]
+SQL: SELECT * FROM `batch_controlline` WHERE `Type` = 'art' AND `Year` = 2012 AND `ProvinceId` = 10019 AND `Batch` = '本科一批' LIMIT 1   [ RunTime:0.0014s ]
+SQL: SHOW COLUMNS FROM `provinceline_art` [ RunTime:0.0017s ]
+SQL: SELECT * FROM `provinceline_art` WHERE `Batch` = '本科一批' AND ( `Average` >= 668 AND `Average` <= 668  ) AND `Year` = 2012 AND `ProvinceId` = 10019  [ RunTime:0.0068s ]
+SQL: SHOW COLUMNS FROM `school` [ RunTime:0.0017s ]
+SQL: SELECT * FROM `school` WHERE ( SchoolId='379' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `special_line_art` [ RunTime:0.0016s ]
+SQL: SELECT * FROM `special_line_art` WHERE `Year` = '2012' AND `ProvinceId` = 10019 AND `SchoolId` = 379  [ RunTime:0.4727s ]
+SQL: SELECT * FROM `special_line_art` WHERE `Year` = '2012' AND `ProvinceId` = 10019 AND `SchoolId` = 379 AND `SpecialName` = '汉语言文学' LIMIT 1   [ RunTime:0.0021s ]
+SQL: SELECT * FROM `special_line_art` WHERE `SchoolId` = 379 AND `ProvinceId` = 10019 AND `Batch` = '本科一批' AND `SpecialName` = '汉语言文学'  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `school` WHERE ( SchoolId='544' ) LIMIT 1   [ RunTime:0.0013s ]
+SQL: SELECT * FROM `special_line_art` WHERE `Year` = '2012' AND `ProvinceId` = 10019 AND `SchoolId` = 544  [ RunTime:0.3915s ]
+SQL: SELECT * FROM `special_line_art` WHERE `Year` = '2012' AND `ProvinceId` = 10019 AND `SchoolId` = 544 AND `SpecialName` = '汉语言文学' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `special_line_art` WHERE `SchoolId` = 544 AND `ProvinceId` = 10019 AND `Batch` = '本科一批' AND `SpecialName` = '汉语言文学'  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `special_line_art` WHERE `Year` = '2012' AND `ProvinceId` = 10019 AND `SchoolId` = 544 AND `SpecialName` = '法学' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `special_line_art` WHERE `SchoolId` = 544 AND `ProvinceId` = 10019 AND `Batch` = '本科一批' AND `SpecialName` = '法学'  [ RunTime:0.0003s ]
+
+[ 2015-12-28T19:44:14+08:00 ] 127.0.0.1 /gaokao/index.php/Home/Inqure/requst
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000317s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000437s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000511s ]
+SQL: SHOW COLUMNS FROM `batch_controlline` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `batch_controlline` WHERE ( Type='art' and Year=2012 and ProvinceId='10019' and Batch='本科一批' ) LIMIT 1   [ RunTime:0.0127s ]
+SQL: SELECT * FROM `batch_controlline` WHERE ( Type='art' and Year=2013 and ProvinceId='10019' and Batch='本科一批' ) LIMIT 1   [ RunTime:0.0017s ]
+SQL: SELECT * FROM `batch_controlline` WHERE ( Type='art' and Year=2014 and ProvinceId='10019' and Batch='本科一批' ) LIMIT 1   [ RunTime:0.0012s ]
+SQL: SHOW COLUMNS FROM `provinceline_art` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `provinceline_art` WHERE ( `Average` >= 668 AND `Average` <= 668  ) AND `Year` = 2012 AND `ProvinceId` = 10019 AND `Batch` = '本科一批'  [ RunTime:0.0189s ]
+SQL: SELECT * FROM `provinceline_art` WHERE ( `Average` >= 667 AND `Average` <= 667  ) AND `Year` = 2013 AND `ProvinceId` = 10019 AND `Batch` = '本科一批'  [ RunTime:0.0046s ]
+SQL: SELECT * FROM `provinceline_art` WHERE ( `Average` >= 666 AND `Average` <= 666  ) AND `Year` = 2014 AND `ProvinceId` = 10019 AND `Batch` = '本科一批'  [ RunTime:0.0044s ]
+SQL: SELECT * FROM `provinceline_art` WHERE `Year` = 2012 AND `Batch` = '本科一批' AND `ProvinceId` = 10019 AND `SchoolId` = 379 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `provinceline_art` WHERE `Year` = 2013 AND `Batch` = '本科一批' AND `ProvinceId` = 10019 AND `SchoolId` = 379 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `provinceline_art` WHERE `Year` = 2014 AND `Batch` = '本科一批' AND `ProvinceId` = 10019 AND `SchoolId` = 379 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `provinceline_art` WHERE `Year` = 2012 AND `Batch` = '本科一批' AND `ProvinceId` = 10019 AND `SchoolId` = 544 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `provinceline_art` WHERE `Year` = 2013 AND `Batch` = '本科一批' AND `ProvinceId` = 10019 AND `SchoolId` = 544 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `provinceline_art` WHERE `Year` = 2014 AND `Batch` = '本科一批' AND `ProvinceId` = 10019 AND `SchoolId` = 544 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `school` [ RunTime:0.0013s ]
+SQL: SELECT * FROM `school` WHERE ( SchoolId='379' ) LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `school` WHERE ( SchoolId='544' ) LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2015-12-28T19:44:15+08:00 ] 127.0.0.1 /gaokao/index.php/Home/Inqure/getProvinceLine
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000188s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000243s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000266s ]
+SQL: SHOW COLUMNS FROM `batch_controlline` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `batch_controlline` WHERE `Year` = 2012 AND `Type` = 'art' AND `ProvinceId` = 10019 AND `Batch` = '本科一批'  [ RunTime:0.0057s ]
+SQL: SELECT * FROM `batch_controlline` WHERE `Year` = 2012 AND `Type` = 'art' AND `ProvinceId` = 10019 AND `Batch` = '本科二批'  [ RunTime:0.0046s ]
+
+[ 2015-12-28T19:44:16+08:00 ] 127.0.0.1 /gaokao/index.php/Home/Inqure/requst
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000327s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000289s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000320s ]
+SQL: SHOW COLUMNS FROM `batch_controlline` [ RunTime:0.0024s ]
+SQL: SELECT * FROM `batch_controlline` WHERE `Type` = 'art' AND `Year` = 2012 AND `ProvinceId` = 10019 AND `Batch` = '本科一批' LIMIT 1   [ RunTime:0.0035s ]
+SQL: SHOW COLUMNS FROM `provinceline_art` [ RunTime:0.0024s ]
+SQL: SELECT * FROM `provinceline_art` WHERE `Batch` = '本科一批' AND ( `Average` >= 668 AND `Average` <= 668  ) AND `Year` = 2012 AND `ProvinceId` = 10019  [ RunTime:0.0045s ]
+SQL: SHOW COLUMNS FROM `school` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `school` WHERE ( SchoolId='379' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `special_line_art` [ RunTime:0.0013s ]
+SQL: SELECT * FROM `special_line_art` WHERE `Year` = '2012' AND `ProvinceId` = 10019 AND `SchoolId` = 379  [ RunTime:0.4065s ]
+SQL: SELECT * FROM `special_line_art` WHERE `Year` = '2012' AND `ProvinceId` = 10019 AND `SchoolId` = 379 AND `SpecialName` = '汉语言文学' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `special_line_art` WHERE `SchoolId` = 379 AND `ProvinceId` = 10019 AND `Batch` = '本科一批' AND `SpecialName` = '汉语言文学'  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `school` WHERE ( SchoolId='544' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `special_line_art` WHERE `Year` = '2012' AND `ProvinceId` = 10019 AND `SchoolId` = 544  [ RunTime:0.4120s ]
+SQL: SELECT * FROM `special_line_art` WHERE `Year` = '2012' AND `ProvinceId` = 10019 AND `SchoolId` = 544 AND `SpecialName` = '汉语言文学' LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT * FROM `special_line_art` WHERE `SchoolId` = 544 AND `ProvinceId` = 10019 AND `Batch` = '本科一批' AND `SpecialName` = '汉语言文学'  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `special_line_art` WHERE `Year` = '2012' AND `ProvinceId` = 10019 AND `SchoolId` = 544 AND `SpecialName` = '法学' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `special_line_art` WHERE `SchoolId` = 544 AND `ProvinceId` = 10019 AND `Batch` = '本科一批' AND `SpecialName` = '法学'  [ RunTime:0.0003s ]
+
+[ 2015-12-28T19:44:24+08:00 ] 127.0.0.1 /gaokao/index.php/Home/Inqure/requst
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000365s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000478s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000534s ]
+SQL: SHOW COLUMNS FROM `batch_controlline` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `batch_controlline` WHERE ( Type='art' and Year=2012 and ProvinceId='10019' and Batch='本科一批' ) LIMIT 1   [ RunTime:0.0023s ]
+SQL: SELECT * FROM `batch_controlline` WHERE ( Type='art' and Year=2013 and ProvinceId='10019' and Batch='本科一批' ) LIMIT 1   [ RunTime:0.0017s ]
+SQL: SELECT * FROM `batch_controlline` WHERE ( Type='art' and Year=2014 and ProvinceId='10019' and Batch='本科一批' ) LIMIT 1   [ RunTime:0.0025s ]
+SQL: SHOW COLUMNS FROM `provinceline_art` [ RunTime:0.0021s ]
+SQL: SELECT * FROM `provinceline_art` WHERE ( `Average` >= 668 AND `Average` <= 668  ) AND `Year` = 2012 AND `ProvinceId` = 10019 AND `Batch` = '本科一批'  [ RunTime:0.0066s ]
+SQL: SELECT * FROM `provinceline_art` WHERE ( `Average` >= 667 AND `Average` <= 667  ) AND `Year` = 2013 AND `ProvinceId` = 10019 AND `Batch` = '本科一批'  [ RunTime:0.0033s ]
+SQL: SELECT * FROM `provinceline_art` WHERE ( `Average` >= 666 AND `Average` <= 666  ) AND `Year` = 2014 AND `ProvinceId` = 10019 AND `Batch` = '本科一批'  [ RunTime:0.0027s ]
+SQL: SELECT * FROM `provinceline_art` WHERE `Year` = 2012 AND `Batch` = '本科一批' AND `ProvinceId` = 10019 AND `SchoolId` = 379 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `provinceline_art` WHERE `Year` = 2013 AND `Batch` = '本科一批' AND `ProvinceId` = 10019 AND `SchoolId` = 379 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `provinceline_art` WHERE `Year` = 2014 AND `Batch` = '本科一批' AND `ProvinceId` = 10019 AND `SchoolId` = 379 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `provinceline_art` WHERE `Year` = 2012 AND `Batch` = '本科一批' AND `ProvinceId` = 10019 AND `SchoolId` = 544 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `provinceline_art` WHERE `Year` = 2013 AND `Batch` = '本科一批' AND `ProvinceId` = 10019 AND `SchoolId` = 544 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `provinceline_art` WHERE `Year` = 2014 AND `Batch` = '本科一批' AND `ProvinceId` = 10019 AND `SchoolId` = 544 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `school` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `school` WHERE ( SchoolId='379' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `school` WHERE ( SchoolId='544' ) LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2015-12-28T19:47:28+08:00 ] 127.0.0.1 /gaokao/index.php/Home/Inqure/requst
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000197s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000394s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000433s ]
+SQL: SHOW COLUMNS FROM `batch_controlline` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `batch_controlline` WHERE `Type` = 'art' AND `Year` = 2012 AND `ProvinceId` = 10019 AND `Batch` = '本科一批' LIMIT 1   [ RunTime:0.0012s ]
+SQL: SHOW COLUMNS FROM `provinceline_art` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `provinceline_art` WHERE `Batch` = '本科一批' AND ( `Average` >= 668 AND `Average` <= 668  ) AND `Year` = 2012 AND `ProvinceId` = 10019  [ RunTime:0.0051s ]
+SQL: SHOW COLUMNS FROM `school` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `school` WHERE ( SchoolId='379' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `special_line_art` [ RunTime:0.0016s ]
+SQL: SELECT * FROM `special_line_art` WHERE `Year` = '2012' AND `ProvinceId` = 10019 AND `SchoolId` = 379  [ RunTime:0.3805s ]
+SQL: SELECT * FROM `special_line_art` WHERE `Year` = '2012' AND `ProvinceId` = 10019 AND `SchoolId` = 379 AND `SpecialName` = '汉语言文学' LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT * FROM `special_line_art` WHERE `SchoolId` = 379 AND `ProvinceId` = 10019 AND `Batch` = '本科一批' AND `SpecialName` = '汉语言文学'  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `school` WHERE ( SchoolId='544' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `special_line_art` WHERE `Year` = '2012' AND `ProvinceId` = 10019 AND `SchoolId` = 544  [ RunTime:0.4013s ]
+SQL: SELECT * FROM `special_line_art` WHERE `Year` = '2012' AND `ProvinceId` = 10019 AND `SchoolId` = 544 AND `SpecialName` = '汉语言文学' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `special_line_art` WHERE `SchoolId` = 544 AND `ProvinceId` = 10019 AND `Batch` = '本科一批' AND `SpecialName` = '汉语言文学'  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `special_line_art` WHERE `Year` = '2012' AND `ProvinceId` = 10019 AND `SchoolId` = 544 AND `SpecialName` = '法学' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `special_line_art` WHERE `SchoolId` = 544 AND `ProvinceId` = 10019 AND `Batch` = '本科一批' AND `SpecialName` = '法学'  [ RunTime:0.0003s ]
+
+[ 2015-12-28T19:47:28+08:00 ] 127.0.0.1 /gaokao/index.php/Home/Inqure/getProvinceLine
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000131s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000323s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000577s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000665s ]
+SQL: SHOW COLUMNS FROM `batch_controlline` [ RunTime:0.0018s ]
+SQL: SELECT * FROM `batch_controlline` WHERE `Year` = 2012 AND `Type` = 'art' AND `ProvinceId` = 10019 AND `Batch` = '本科一批'  [ RunTime:0.0102s ]
+SQL: SELECT * FROM `batch_controlline` WHERE `Year` = 2012 AND `Type` = 'art' AND `ProvinceId` = 10019 AND `Batch` = '本科二批'  [ RunTime:0.0030s ]
+
+[ 2015-12-28T19:47:34+08:00 ] 127.0.0.1 /gaokao/index.php/Home/Inqure/requst
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000212s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000250s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000272s ]
+SQL: SHOW COLUMNS FROM `batch_controlline` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `batch_controlline` WHERE ( Type='art' and Year=2012 and ProvinceId='10019' and Batch='本科一批' ) LIMIT 1   [ RunTime:0.0013s ]
+SQL: SELECT * FROM `batch_controlline` WHERE ( Type='art' and Year=2013 and ProvinceId='10019' and Batch='本科一批' ) LIMIT 1   [ RunTime:0.0013s ]
+SQL: SELECT * FROM `batch_controlline` WHERE ( Type='art' and Year=2014 and ProvinceId='10019' and Batch='本科一批' ) LIMIT 1   [ RunTime:0.0031s ]
+SQL: SHOW COLUMNS FROM `provinceline_art` [ RunTime:0.0015s ]
+SQL: SELECT * FROM `provinceline_art` WHERE ( `Average` >= 668 AND `Average` <= 668  ) AND `Year` = 2012 AND `ProvinceId` = 10019 AND `Batch` = '本科一批'  [ RunTime:0.0068s ]
+SQL: SELECT * FROM `provinceline_art` WHERE ( `Average` >= 667 AND `Average` <= 667  ) AND `Year` = 2013 AND `ProvinceId` = 10019 AND `Batch` = '本科一批'  [ RunTime:0.0033s ]
+SQL: SELECT * FROM `provinceline_art` WHERE ( `Average` >= 666 AND `Average` <= 666  ) AND `Year` = 2014 AND `ProvinceId` = 10019 AND `Batch` = '本科一批'  [ RunTime:0.0023s ]
+SQL: SELECT * FROM `provinceline_art` WHERE `Year` = 2012 AND `Batch` = '本科一批' AND `ProvinceId` = 10019 AND `SchoolId` = 379 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `provinceline_art` WHERE `Year` = 2013 AND `Batch` = '本科一批' AND `ProvinceId` = 10019 AND `SchoolId` = 379 LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT * FROM `provinceline_art` WHERE `Year` = 2014 AND `Batch` = '本科一批' AND `ProvinceId` = 10019 AND `SchoolId` = 379 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `provinceline_art` WHERE `Year` = 2012 AND `Batch` = '本科一批' AND `ProvinceId` = 10019 AND `SchoolId` = 544 LIMIT 1   [ RunTime:0.0009s ]
+SQL: SELECT * FROM `provinceline_art` WHERE `Year` = 2013 AND `Batch` = '本科一批' AND `ProvinceId` = 10019 AND `SchoolId` = 544 LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT * FROM `provinceline_art` WHERE `Year` = 2014 AND `Batch` = '本科一批' AND `ProvinceId` = 10019 AND `SchoolId` = 544 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `school` [ RunTime:0.0015s ]
+SQL: SELECT * FROM `school` WHERE ( SchoolId='379' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `school` WHERE ( SchoolId='544' ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2015-12-28T19:59:34+08:00 ] 127.0.0.1 /gaokao/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000702s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000732s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000773s ]
+NOTIC: [8] Undefined offset: 1 /Users/mrzxc/Sites/gaokao/gaokao/Home/Controller/IndexController.class.php 第 23 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000813s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000845s ]
+
+[ 2015-12-28T19:59:46+08:00 ] 127.0.0.1 /gaokao/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000295s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000495s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000565s ]
+ERR: syntax error, unexpected '}', expecting end of file
+
+[ 2015-12-28T19:59:51+08:00 ] 127.0.0.1 /gaokao/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000218s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000279s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000303s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000035s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000073s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005654s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005688s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000471s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000527s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000353s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000381s ]
+
+[ 2015-12-28T19:59:53+08:00 ] 127.0.0.1 /gaokao/index.php/Home/Inqure
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000159s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000206s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000226s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000072s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000118s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006080s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006115s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000123s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000144s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000342s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000364s ]
+
+[ 2015-12-28T19:59:55+08:00 ] 127.0.0.1 /gaokao/index.php/Home/Inqure/requst
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000165s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000208s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000229s ]
+SQL: SHOW COLUMNS FROM `batch_controlline` [ RunTime:0.0021s ]
+SQL: SELECT * FROM `batch_controlline` WHERE ( Type='art' and Year=2012 and ProvinceId='10000' and Batch='本科一批' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `batch_controlline` WHERE ( Type='art' and Year=2013 and ProvinceId='10000' and Batch='本科一批' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `batch_controlline` WHERE ( Type='art' and Year=2014 and ProvinceId='10000' and Batch='本科一批' ) LIMIT 1   [ RunTime:0.0016s ]
+SQL: SHOW COLUMNS FROM `provinceline_art` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `provinceline_art` WHERE ( `Average` >= 438 AND `Average` <= 438  ) AND `Year` = 2012 AND `ProvinceId` = 10000 AND `Batch` = '本科一批'  [ RunTime:0.0066s ]
+SQL: SELECT * FROM `provinceline_art` WHERE ( `Average` >= 448 AND `Average` <= 448  ) AND `Year` = 2013 AND `ProvinceId` = 10000 AND `Batch` = '本科一批'  [ RunTime:0.0030s ]
+SQL: SELECT * FROM `provinceline_art` WHERE ( `Average` >= 0 AND `Average` <= 0  ) AND `Year` = 2014 AND `ProvinceId` = 10000 AND `Batch` = '本科一批'  [ RunTime:0.0031s ]
+SQL: SELECT * FROM `provinceline_art` WHERE `Year` = 2012 AND `Batch` = '本科一批' AND `ProvinceId` = 10000 AND `SchoolId` = 62 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `provinceline_art` WHERE `Year` = 2013 AND `Batch` = '本科一批' AND `ProvinceId` = 10000 AND `SchoolId` = 62 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `provinceline_art` WHERE `Year` = 2014 AND `Batch` = '本科一批' AND `ProvinceId` = 10000 AND `SchoolId` = 62 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `provinceline_art` WHERE `Year` = 2012 AND `Batch` = '本科一批' AND `ProvinceId` = 10000 AND `SchoolId` = 120 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `provinceline_art` WHERE `Year` = 2013 AND `Batch` = '本科一批' AND `ProvinceId` = 10000 AND `SchoolId` = 120 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `provinceline_art` WHERE `Year` = 2014 AND `Batch` = '本科一批' AND `ProvinceId` = 10000 AND `SchoolId` = 120 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `provinceline_art` WHERE `Year` = 2012 AND `Batch` = '本科一批' AND `ProvinceId` = 10000 AND `SchoolId` = 1216 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `provinceline_art` WHERE `Year` = 2013 AND `Batch` = '本科一批' AND `ProvinceId` = 10000 AND `SchoolId` = 1216 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `provinceline_art` WHERE `Year` = 2014 AND `Batch` = '本科一批' AND `ProvinceId` = 10000 AND `SchoolId` = 1216 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `school` [ RunTime:0.0013s ]
+NOTIC: [8] Undefined index: schoolid /Users/mrzxc/Sites/gaokao/gaokao/Home/Controller/InqureController.class.php 第 129 行.
+SQL: SELECT * FROM `school` WHERE ( SchoolId='%s' ) LIMIT 1   [ RunTime:0.0008s ]
+NOTIC: [8] Undefined index: schoolid /Users/mrzxc/Sites/gaokao/gaokao/Home/Controller/InqureController.class.php 第 129 行.
+SQL: SELECT * FROM `school` WHERE ( SchoolId='%s' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `school` WHERE ( SchoolId='1216' ) LIMIT 1   [ RunTime:0.0006s ]
+
+[ 2015-12-28T20:01:53+08:00 ] 127.0.0.1 /gaokao/index.php/Home/Inqure/requst
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000663s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000571s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000606s ]
+SQL: SHOW COLUMNS FROM `batch_controlline` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `batch_controlline` WHERE ( Type='art' and Year=2012 and ProvinceId='10000' and Batch='本科一批' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `batch_controlline` WHERE ( Type='art' and Year=2013 and ProvinceId='10000' and Batch='本科一批' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `batch_controlline` WHERE ( Type='art' and Year=2014 and ProvinceId='10000' and Batch='本科一批' ) LIMIT 1   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `provinceline_art` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `provinceline_art` WHERE ( `Average` >= 438 AND `Average` <= 438  ) AND `Year` = 2012 AND `ProvinceId` = 10000 AND `Batch` = '本科一批'  [ RunTime:0.0018s ]
+SQL: SELECT * FROM `provinceline_art` WHERE ( `Average` >= 448 AND `Average` <= 448  ) AND `Year` = 2013 AND `ProvinceId` = 10000 AND `Batch` = '本科一批'  [ RunTime:0.0017s ]
+SQL: SELECT * FROM `provinceline_art` WHERE ( `Average` >= 0 AND `Average` <= 0  ) AND `Year` = 2014 AND `ProvinceId` = 10000 AND `Batch` = '本科一批'  [ RunTime:0.0022s ]
+SQL: SELECT * FROM `provinceline_art` WHERE `Year` = 2012 AND `Batch` = '本科一批' AND `ProvinceId` = 10000 AND `SchoolId` = 62 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `provinceline_art` WHERE `Year` = 2013 AND `Batch` = '本科一批' AND `ProvinceId` = 10000 AND `SchoolId` = 62 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `provinceline_art` WHERE `Year` = 2014 AND `Batch` = '本科一批' AND `ProvinceId` = 10000 AND `SchoolId` = 62 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `provinceline_art` WHERE `Year` = 2012 AND `Batch` = '本科一批' AND `ProvinceId` = 10000 AND `SchoolId` = 120 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `provinceline_art` WHERE `Year` = 2013 AND `Batch` = '本科一批' AND `ProvinceId` = 10000 AND `SchoolId` = 120 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `provinceline_art` WHERE `Year` = 2014 AND `Batch` = '本科一批' AND `ProvinceId` = 10000 AND `SchoolId` = 120 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `provinceline_art` WHERE `Year` = 2012 AND `Batch` = '本科一批' AND `ProvinceId` = 10000 AND `SchoolId` = 1216 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `provinceline_art` WHERE `Year` = 2013 AND `Batch` = '本科一批' AND `ProvinceId` = 10000 AND `SchoolId` = 1216 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `provinceline_art` WHERE `Year` = 2014 AND `Batch` = '本科一批' AND `ProvinceId` = 10000 AND `SchoolId` = 1216 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `school` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `school` WHERE ( SchoolId='62' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `school` WHERE ( SchoolId='120' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `school` WHERE ( SchoolId='1216' ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2015-12-28T20:02:50+08:00 ] 127.0.0.1 /gaokao/index.php/Home/Inqure/requst
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000168s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000212s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000231s ]
+SQL: SHOW COLUMNS FROM `batch_controlline` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `batch_controlline` WHERE ( Type='art' and Year=2012 and ProvinceId='10000' and Batch='本科一批' ) LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `batch_controlline` WHERE ( Type='art' and Year=2013 and ProvinceId='10000' and Batch='本科一批' ) LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `batch_controlline` WHERE ( Type='art' and Year=2014 and ProvinceId='10000' and Batch='本科一批' ) LIMIT 1   [ RunTime:0.0023s ]
+SQL: SHOW COLUMNS FROM `provinceline_art` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `provinceline_art` WHERE ( `Average` >= 438 AND `Average` <= 438  ) AND `Year` = 2012 AND `ProvinceId` = 10000 AND `Batch` = '本科一批'  [ RunTime:0.0015s ]
+SQL: SELECT * FROM `provinceline_art` WHERE ( `Average` >= 448 AND `Average` <= 448  ) AND `Year` = 2013 AND `ProvinceId` = 10000 AND `Batch` = '本科一批'  [ RunTime:0.0018s ]
+SQL: SELECT * FROM `provinceline_art` WHERE ( `Average` >= 0 AND `Average` <= 0  ) AND `Year` = 2014 AND `ProvinceId` = 10000 AND `Batch` = '本科一批'  [ RunTime:0.0019s ]
+SQL: SELECT * FROM `provinceline_art` WHERE `Year` = 2012 AND `Batch` = '本科一批' AND `ProvinceId` = 10000 AND `SchoolId` = 62 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `provinceline_art` WHERE `Year` = 2013 AND `Batch` = '本科一批' AND `ProvinceId` = 10000 AND `SchoolId` = 62 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `provinceline_art` WHERE `Year` = 2014 AND `Batch` = '本科一批' AND `ProvinceId` = 10000 AND `SchoolId` = 62 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `provinceline_art` WHERE `Year` = 2012 AND `Batch` = '本科一批' AND `ProvinceId` = 10000 AND `SchoolId` = 120 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `provinceline_art` WHERE `Year` = 2013 AND `Batch` = '本科一批' AND `ProvinceId` = 10000 AND `SchoolId` = 120 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `provinceline_art` WHERE `Year` = 2014 AND `Batch` = '本科一批' AND `ProvinceId` = 10000 AND `SchoolId` = 120 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `provinceline_art` WHERE `Year` = 2012 AND `Batch` = '本科一批' AND `ProvinceId` = 10000 AND `SchoolId` = 1216 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `provinceline_art` WHERE `Year` = 2013 AND `Batch` = '本科一批' AND `ProvinceId` = 10000 AND `SchoolId` = 1216 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `provinceline_art` WHERE `Year` = 2014 AND `Batch` = '本科一批' AND `ProvinceId` = 10000 AND `SchoolId` = 1216 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `school` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `school` WHERE ( SchoolId='62' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `school` WHERE ( SchoolId='120' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `school` WHERE ( SchoolId='1216' ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2015-12-28T20:45:26+08:00 ] 127.0.0.1 /gaokao/index.php/Home/Inqure/requst
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000575s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000746s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000797s ]
+SQL: SHOW COLUMNS FROM `batch_controlline` [ RunTime:0.0029s ]
+SQL: SELECT * FROM `batch_controlline` WHERE ( Type='art' and Year=2012 and ProvinceId='10000' and Batch='本科一批' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `batch_controlline` WHERE ( Type='art' and Year=2013 and ProvinceId='10000' and Batch='本科一批' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `batch_controlline` WHERE ( Type='art' and Year=2014 and ProvinceId='10000' and Batch='本科一批' ) LIMIT 1   [ RunTime:0.0015s ]
+SQL: SHOW COLUMNS FROM `provinceline_art` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `provinceline_art` WHERE ( `Average` >= 438 AND `Average` <= 438  ) AND `Year` = 2012 AND `ProvinceId` = 10000 AND `Batch` = '本科一批'  [ RunTime:0.0014s ]
+SQL: SELECT * FROM `provinceline_art` WHERE ( `Average` >= 448 AND `Average` <= 448  ) AND `Year` = 2013 AND `ProvinceId` = 10000 AND `Batch` = '本科一批'  [ RunTime:0.0014s ]
+SQL: SELECT * FROM `provinceline_art` WHERE ( `Average` >= 0 AND `Average` <= 0  ) AND `Year` = 2014 AND `ProvinceId` = 10000 AND `Batch` = '本科一批'  [ RunTime:0.0014s ]
+SQL: SELECT * FROM `provinceline_art` WHERE `Year` = 2012 AND `Batch` = '本科一批' AND `ProvinceId` = 10000 AND `SchoolId` = 62 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `provinceline_art` WHERE `Year` = 2013 AND `Batch` = '本科一批' AND `ProvinceId` = 10000 AND `SchoolId` = 62 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `provinceline_art` WHERE `Year` = 2014 AND `Batch` = '本科一批' AND `ProvinceId` = 10000 AND `SchoolId` = 62 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `provinceline_art` WHERE `Year` = 2012 AND `Batch` = '本科一批' AND `ProvinceId` = 10000 AND `SchoolId` = 120 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `provinceline_art` WHERE `Year` = 2013 AND `Batch` = '本科一批' AND `ProvinceId` = 10000 AND `SchoolId` = 120 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `provinceline_art` WHERE `Year` = 2014 AND `Batch` = '本科一批' AND `ProvinceId` = 10000 AND `SchoolId` = 120 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `provinceline_art` WHERE `Year` = 2012 AND `Batch` = '本科一批' AND `ProvinceId` = 10000 AND `SchoolId` = 1216 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `provinceline_art` WHERE `Year` = 2013 AND `Batch` = '本科一批' AND `ProvinceId` = 10000 AND `SchoolId` = 1216 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `provinceline_art` WHERE `Year` = 2014 AND `Batch` = '本科一批' AND `ProvinceId` = 10000 AND `SchoolId` = 1216 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `school` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `school` WHERE ( SchoolId='62' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `school` WHERE ( SchoolId='120' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `school` WHERE ( SchoolId='1216' ) LIMIT 1   [ RunTime:0.0002s ]
+
